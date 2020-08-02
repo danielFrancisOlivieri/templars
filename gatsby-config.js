@@ -3,7 +3,7 @@ module.exports = {
     title: `The Templars`,
     author: {
       name: `Daniel Olivieri`,
-      summary: `who lives and works in Philadelphia building useful things.`,
+      summary: `who lives and works in Philadelphia building not useful things.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
@@ -66,7 +66,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/black-knight-helm.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
