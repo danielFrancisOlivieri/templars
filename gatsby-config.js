@@ -5,7 +5,7 @@ module.exports = {
       name: `Daniel Olivieri`,
       summary: `who lives and works in Philadelphia building not useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A simple website based on Dan Jones' book.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
       twitter: `kylemathews`,
