@@ -9,7 +9,7 @@ import { rhythm, scale } from "../utils/typography"
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   console.log(data)
   const post = data.markdownRemark
-  const siteTitle = 'title'
+  const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
 
   return (
@@ -82,14 +82,21 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-query MyQuery {
-  markdownRemark(id: {eq: "2fa9a896-18ed-511d-aaac-579cc1705db5"}) {
-    html
-    frontmatter {
-      date
-      description
-      title
+  query BlogPostBySlug($slug: String!) {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    markdownRemark((id: {eq: "2fa9a896-18ed-511d-aaac-579cc1705db5"})) {
+      id
+      excerpt(pruneLength: 160)
+      html
+      frontmatter {
+        title
+        date(formatString: "MMMM DD, YYYY")
+        description
+      }
     }
   }
-}
 `
