@@ -2,25 +2,26 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 
 
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
-  const posts = data.allMarkdownRemark.edges
+ console.log(data);
+ const date = data.markdownRemark.frontmatter.date;
+ const title = data.markdownRemark.frontmatter.title;
+ const description = data.markdownRemark.frontmatter.description;
+ const html = data.markdownRemark.html;
 
   return (
     <div>
 
-    <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+    <Layout location={location} title={'Terwilliger'}>
    
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug
-        return (
-         <div></div>
-        )
-      })}
+    
+         <h1>{title}</h1>
+         <div>{description}</div>
+         <p>{date}</p>
+         <section dangerouslySetInnerHTML={{ __html: html }} />
+    
     </Layout>
     </div>
 
@@ -30,27 +31,14 @@ const BlogIndex = ({ data, location }) => {
 export default BlogIndex
 
 export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            description
-          }
-        }
-      }
+query MyQuery {
+  markdownRemark(id: {eq: "2fa9a896-18ed-511d-aaac-579cc1705db5"}) {
+    html
+    frontmatter {
+      date
+      description
+      title
     }
   }
+}
   `
-  
