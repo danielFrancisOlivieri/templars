@@ -12,8 +12,9 @@ console.log(data)
 
     <Layout location={location}>
       <SEO title="All posts" />
-   
-         <div>Terwilliger bunts one</div>
+    <h1>{data.markdownRemark.frontmatter.title} </h1>
+         <div> {data.markdownRemark.frontmatter.description} </div>
+         <section dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
       
     </Layout>
     </div>
