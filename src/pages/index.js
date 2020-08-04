@@ -1,49 +1,26 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { rhythm, scale } from "../utils/typography"
+
 import Layout from "../components/layout"
-import Bio from "../components/bio"
+import SEO from "../components/seo"
 
 
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = "Templars"
+  const siteTitle = data.site.siteMetadata.title
+  const posts = data.allMarkdownRemark.edges
 
   return (
     <div>
 
     <Layout location={location} title={siteTitle}>
+      <SEO title="All posts" />
    
-    <article>
-        <header>
-          <h1
-            style={{
-              marginTop: rhythm(1),
-              marginBottom: 0,
-            }}
-          >
-            {data.allMarkdownRemark.edges[0].node.frontmatter.title}
-          </h1>
-          <p
-            style={{
-              ...scale(-1 / 5),
-              display: `block`,
-              marginBottom: rhythm(1),
-            }}
-          >
-            {data.allMarkdownRemark.edges[0].node.frontmatter.date}
-          </p>
-        </header>
-   {/*     <section dangerouslySetInnerHTML={{ __html: html }} /> */}
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
-        <footer>
-          <Bio />
-        </footer>
-      </article>
-
+      {posts.map(({ node }) => {
+        const title = node.frontmatter.title || node.fields.slug
+        return (
+         <div></div>
+        )
+      })}
     </Layout>
     </div>
 
@@ -53,20 +30,25 @@ const BlogIndex = ({ data, location }) => {
 export default BlogIndex
 
 export const pageQuery = graphql`
-query MyQuery {
-  allMarkdownRemark(filter: {id: {eq: "2fa9a896-18ed-511d-aaac-579cc1705db5"}}) {
-    edges {
-      node {
-        id
-        html
-        frontmatter {
-          date
-          title
-          description
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            description
+          }
         }
-        excerpt
       }
     }
   }
-}
-`
