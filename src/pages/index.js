@@ -1,26 +1,51 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-
+import { graphql } from "gatsby"
+import { rhythm, scale } from "../utils/typography"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import Bio from "../components/bio"
+
 
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
-  const posts = data.allMarkdownRemark.edges
-
+  const siteTitle = "Templars"
+  const post = data
+  console.log(data.allMarkdownRemark.edges[0].node.html)
+  const html = data.allMarkdownRemark.edges[0].node.html;
   return (
     <div>
 
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
    
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug
-        return (
-         <div></div>
-        )
-      })}
+    <article>
+        <header>
+          <h1
+            style={{
+              marginTop: rhythm(1),
+              marginBottom: 0,
+            }}
+          >
+            {data.allMarkdownRemark.edges[0].node.frontmatter.title}
+          </h1>
+          <p
+            style={{
+              ...scale(-1 / 5),
+              display: `block`,
+              marginBottom: rhythm(1),
+            }}
+          >
+            {data.allMarkdownRemark.edges[0].node.frontmatter.date}
+          </p>
+        </header>
+        <section dangerouslySetInnerHTML={{ __html: html }} />
+        <hr
+          style={{
+            marginBottom: rhythm(1),
+          }}
+        />
+        <footer>
+          <Bio />
+        </footer>
+      </article>
+
     </Layout>
     </div>
 
@@ -30,26 +55,20 @@ const BlogIndex = ({ data, location }) => {
 export default BlogIndex
 
 export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            description
-          }
+query MyQuery {
+  allMarkdownRemark(filter: {id: {eq: "2fa9a896-18ed-511d-aaac-579cc1705db5"}}) {
+    edges {
+      node {
+        id
+        html
+        frontmatter {
+          date
+          title
+          description
         }
+        excerpt
       }
     }
   }
+}
 `
