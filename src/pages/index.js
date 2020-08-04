@@ -8,7 +8,6 @@ import Bio from "../components/bio"
 const BlogIndex = ({ data, location }) => {
   const siteTitle = "Templars"
   const post = data
-  console.log(data.allMarkdownRemark.edges[0].node.html)
   const html = data.allMarkdownRemark.edges[0].node.html;
   return (
     <div>
