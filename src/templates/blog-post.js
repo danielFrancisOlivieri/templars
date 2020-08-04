@@ -88,7 +88,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    markdownRemark((id: {eq: "2fa9a896-18ed-511d-aaac-579cc1705db5"})) {
+    markdownRemark(id: {eq: "2fa9a896-18ed-511d-aaac-579cc1705db5"}) {
       id
       excerpt(pruneLength: 160)
       html
