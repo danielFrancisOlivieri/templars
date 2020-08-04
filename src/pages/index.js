@@ -15,12 +15,8 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
    
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug
-        return (
          <div>Terwilliger bunts one</div>
-        )
-      })}
+      
     </Layout>
     </div>
 
