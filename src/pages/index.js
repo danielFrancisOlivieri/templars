@@ -2,26 +2,25 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 
 const BlogIndex = ({ data, location }) => {
- console.log(data);
- const date = data.markdownRemark.frontmatter.date;
- const title = data.markdownRemark.frontmatter.title;
- const description = data.markdownRemark.frontmatter.description;
- const html = data.markdownRemark.html;
+  const siteTitle = data.site.siteMetadata.title
+  const posts = data.allMarkdownRemark.edges
 
   return (
     <div>
 
-    <Layout location={location} title={'Terwilliger'}>
+    <Layout location={location} title={siteTitle}>
+      <SEO title="All posts" />
    
-    
-         <h1>{title}</h1>
-         <div>{description}</div>
-         <p>{date}</p>
-         <section dangerouslySetInnerHTML={{ __html: html }} />
-    
+      {posts.map(({ node }) => {
+        const title = node.frontmatter.title || node.fields.slug
+        return (
+         <div>Terwilliger bunts one</div>
+        )
+      })}
     </Layout>
     </div>
 
@@ -31,14 +30,27 @@ const BlogIndex = ({ data, location }) => {
 export default BlogIndex
 
 export const pageQuery = graphql`
-query MyQuery {
-  markdownRemark(id: {eq: "2fa9a896-18ed-511d-aaac-579cc1705db5"}) {
-    html
-    frontmatter {
-      date
-      description
-      title
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            description
+          }
+        }
+      }
     }
   }
-}
   `
+  
