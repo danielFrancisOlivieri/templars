@@ -7,8 +7,7 @@ import Bio from "../components/bio"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = "Templars"
-  const post = data
-  const html = data.allMarkdownRemark.edges[0].node.html;
+
   return (
     <div>
 
@@ -34,7 +33,7 @@ const BlogIndex = ({ data, location }) => {
             {data.allMarkdownRemark.edges[0].node.frontmatter.date}
           </p>
         </header>
-        <section dangerouslySetInnerHTML={{ __html: html }} />
+   {/*     <section dangerouslySetInnerHTML={{ __html: html }} /> */}
         <hr
           style={{
             marginBottom: rhythm(1),
