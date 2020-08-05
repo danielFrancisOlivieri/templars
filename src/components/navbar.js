@@ -11,15 +11,7 @@ style={{
     marginTop: 0,
   }}
 >
-    <a href="../FullMap">
-    Map
-    </a> {` `}
-    <a href="../hello-world/">
-    Figures
-    </a> {`  `}
-    <a href="../my-second-post/">
-    Pop Culture
-    </a>
+
   
 </div>
 )
