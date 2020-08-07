@@ -3,8 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { useSwipeable, Swipeable } from 'react-swipeable'
 
 function incorrectAnswer() {
 alert('wrong');
@@ -13,6 +12,8 @@ alert('wrong');
 const BlogIndex = ({ data, location }) => {
 console.log(data)
   return (
+    <Swipeable onSwiped={(event) => console.log(event)}  >
+
     <div>
 
     <Layout location={location} title={'The Earthly and the Divine'} >
@@ -27,6 +28,7 @@ console.log(data)
       
     </Layout>
     </div>
+    </Swipeable>
 
   )
 }
