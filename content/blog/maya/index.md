@@ -3,314 +3,240 @@ title: I Know Why the Caged Bird Sings
 date: "2015-05-28T22:40:32.169Z"
 description: The Memoir that Won Our Hearts
 ---
-> The 'Enlightenment', which discovered the liberties, also invented the disciplines.
+> Hate, it has caused a lot of problems in the world, but has not solved one yet.
 > <br/>
->         - Michel Foucault
+>         - Maya Angelou
 
-## CHAPTER 10
+## CHAPTER 11
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Grandmother Baxter was a quadroon or an octoroon, or in 
-any case she was nearly white. She had been raised by a 
-German family in Cairo, Illinois, and had come to St. Louis at 
-the turn of the century to study nursing. While she was 
-working at Homer G. Phillips Hospital she met and married 
-Grandfather Baxter. She was white (having no features that 
-could even loosely be called Negroid) and he was Black. 
-While she spoke with a throaty German accent until her 
-death, he had the choppy spouting speech of the West Indians. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I had decided that St. Louis was a foreign country. I would never get used to the scurrying sounds of flushing toilets, or 
+the packaged foods, or doorbells or the noise of cars and trains 
+and buses that crashed through the walls or slipped under the 
+doors. In my mind I only stayed in St. Louis for a few weeks. 
+As quickly as I understood that I had not reached my home, I 
+sneaked away to Robin Hood’s forest and the caves of Alley 
+Oop where all reality was unreal and even that changed every 
+day. I carried the same shield that I had used in Stamps: “I 
+didn’t come to stay.” 
 
-Their marriage was a happy one. Grandfather had a 
--famous saying that caused great pride in his family: “Bah 
-Jesus, I live for my wife, my children and my dog.” He took 
-extreme care to prove that statement true by taking the word 
-of his family even in the face of contradictory evidence. 
+Mother was competent in providing for us. Even if that 
+meant getting someone else to furnish the provisions. 
+Although she was a nurse, she never worked at her profession 
+while we were with her. Mr. Freeman brought in the necessi- 
+ties and she earned extra money cutting poker games in gam- 
+bling parlors. The straight eight-to-five world simply didn’t 
+have enough glamor for her, and it was twenty years later that 
+I first saw her in a nurse’s uniform. 
 
-The Negro section of St. Louis in the mid-thirties had all 
-the finesse of a gold-rush town. Prohibition, gambling and 
-their related vocations were so obviously practiced that it was 
-hard for me to believe that they were against the law. Bailey 
-and I, as newcomers, were quickly told by our schoolmates
-who the men on the street corners were as we passed. I was 
-sure that they had taken their names from Wild West Books 
-(Hard-hitting Jimmy, Two Gun, Sweet Man, Poker Pete), 
-and to prove me right, they hung around in front of saloons 
-like unhorsed cowboys. 
+Mr. Freeman was a foreman in the Southern Pacific yards 
+and came home late sometimes, after Mother had gone out. 
+He took his dinner off the stove where she had carefully cov- 
+ered it and which she had admonished us not to bother. He 
+ate quietly in the kitchen while Bailey and I read separately 
+and greedily our own Street and Smith pulp magazine. Now 
+that we had spending money, we bought the illustrated paper- 
+backs with their gaudy pictures. When Mother was away, we 
+were put on an honor system. We had to finish our home- 
+work, eat dinner and wash the dishes before we could read or 
+listen to The Lone Ranger, Crime Busters or The Shadow. 
 
-We met the numbers runners, gamblers, lottery takers 
-and whiskey salesmen not only in the loud streets but in our 
-orderly living room as well. They were often there when we 
-returned from school, sitting with hats in their hands, as we 
-had done upon our arrival in the big city. They waited silently 
-for Grandmother Baxter. 
+Mr. Freeman moved gracefully, like a big brown bear, 
+and seldom spoke to us. He simply waited for Mother and put 
+his whole self into the waiting. He never read the paper or 
+patted his foot to radio. He waited. That was all. 
 
-Her white skin and the pince-nez that she dramatically 
-took from her nose and let hang free on a chain pinned to her 
-dress were factors that brought her a great deal of respect. 
-Moreover, the reputation of her six mean children and the fact 
-that she was a precinct captain compounded her power and 
-gave her the leverage to deal with even the lowest crook 
-without fear . She had pull with the police department, so the 
-men in their flashy suits and fleshy scars sat with churchlike 
-decorum and waited to ask favors from her. If Grandmother 
-raised the heat off their gambling parlors, or said the word 
-that reduced the bail of a friend waiting in jail, they knew 
-what would be expected of them. Come election, they were to 
-bring in the votes from their neighborhood. She most often 
-got them leniency, and they always brought in the vote. 
+If she came home before we went to bed, we saw the man 
+come alive. He would start out of the big chair, like a man 
+coming out of sleep, smiling. I would remember then that a 
+few seconds before, I had heard a car door slam; then Mother’s 
+footsteps would signal from the concrete walk. When her key 
+rattled the door, Mr. Freeman would have already asked his 
+habitual question, “Hey, Bibbi, have a good time?” 
 
-St. Louis also introduced me to thin-sliced ham (I thought 
-it a delicacy), jelly beans and peanuts mixed, lettuce on sand- 
-wich bread, Victrolas and family loyalty. In Arkansas, where 
-we cured our own meat, we ate half-inch slabs of ham for 
-breakfast, but in St. Louis we bought the paper-thin slices in a 
-strange-smelling German store and ate them in sandwiches. If 
-Grandmother never lost her German accent, she also never 
-lost her taste for the thick black German Brot, which we 
-bought unsliced. In Stamps, lettuce was used only to make a 
-bed for potato salad or slaw, and peanuts were brought in raw 
-from the field and roasted in the bottom of the oven on cold 
-nights. The rich scents used to fill the house and we were 
-always expected to eat too many. But that was a Stamps 
-custom. In St. Louis, peanuts were bought in paper bags and 
-mixed with jelly beans, which meant that we ate the salt and 
-sugar together and I found them a delicious treat. The best 
-thing the big town had to offer. 
+His query would hang in the air while she sprang over to 
+peck him on the lips. Then she turned to Bailey and me with 
+-the lipstick kisses. “Haven’t you finished your homework?” 
+If we had and were just reading — “O.K., say your prayers 
+and go to bed.” If we hadn’t — “Then go to your room and 
+finish . . . then say your prayers and go to bed.” 
 
-When we enrolled in Toussaint L’Ouverture Grammar 
-School, we were struck by the ignorance of our schoolmates 
-and the rudeness of our teachers. Only the vastness of the 
-building impressed us; not even the white school in Stamps 
-was as large. 
+Mr. Freeman’s smile never grew, it stayed at the same 
+intensity. Sometimes Mother would go over and sit on his lap 
+and the grin on his face looked as if it would stay there 
+forever. 
 
-The students, however, were shockingly backward. Bailey 
-and I did arithmetic at a mature level because of our work in 
-the Store, and we read well because in Stamps there wasn’t 
-anything else to do. We were moved up a grade because our 
-teachers thought that we country children would make our 
-classmates feel inferior — and we did. Bailey would not refrain 
-from remarking on our classmates’ lack of knowledge. At 
-lunchtime in the large gray concrete playground, he would 
-'Stand in the center of a crowd of big boys and ask, “Who was 
-Napoleon Bonaparte?” “How many feet make a mile?” It was 
-infighting, Bailey style. 
+From our rooms we could hear the glasses clink and the 
+radio turned up. I think she must have danced for him on the 
+good nights, because he couldn’t dance, but before I fell asleep 
+I often heard feet shuffling to dance rhythms. 
 
-Any of the boys might have been able to beat him with 
-their fists, but if they did, they’d just have had to do it again 
-the next day, and Bailey never held a brief for fighting fair. He 
-taught me that once I got into a fight I should “grab for the 
-balls right away.” He never answered when I asked, “Suppose 
-I’m fighting a girl?” 
+I felt very sorry for Mr. Freeman. I felt as sorry for him as I 
+had felt for a litter of helpless pigs born in our backyard sty in 
+Arkansas. We fattened the pigs all year long for the slaughter 
+on the first good frost, and even as I suffered for the cute little 
+wiggly things, I knew how much I was going to enjoy the fresh 
+sausage and hog’s headcheese they could give me only with 
+their deaths. 
 
-We went to school there a full year, but all I remember 
-hearing that I hadn’t heard before was, “Making thousands of 
-egg-shaped oughts will improve penmanship.” 
+Because of the lurid tales we read and our vivid imagina- 
+tions and, probably, memories of our brief but hectic lives, 
+Bailey and I were afflicted — he physically and I mentally. He 
+stuttered, and I sweated through horrifying nightmares. He 
+was constantly told to slow down and start again, and on my 
+particularly bad nights my mother would take me in to sleep 
+with her, in the large bed with Mr. Freeman. 
 
-The teachers were more formal than those we knew in 
-Stamps, and although they didn’t whip their students with 
-switches, they gave them licks in the palms of their hands with 
-rulers. In Stamps teachers were much friendlier, but that was 
-because they were imported from the Arkansas Negro col- 
-leges, and since we had no hotels or rooming houses in town, 
-they had to live with private families. If a lady teacher took 
-company, or didn’t receive any mail or cried alone in her room 
-at night, by the weeks’ end even the children discussed her 
-morality, her loneliness and her other failings generally. It 
-would have been near impossible to maintain formality under 
-a small town’s invasions of privacy. 
+Because of a need for stability, children easily become 
+creatures of habit. After the third time in Mother’s bed, I 
+thought there was nothing strange about sleeping there. 
 
-St. Louis teachers, on the other hand, tended to act 
-very siditty, and talked down to their students from the 
-lofty heights of education and whitefolks’ enunciation. They, 
-women as well as men, all sounded like my father with their 
-ers and errers. They walked with their knees together and 
-talked through tight lips as if they were as afraid to let the 
-sound out as they were to inhale the dirty air that the listener 
-gave off. 
+One morning she got out of bed for an early errand, and I 
+fell asleep again. But I awoke to a pressure, a strange feeling 
+on my left leg. It was too soft to be a hand, and it wasn’t the 
+touch of clothes. Whatever it was, I hadn’t encountered the 
+sensation in all the years of sleeping with Momma. It didn’t 
+move, and I was too startled to. I turned my head a little to the 
+left to see if Mr. Freeman was awake and gone, but his eyes 
+were open and both hands were above the cover. I knew, as if 
+I had always known, it was his “thing” on my leg. 
+
+He said, “Just stay right here, Ritie, I ain’t gonna hurt 
+you. I wasn’t afraid, a little apprehensive, maybe, but not 
+afraid. Of course I knew that lots of people did “it” and they 
 
 
 
-We walked to school around walls of bricks and breathed 
-the coal dust for one discouraging winter. We learned to say 
-Yes and “No” rather than “Yes, ma’am,” and “No, ma’am.” 
-Occasionally Mother, whom we seldom saw in the house, 
-had us meet her at Louie’s. It was a long dark tavern at the 
-end of the bridge near our school, and was owned by two 
-Syrian brothers. 
+used their “things” to accomplish the deed, but no one I knew 
+had ever done it to anybody. Mr. Freeman pulled me to him, 
+and put his hand between my legs. He didn’t hurt, but 
+Momma had drilled into my head: “Keep your legs closed, 
+and don’t let nobody see your pocketbook.” 
 
+“Now, I didn’t hurt you. Don’t get scared.” He threw 
+back the blankets and his “thing” stood up like a brown ear of 
+corn. He took my hand and said, “Feel it.” It was mushy and 
+squirmy like the inside of a freshly killed chicken. Then he 
+dragged me on top of his chest with his left arm, and his right 
+hand was moving so fast and his heart was beating so hard 
+that I was afraid that he would die. Ghost stories revealed 
+how people who died wouldn’t let go of whatever they were 
+holding. I wondered if Mr. Freeman died holding me how I 
+would ever get free. Would they have to break his arms to get 
+me loose? 
 
+Finally he was quiet, and then came the nice part. He held 
+me so softly that I wished he wouldn’t ever let me go. I felt at 
+home. From the way he was holding me I knew he’d never let 
+me go or let anything bad ever happen to me. This was 
+probably my real father and we had found each other at last. 
+But then he rolled over, leaving me in a wet place and stood up. 
 
-We used to come in the back door, and the sawdust, stale 
-beer, steam and boiling meat made me feel as if I’d been
+“I gotta talk to you, Ritie.” He pulled off his shorts that 
+had fallen to his ankles, and went into the bathroom. 
 
-eating mothballs. Mother had cut my hair in a bob like hers 
-and straightened it, so my head felt skinned and the back of 
-my neck so bare that I was ashamed to have anyone walk up 
-behind me. Naturally, this kept me turning quickly as if I 
-expected something to happen. 
+It was true the bed was wet, but I knew I hadn’t had an 
+accident. Maybe Mr. Freeman had one while he was holding 
+me. He came back with a glass of water and told me in a sour 
+voice, “Get up. You peed in the bed.” He poured water on the 
+wet spot, and it did look like my mattress on many mornings. 
 
-At Louie’s we were greeted by Mother’s friends as 
-Bibbie s darling babies” and were given soft drinks and 
-boiled shrimp. While we sat on the stiff wooden booths, 
-Mother would dance alone in front of us to music from the 
-Seeburg. I loved her most at those times. She was like a pretty 
-kite that floated just above my head. If I liked, I could pull it 
-in to me by saying I had to go to the toilet or by starting a fight 
-with Bailey. I never did either, but the power made me tender 
-to her. 
+Having lived in Southern strictness, I knew when to keep 
+quiet around adults, but I did want to ask him why he said I 
+peed when I was sure he didn’t believe that. If he thought I 
+was naughty, would that mean that he would never hold me 
+again? Or admit that he was my father? I had made him 
+ashamed of me. 
 
-The Syrian brothers vied for her attention as she sang the 
-heavy blues that Bailey and I almost understood. They 
-watched her, even when directing their conversation to other 
-customers, and I knew they too were hypnotized by this beau- 
-tiful lady who talked with her whole body and snapped her 
-fingers louder than anyone in the whole world. We learned 
-the Time Step at Louie’s. It is from this basic step that most 
-American Black dances are born. It is a series of taps, jumps 
-and rests, and demands careful listening, feeling and coordi- 
-nation. We were brought before Mother’s friends, there in the 
-heavy saloon air, to show our artistry. Bailey learned easily, 
-and has always been the better dancer. But I learned too. I 
-approached the Time Step with the same determination to 
-win that I had approached the time tables with. There was no 
-Uncle Willie or sizzling pot-bellied stove, but there was 
-Mother and her laughing friends, and they amounted to the 
-same thing. We were applauded and given more soft drinks
+“Ritie, you love Bailey?” He sat down on the bed and I 
+came close, hoping. “Yes.” He was bending down, pulling on 
+his socks, and his back was so large and friendly I wanted to 
+rest my head on it. 
 
-and more shrimp, but it was to be years later before I found 
-the joy and freedom of dancing well. 
+“If you ever tell anybody what we did, I’ll have to kill 
+Bailey.” 
 
-Mother’s brothers, Uncles Tutti, Tom and Ira, were well- 
-known young men about St. Louis. They all had city jobs, 
-which I now understand to have been no mean feat for Negro 
-men. Their jobs and their family set them apart, but they were 
-best known for their unrelenting meanness. Grandfather had 
-told them, “Bah Jesus, if you ever get in jail for stealing or 
-some such foolishness, I’ll let you rot. But if you’re arrested for 
-fighting, I’ll sell the house, lock, stock and barrel, to get you 
-out!” With that kind of encouragement, backed by explosive 
-tempers, it was no wonder they became fearsome characters. 
-Our youngest uncle, Billy, was not old enough to join in their 
-didoes. One of their more flamboyant escapades has become a 
-proud family legend. 
+What had we done? We? Obviously he didn’t mean my 
+peeing in the bed. I didn’t understand and didn’t dare ask 
+him. It had something to do with his holding me. But there 
+was no chance to ask Bailey either, because that would be 
+telling what we had done. The thought that he might kill 
+Bailey stunned me. After he left the room I thought about 
+telling Mother that I hadn’t peed in the bed, but then if she 
+asked me what happened I’d have to tell her about Mr. 
+Freeman holding me, and that wouldn’t do. 
 
-Pat Patterson, a big man, who was himself protected by 
-the shield of a bad reputation, made the mistake of cursing my 
-mother one night when she was out alone. She reported the 
-incident to her brothers. They ordered one of their hangers-on 
-to search the streets for Patterson, and when he was located, to 
-telephone them. 
+It was the same old quandary. I had always lived it. There 
+was an army of adults, whose motives and movements I just 
+couldn’t understand and who made no effort to understand 
+mine. There was never any question of my disliking Mr. 
+Freeman, I simply didn’t understand him either. 
 
-As they waited throughout the afternoon, the living room 
-filled with smoke and the murmurs of plans. From time to 
-time, Grandfather came in from the kitchen and said, “Don’t 
-kill him. Mind you, just don’t kill him,” then went back to his 
-coffee with Grandmother. 
+For weeks after, he said nothing to me, except the gruff 
+hellos which were given without ever looking in my direction. 
 
-They went to the saloon where Patterson sat drinking at a 
-small table. Uncle Tommy stood by the door, Uncle Tutti sta- 
-tioned himself at the toilet door and Uncle Ira, who was the 
-oldest and maybe everyone’s ideal, walked over to Patterson. 
-They were all obviously carrying guns.
+This was the first secret I had ever kept from Bailey and 
+sometimes I thought he should be able to read it on my face, 
+but he noticed nothing. 
 
-Uncle Ira said to my mother, “Here, Bibbi. Here’s this 
-nigger Patterson. Come over here and beat his ass.” 
+I began to feel lonely for Mr. Freeman and the encasement 
+of his big arms. Before, my world had been Bailey, food, 
+Momma, the Store, reading books and Uncle Willie. Now, for 
+the first time, it included physical contact. 
 
-She crashed the man’s head with a policeman’s billy 
-enough to leave him just this side of death. There was no 
-police investigation nor social reprobation. 
+I began to wait for Mr. Freeman to come in from the 
+yards, but when he did, he never noticed me, although I put a 
+lot of feeling into “Good evening, Mr. Freeman.” 
 
-After all, didn’t Grandfather champion their wild tem- 
-pers, and wasn’t Grandmother a near-white woman with 
-police pull? 
+One evening, when I couldn’t concentrate on anything, I 
+went over to him and sat quickly on his lap. He had been 
+waiting for Mother again. Bailey was listening to The Shadow 
+and didn’t miss me. At first Mr. Freeman sat still, not holding 
+me or anything, then I felt a soft lump under my thigh begin 
+to move. It twitched against me and started to harden. Then 
+he pulled me to his chest. He smelled of coal dust and grease 
+and he was so close I buried my face in his shirt and listened to 
+his heart, it was beating just for me. Only I could hear the 
+thud, only I could feel the jumping on my face. He said, “Sit 
+still, stop squirming.” But all the time, he pushed me around 
+on his lap, then suddenly he stood up and I slipped down to 
+the floor. He ran to the bathroom. 
 
-I admit that I was thrilled by their meanness. They beat 
-up whites and Blacks with the same abandon, and liked each 
-other so much that they never needed to learn the art of 
-making outside friends. My mother was the only warm, out- 
-going personality among her siblings. Grandfather became 
-bedridden during our stay there, and his children spent their 
-free time telling him jokes, gossiping with him and showing 
-their love. 
+For months he stopped speaking to me again. I was hurt 
+and for a time felt lonelier than ever. But then I forgot about 
+him, and even the memory of his holding me precious melted 
+into the general darkness just beyond the great blinkers of 
+childhood. 
 
-Uncle Tommy, who was gruff and chewed his words like 
-Grandfather, was my favorite. He strung ordinary sentences 
-together and they came out sounding either like the most pro- 
-fane curses or like comical poetry. A natural comedian, he 
-never waited for the laugh that he knew must follow his droll 
-statements. He was never cruel. He was mean. 
+I read more than ever, and wished my soul that I had been 
+born a boy. Horatio Alger was the greatest writer in the 
+world. His heroes were always good, always won and were 
+always boys. I could have developed the first two virtues, but 
+becoming a boy was sure to be difficult, if not impossible. 
 
-When we played handball on the side of our house, Uncle 
-'Tommy would turn the corner, coming from work. He 
-would pretend at first not to see us, but with the deftness of a 
-cat he would catch the ball and say, “Put your minds where 
-your behinds are, and I’ll let you on my team.” We children 
-would range around him, but it was only when he reached the 
-steps that he’d wind up his arm and throw the ball over the 
-light post and toward the stars. 
+The Sunday funnies influenced me, and although I 
+admired the strong heroes who always conquered in the end, I 
+identified with Tiny Tim. In the toilet, where I used to take 
+the papers, it was tortuous to look for and exclude the unnec- 
+essary pages so that I could learn how he would finally outwit 
 
-He told me often, “Ritie, don’t worry ’cause you ain’t 
-pretty. Plenty pretty women I seen digging ditches or worse.
+his latest adversary. I wept with relief every Sunday as he 
+eluded the evil men and bounded back from each seeming 
+defeat as sweet and gentle as ever. The Katzenjammer kids 
+were fun because they made the adults look stupid. But they 
+were a little too smart-alecky for my taste. 
 
-You smart. I swear to God, I rather you have a good mind 
-than a cute behind.” 
+When spring came to St. Louis, I took out my first library 
+card, and since Bailey and I seemed to be growing apart, I 
+spent most of my Saturdays at the library (no interruptions) 
+breathing in the world of penniless shoeshine boys who, with 
+goodness and perseverance, became rich, rich men, and gave 
+baskets of goodies to the poor on holidays. The little princesses 
+who were mistaken for maids, and the long-lost children mis- 
+taken for waifs, became more real to me than our house, our 
+mother, our school or Mr. Freeman. 
 
-They bragged often about the binding quality of the 
-Baxter blood. Uncle Tommy said that even the children felt it 
-before they were old enough to be taught. They reminisced 
-over Bailey s teaching me to walk when he was less than three. 
-Displeased at my stumbling motions, he was supposed to have 
-said, This is my sister. / have to teach her to walk.” They also 
-told me how I got the name “My.” After Bailey learned defi- 
-nitely that I was his sister, he refused to call me Marguerite, 
-but rather addressed me each time as “Mya Sister,” and in 
-later more articulate years, after the need for brevity had 
-shortened the appellation to “My,” it was elaborated into 
-“Maya.” 
-
-We lived in a big house on Caroline Street with our 
-grandparents for half the year before Mother moved us in 
-with her. Moving from the house where the family was cen- 
-tered meant absolutely nothing to me. It was simply a small 
-pattern in the grand design of our lives. If other children 
-didn t move so much, it just went to show that our lives were 
-fated to be different from everyone else’s in the world. The 
-new house was no stranger than the other, except that we 
-were with Mother. 
-
-Bailey persisted in calling her Mother Dear until the cir- 
-cumstance of proximity softened the phrase’s formality to 
-“Muh Dear,” and finally to “M’Deah.” I could never put 
-my finger on her realness. She was so pretty and so quick 
-that even when she had just awakened, her eyes full of sleep 
-and hair tousled, I thought she looked just like the Virgin 
-Mary. But what mother and daughter understand each 
-other, or even have the sympathy for each other’s lack of 
-understanding? 
-
-
-
-Mother had prepared a place for us, and we went to it 
-gratefully. We each had a room with a two-sheeted bed, 
-plenty to eat and store-bought clothes to wear. And after all, 
-she didn t have to do it. If we got on her nerves or if we were 
-disobedient, she could always send us back to Stamps. The 
-weight of appreciation and the threat, which was never 
-spoken, of a return to Momma were burdens that clogged my 
-childish wits into impassivity. I was called Old Lady and 
-chided for moving and talking like winter’s molasses. 
-
-Mother’s boyfriend, Mr. Freeman, lived with us, or we 
-lived with him (I never quite knew which). He was a South- 
-erner, too, and big. But a little flabby. His breasts used to 
-embarrass me when he walked around in his undershirt. 
-They lay on his chest like flat titties. 
-
-Even if Mother hadn’t been such a pretty woman, light- 
-skinned with straight hair, he was lucky to get her, and he 
-knew it. She was educated, from a well-known family, and 
-after all, wasn t she born in St. Louis? Then she was gay. She 
-laughed all the time and made jokes. He was grateful. I think 
-he must have been many years older than she, but if not, he 
-had the sluggish inferiority of old men married to younger 
-women. He watched her every move and when she left the 
-room, his eyes allowed her reluctantly to go.
+During those months we saw our grandparents and the 
+uncles (our only aunt had gone to California to build her for- 
+tune), but they usually asked the same question, “Have you 
+been good children?” for which there was only one answer. 
+Even Bailey wouldn’t have dared to answer No. 

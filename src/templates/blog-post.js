@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
@@ -25,6 +24,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             style={{
               marginTop: rhythm(1),
               marginBottom: 0,
+              cursor: 'pointer'
             }}
           >
             {post.frontmatter.title}
@@ -34,6 +34,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               ...scale(-1 / 5),
               display: `block`,
               marginBottom: rhythm(1),
+              cursor: 'pointer'
             }}
           >
          
@@ -41,7 +42,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </header>
         <section
         style={{
-          fontSize: '1.7em'
+          fontSize: '1.7em',
+          cursor: 'pointer'
         }}
          dangerouslySetInnerHTML={{ __html: post.html }} />
 
