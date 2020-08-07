@@ -17,7 +17,6 @@ console.log(data)
 
     <Layout location={location} title={'The Earthly and the Divine'} >
       <SEO title="Essay" />
-      <FontAwesomeIcon icon={faCoffee} />
          <div> {data.markdownRemark.frontmatter.description} </div>
          <section 
          style={{

@@ -7,7 +7,7 @@ description: The Memoir that Won Our Hearts
 > <br/>
 >         - Maya Angelou
 
-## CHAPTER 11
+## CHAPTER 12
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On a late spring Saturday, after our chores (nothing like those 
 in Stamps) were done, Bailey and I were going out, he to play 
