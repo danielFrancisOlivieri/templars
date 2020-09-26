@@ -11,6 +11,7 @@ import Image from "gatsby-image"
 const Hunt = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
+  console.log(location);
 
   return (
     <Layout location={location} title={siteTitle}>
