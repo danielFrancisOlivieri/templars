@@ -36,8 +36,8 @@ console.log(data)
 export default BlogIndex
 
 export const pageQuery = graphql`
-query MyQuery {
-  markdownRemark(fields: {slug: {eq: "/essay/"}}) {
+query essayQuery {
+  markdownRemark {
     html
     frontmatter {
       date
