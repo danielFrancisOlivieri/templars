@@ -16,7 +16,7 @@ console.log(data)
 
     <div>
 
-    <Layout location={location} title={'The Earthly and the Divine'} >
+    <Layout location={location} title={'Terwillger Bunts One'} >
       <SEO title="Essay" />
          <div> {data.markdownRemark.frontmatter.description} </div>
          <section 
