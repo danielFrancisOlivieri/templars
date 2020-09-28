@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Navbar from "../components/navbar"
 import { useSwipeable, Swipeable } from 'react-swipeable'
 
 function incorrectAnswer() {
@@ -16,9 +17,8 @@ console.log(data)
 
     <div>
 
-    <Layout location={location} title={'Terwillger Bunts One'} >
+    <Layout location={location} title={'Literature+Code'} >
       <SEO title="Essay" />
-         <div> {data.markdownRemark.frontmatter.description} </div>
          <section 
          style={{
           fontSize: '1.7em'

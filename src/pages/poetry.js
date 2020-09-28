@@ -11,7 +11,7 @@ const poetry = ({data, location}) => {
    <h1> The Appreciation of Poetry </h1>    
    <p> 
    The poet <Popup content='One of my favorite writers' on='click' trigger={<span> Ben Lerner</span>} /> argues in his book "The Hatred of Poetry" that the real problem with poetry is poems. We expect poetry to have the power to stir some profound passion or connection in us—to take some thought or emotion in the poet's mind and deliver it, still pristinely magnificent, to the reader or listener. Plato even banned poets from his ideal Republic because of this potential power. However, Lerner argues, poems never live up to poetry's promise. Every poem, to him, is a failed poem because it fails to deliver whatever revelation occurred in the poet's head into the reader or listener's head. Even the best poem is nothing but an attempt to capture the original poem that <Popup content='This is why I, too, dislike it' on='click' pinned trigger={<span> was in the poet's mind</span>} />. Interestingly, you can see this idea expressed in this silly song by Jack Black. </p>
-   <iframe width="100%" height="700" src="https://www.youtube.com/embed/_lK4cX5xGiQ?start=59" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="100%" height="700" src="https://www.youtube.com/embed/_lK4cX5xGiQ?start=59" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
    <p>
    The song they are recording is just a tribute to the song they sang for the devil. In the same way, Lerner argues, the poem you read is just a tribute to the real thing that happened in the poet's head. Despite what Ben Lerner says, here are a few poems I do think really work. 
    </p>
@@ -65,12 +65,12 @@ We find another example of words working overtime in the Anglo-Saxon poem "<a hr
 <p>
 As intriguing as the moments when a poem's structure fits its content are the moments when a poem finds itself in a context that seems at odds with its content. For example, <a href='https://www.youtube.com/watch?v=Ep2_0WHogRQ&feature=youtu.be' >this apple commercial</a> quotes Robin Williams in Dead Poets Society who in turn quotes Walt Whitman. 
 </p>
-<iframe width="100%" height="700" src="https://www.youtube.com/embed/Ep2_0WHogRQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="700" src="https://www.youtube.com/embed/Ep2_0WHogRQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 <p>
 The poem's call to and celebration of individuality feels undermined by its position in an advertisement whose real call is for you to buy the Apple iPad Air. Likewise, <a href='https://www.youtube.com/watch?v=oXevJJE0YXQ'>this scene</a> from the tv show Fargo has the gangster Mike Milligan 
 recite Lewis Carroll's "<a href='https://www.poetryfoundation.org/poems/42916/jabberwocky'>The Jabberwocky</a>" as he goes off to murder a rival for power. 
 </p>
-<iframe width="100%" height="700" src="https://www.youtube.com/embed/oXevJJE0YXQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="700" src="https://www.youtube.com/embed/oXevJJE0YXQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 <p>
 The poem's playful rhyme scheme and goofy vocabulary contrast rather starkly with the situation they've been dropped into. However, this mismatched pairing of scene and verse allows for a rich new understanding of the poem. Whereas in the hands of Lewis Carroll it had seemed fluffy and upbeat, in the mouth of actor Bokeem Woodbine we hear it as dark and menacing; the death of the jabberwocky now feels visceral and ominous in a way it hadn't before. Compare that scene with, say, <a href='https://danielfrancisolivieri.github.io/Jabberwocky/'>my own</a> rather cute and bright illustration of it.
 </p>
