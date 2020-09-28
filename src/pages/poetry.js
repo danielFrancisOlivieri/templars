@@ -110,14 +110,46 @@ We find another example of words working overtime in the Anglo-Saxon poem "<a hr
 </p>
 
 <p>
-As intriguing as the moments when a poem's structure fits its content are the moments when a poem finds itself in a context that seems at odds with its content. For example, <a href='https://www.youtube.com/watch?v=Ep2_0WHogRQ&feature=youtu.be' >this apple commercial</a> quotes Robin Williams in Dead Poets Society who in turn quotes <Popup  on='click' trigger={<span>Walt Whitman</span>}> <AuthorCard name='Walt Whitman' meta={'Poet'} description={'Whitman is among the most influential poets in the American canon, often called the father of free verse.'} image={'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Walt_Whitman_-_George_Collins_Cox.jpg/440px-Walt_Whitman_-_George_Collins_Cox.jpg'} > </AuthorCard></Popup>. 
+As intriguing as the moments when a poem's structure fits its content are the moments when a poem finds itself in a context that seems at odds with its content. For example, this apple commercial quotes Robin Williams in Dead Poets Society who in turn quotes <Popup  on='click' trigger={<span>Walt Whitman</span>}> <AuthorCard name='Walt Whitman' meta={'Poet'} description={'Whitman is among the most influential poets in the American canon, often called the father of free verse.'} image={'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Walt_Whitman_-_George_Collins_Cox.jpg/440px-Walt_Whitman_-_George_Collins_Cox.jpg'} > </AuthorCard></Popup>. 
 </p>
-<iframe width="100%" height="700" src="https://www.youtube.com/embed/Ep2_0WHogRQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-<p>
+
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <Fragment>
+              {matches.small && <iframe width="375px" height="250px" src="https://www.youtube.com/embed/Ep2_0WHogRQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+}
+              {matches.medium && <iframe width="500px" height="400px" src="https://www.youtube.com/embed/Ep2_0WHogRQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+}
+              {matches.large && <iframe width="100%" height="700" src="https://www.youtube.com/embed/Ep2_0WHogRQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+}
+            </Fragment>
+          )}
+        </Media>
+        <p>
 The poem's call to and celebration of individuality feels undermined by its position in an advertisement whose real call is for you to buy the Apple iPad Air. Likewise, <a href='https://www.youtube.com/watch?v=oXevJJE0YXQ'>this scene</a> from the tv show Fargo has the gangster Mike Milligan 
 recite Lewis Carroll's "<a href='https://www.poetryfoundation.org/poems/42916/jabberwocky'>The Jabberwocky</a>" as he goes off to murder a rival for power. 
 </p>
-<iframe width="100%" height="700" src="https://www.youtube.com/embed/oXevJJE0YXQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
+<Media queries={{
+          small: "(max-width: 599px)",
+          medium: "(min-width: 600px) and (max-width: 1199px)",
+          large: "(min-width: 1200px)"
+        }}>
+          {matches => (
+            <Fragment>
+              {matches.small && <iframe width="375px" height="250px" src="https://www.youtube.com/embed/oXevJJE0YXQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+}
+              {matches.medium && <iframe width="500px" height="400px" src="https://www.youtube.com/embed/oXevJJE0YXQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+}
+              {matches.large && <iframe width="100%" height="700" src="https://www.youtube.com/embed/oXevJJE0YXQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+}
+            </Fragment>
+          )}
+        </Media>
 <p>
 The poem's playful rhyme scheme and goofy vocabulary contrast rather starkly with the situation they've been dropped into. However, this mismatched pairing of scene and verse allows for a rich new understanding of the poem. Whereas in the hands of Lewis Carroll it had seemed fluffy and upbeat, in the mouth of actor Bokeem Woodbine we hear it as dark and menacing; the death of the jabberwocky now feels visceral and ominous in a way it hadn't before. Compare that scene with, say, <a href='https://danielfrancisolivieri.github.io/Jabberwocky/'>my own</a> rather cute and bright illustration of it.
 </p>
