@@ -4,15 +4,24 @@ import { Popup } from 'semantic-ui-react'
 import './style/poetry.css'
 import Media from 'react-media';
 import 'semantic-ui-css/semantic.min.css'
+import AuthorCard  from '../components/author'
 
 const poetry = ({data, location}) => {
 
   return (
     <Layout location={location} title={'Literature+Code'}>
    <h1> The Appreciation of Poetry </h1>    
-   <p> 
-   The poet <Popup content='One of my favorite writers' on='click' trigger={<span> Ben Lerner</span>} /> argues in his book "The Hatred of Poetry" that the real problem with poetry is poems. We expect poetry to have the power to stir some profound passion or connection in us—to take some thought or emotion in the poet's mind and deliver it, still pristinely magnificent, to the reader or listener. Plato even banned poets from his ideal Republic because of this potential power. However, Lerner argues, poems never live up to poetry's promise. Every poem, to him, is a failed poem because it fails to deliver whatever revelation occurred in the poet's head into the reader or listener's head. Even the best poem is nothing but an attempt to capture the original poem that <Popup content='This is why I, too, dislike it' on='click' pinned trigger={<span> was in the poet's mind</span>} />. Interestingly, you can see this idea expressed in this silly song by Jack Black. </p>
-   
+  <p>
+   The poet <Popup  on='click' trigger={<span> Ben Lerner</span>}> <AuthorCard meta={'Poet and Novelist'} description={'Guggenhiem Fellow, MacArthur Fellow, Finalist for the National Book Award'} image={'https://images.squarespace-cdn.com/content/v1/5495fc96e4b0d669a5b4ba80/1468682922746-UM4ZZNE4UQMBNYK5QSIN/ke17ZwdGBToddI8pDm48kIkGgJEtk9eTMNWBgWK8yYR7gQa3H78H3Y0txjaiv_0faShnVfr-ySw9qgw5FxrvMzL5XwEKbTsZ74nkctAu9id75n5hQOsnYPWZCBGHRzfSeoqS5JAWrnb1436X_b_yVZrfa1Z6IeUrCPboCAmmHZnmK5I6TQGQLFZ5GyEwoB33wfIIdgHU0fybch_j5WC5ag/Ben_Lerner+smaller.jpg'} name='Lerner' > </AuthorCard>
+ </Popup> argues in his book "The Hatred of Poetry" that the real problem with poetry is poems. We expect poetry to have the power to stir some profound passion or connection in us—to take some thought or emotion in the poet's mind and deliver it, still pristinely magnificent, to the reader or listener. Plato even banned poets from his ideal Republic because of this potential power. However, Lerner argues, poems never live up to poetry's promise. Every poem, to him, is a failed poem because it fails to deliver whatever revelation occurred in the poet's head into the reader or listener's head. Even the best poem is nothing but an attempt to capture the original poem that <Popup content='This is why I, too, dislike it' on='click' pinned trigger={<span> was in the poet's mind</span>} />. 
+   Lerner repeats the likely apocryphal story of Cademon the poet from Bede's 8<sup>th</sup> century history of England. 
+   </p>
+   <blockquote> According to Bede’s <i>Historia</i>, Caedmon was an illiterate cowherd who couldn’t sing. When, during this or that merry feast, it was decided that everyone in turn would contribute a song, Caedmon would withdraw in embarrassment, maybe claiming he had to go look after the animals. One night, somebody tries to pass Caedmon the harp after dinner, and he flees to the stable. There among the ungulates he drifts off and is visited by a mysterious figure, probably God. “You must sing to me,” says God. “I can’t,” Caedmon says, if not in these words. “That’s why I’m sleeping in the stable instead of drinking mead with my friends around the fire.” But God (or an angel or demon—the text is vague) keeps demanding a song. “But what should I sing?” asks Caedmon, who I imagine is desperate, cold-sweating through a nightmare. “Sing the beginning of created things,” instructs the visitor. Caedmon opens his mouth and, to his amazement, gorgeous verses praising God pour forth.
+   Caedmon awakes as a poet, and eventually becomes a monk. But the poem he sings upon waking is not, according to Bede, as good as the poem he sang in his dream, “for songs, be they never so well made, cannot be turned of one tongue into another, word for word, without loss to their grace and worthiness.”
+</blockquote>
+<p>
+    We see almost this exact story retold in a song by Jack Black's band, Tenacious D:
+   </p>
    <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -35,7 +44,8 @@ const poetry = ({data, location}) => {
    The song they are recording is just a tribute to the song they sang for the devil. In the same way, Lerner argues, the poem you read is just a tribute to the real thing that happened in the poet's head. Despite what Ben Lerner says, here are a few poems I do think really work. 
    </p>
    <p>
-   This is one called "Next, Please" by Philip Larkin. What I find interesting and depressing about the poet Philip Larkin is his relationship to that idea of "the fear of missing out." That anxiety you have when other people are together enjoying something that you seem to be missing out on. Philip Larkin isn't afraid of missing out, he has missed out. Missing out on enjoyable experiences is just his default state of being. Here is one of my favorite poems by him. 
+   This is one called "Next, Please" by <Popup  on='click' trigger={<span>Philip Larkin</span>}> <AuthorCard name='Philip Larkin' meta={'Poet'} description={'The other poet laureate'} image={'https://www.laphamsquarterly.org/sites/default/files/styles/tall_rectangle_custom_user_small_2x/public/images/contributor/larkin_360x450.jpg?itok=JK9biKCe&timestamp=1410446146'} > </AuthorCard>
+ </Popup>. What I find interesting and depressing about the poet Philip Larkin is his relationship to that idea of "the fear of missing out." That anxiety you have when other people are together enjoying something that you seem to be missing out on. Philip Larkin isn't afraid of missing out, he has missed out. Missing out on enjoyable experiences is just his default state of being. Here is one of my favorite poems by him. 
    </p>
    <h3> Next, Please </h3>
    <pre >{
@@ -68,9 +78,27 @@ But we are wrong:
 
 Only one ship is seeking us, a black-
 Sailed unfamiliar, towing at her back
-A huge and birdless silence. In her wake
+`}
+<Popup  on='click' trigger={<span>A huge and birdless silence</span>}>  <Popup.Header>More on Death From Larkin</Popup.Header>
+<p className='subheading' >An Excerpt from <a href='https://www.poetryfoundation.org/poems/48422/aubade-56d229a6e2f07' target="_blank" >Aubade</a></p>
+    <Popup.Content>
+      <pre>
+      {`This is a special way of being afraid
+No trick dispels. Religion used to try,
+That vast moth-eaten musical brocade
+Created to pretend we never die,
+And specious stuff that says `}{<i>No rational being</i>} {<br></br>}
+{<i>Can fear a thing it will not feel</i>}{`, not seeing
+That this is what we fear—no sight, no sound,   
+No touch or taste or smell, nothing to think with,   
+Nothing to love or link with,
+The anaesthetic from which none come round.`}
+      </pre>
+    </Popup.Content>
+  </Popup> 
+{`. In her wake
 No waters breed or break.`
-   }
+}
    </pre>
 
 <p>
@@ -78,11 +106,11 @@ What initially annoyed me about this poem is exactly what I think makes it not j
 </p>
 
 <p>
-We find another example of words working overtime in the Anglo-Saxon poem "<a href='https://www.wikiwand.com/en/The_Ruin'>The Ruin</a>," though in this case it's all the more interesting for being accidental. Anonymously written in the 8th or 9th century, "The Ruin" describes an ancient Roman ruin. However, over the past dozen or so centuries the poem has been subject to some decay and certain fragments are lost. This means that this poem about a ruin is itself a ruin. The structure of the poem is again contributing to its meaning. 
+We find another example of words working overtime in the Anglo-Saxon poem "<a href='https://www.wikiwand.com/en/The_Ruin' target="_blank">The Ruin</a>," though in this case it's all the more interesting for being accidental. Anonymously written in the 8th or 9th century, "The Ruin" describes an ancient Roman ruin. However, over the past dozen or so centuries the poem has been subject to some decay and certain fragments are lost. This means that this poem about a ruin is itself a ruin. The structure of the poem is again contributing to its meaning. 
 </p>
 
 <p>
-As intriguing as the moments when a poem's structure fits its content are the moments when a poem finds itself in a context that seems at odds with its content. For example, <a href='https://www.youtube.com/watch?v=Ep2_0WHogRQ&feature=youtu.be' >this apple commercial</a> quotes Robin Williams in Dead Poets Society who in turn quotes Walt Whitman. 
+As intriguing as the moments when a poem's structure fits its content are the moments when a poem finds itself in a context that seems at odds with its content. For example, <a href='https://www.youtube.com/watch?v=Ep2_0WHogRQ&feature=youtu.be' >this apple commercial</a> quotes Robin Williams in Dead Poets Society who in turn quotes <Popup  on='click' trigger={<span>Walt Whitman</span>}> <AuthorCard name='Walt Whitman' meta={'Poet'} description={'Whitman is among the most influential poets in the American canon, often called the father of free verse.'} image={'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Walt_Whitman_-_George_Collins_Cox.jpg/440px-Walt_Whitman_-_George_Collins_Cox.jpg'} > </AuthorCard></Popup>. 
 </p>
 <iframe width="100%" height="700" src="https://www.youtube.com/embed/Ep2_0WHogRQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 <p>

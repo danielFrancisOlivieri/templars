@@ -8,6 +8,11 @@ p {
     font-family: 'Times New Roman', serif;
 }
 
+.subheading {
+    font-size: 12px;
+    font-family: 'Times New Roman', serif;
+}
+
 pre {
     font-size: 29px;
 }
