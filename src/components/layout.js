@@ -8,8 +8,6 @@ import { rhythm, scale } from "../utils/typography"
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
 
-  console.log(location);
-
   let header;
   
   if (location.pathname === rootPath) {
