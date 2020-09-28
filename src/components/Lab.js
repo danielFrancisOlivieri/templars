@@ -1,10 +1,8 @@
 import React from "react"
-import Layout from "./layout"
 import 'semantic-ui-css/semantic.min.css'
 import "tooltip-sequence/dist/index.css";
 import { Button } from 'semantic-ui-react'
 import * as d3 from "d3";
-import { render } from "react-dom";
 
 
 function grow() {
@@ -25,6 +23,25 @@ export default class Lab extends React.Component {
   }
 
   componentDidMount() {
+    var data = [210, 36, 322, 59, 123, 350, 290];
+
+var width = 400, height = 300;
+
+var svg = d3.select(".graphCanvas")
+    .append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+var bars = svg.selectAll(".myBars")
+    .data(data)
+    .enter()
+    .append("rect");
+
+bars.attr("x", 10)
+.attr("fill", "#faa307")
+    .attr("y", function(d,i){ return 10 + i*40})
+    .attr("width", function(d){ return d})
+    .attr("height", 30);
   }
 
   componentWillUnmount() {
@@ -44,6 +61,11 @@ export default class Lab extends React.Component {
         width="200" height="30" stroke="black"
         fill="#69b3a2" strokeWidth="1"/>
 </svg> 
+
+<svg className='graphCanvas' height={700} width={700} style={{backgroundColor: '#4D7EA8'}} >
+ 
+</svg> 
+
       </div>
     );
   }
