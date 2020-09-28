@@ -10,6 +10,9 @@ const poetry = ({data, location}) => {
   return (
     <Layout location={location} title={'Literature+Code'}>
    <h1> The Appreciation of Poetry </h1>    
+   <p> 
+   The poet <Popup content='One of my favorite writers' on='click' trigger={<span> Ben Lerner</span>} /> argues in his book "The Hatred of Poetry" that the real problem with poetry is poems. We expect poetry to have the power to stir some profound passion or connection in us—to take some thought or emotion in the poet's mind and deliver it, still pristinely magnificent, to the reader or listener. Plato even banned poets from his ideal Republic because of this potential power. However, Lerner argues, poems never live up to poetry's promise. Every poem, to him, is a failed poem because it fails to deliver whatever revelation occurred in the poet's head into the reader or listener's head. Even the best poem is nothing but an attempt to capture the original poem that <Popup content='This is why I, too, dislike it' on='click' pinned trigger={<span> was in the poet's mind</span>} />. Interestingly, you can see this idea expressed in this silly song by Jack Black. </p>
+   
    <Media queries={{
           small: "(max-width: 599px)",
           medium: "(min-width: 600px) and (max-width: 1199px)",
@@ -17,15 +20,17 @@ const poetry = ({data, location}) => {
         }}>
           {matches => (
             <Fragment>
-              {matches.small && <p>mobile</p>}
-              {matches.medium && <p>I am medium!</p>}
-              {matches.large && <p>I am large!</p>}
+              {matches.small && <iframe width="375px" height="250px" src="https://www.youtube.com/embed/_lK4cX5xGiQ?start=59" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+}
+              {matches.medium && <iframe width="500px" height="400px" src="https://www.youtube.com/embed/_lK4cX5xGiQ?start=59" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+}
+              {matches.large && <iframe width="100%" height="700" src="https://www.youtube.com/embed/_lK4cX5xGiQ?start=59" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+}
             </Fragment>
           )}
         </Media>
-   <p> 
-   The poet <Popup content='One of my favorite writers' on='click' trigger={<span> Ben Lerner</span>} /> argues in his book "The Hatred of Poetry" that the real problem with poetry is poems. We expect poetry to have the power to stir some profound passion or connection in us—to take some thought or emotion in the poet's mind and deliver it, still pristinely magnificent, to the reader or listener. Plato even banned poets from his ideal Republic because of this potential power. However, Lerner argues, poems never live up to poetry's promise. Every poem, to him, is a failed poem because it fails to deliver whatever revelation occurred in the poet's head into the reader or listener's head. Even the best poem is nothing but an attempt to capture the original poem that <Popup content='This is why I, too, dislike it' on='click' pinned trigger={<span> was in the poet's mind</span>} />. Interestingly, you can see this idea expressed in this silly song by Jack Black. </p>
-   <iframe width="100%" height="700" src="https://www.youtube.com/embed/_lK4cX5xGiQ?start=59" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+   
+   
    <p>
    The song they are recording is just a tribute to the song they sang for the devil. In the same way, Lerner argues, the poem you read is just a tribute to the real thing that happened in the poet's head. Despite what Ben Lerner says, here are a few poems I do think really work. 
    </p>
