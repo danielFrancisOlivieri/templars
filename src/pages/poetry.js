@@ -4,10 +4,10 @@ import { Popup } from 'semantic-ui-react'
 import './style/poetry.css'
 import 'semantic-ui-css/semantic.min.css'
 
-const poetry = () => {
-  
+const poetry = ({data, location}) => {
+
   return (
-    <Layout title={'Literature+Code'}>
+    <Layout location={location} title={'Literature+Code'}>
    <h1> The Appreciation of Poetry </h1>    
    <p> 
    The poet <Popup content='One of my favorite writers' on='click' trigger={<span> Ben Lerner</span>} /> argues in his book "The Hatred of Poetry" that the real problem with poetry is poems. We expect poetry to have the power to stir some profound passion or connection in us—to take some thought or emotion in the poet's mind and deliver it, still pristinely magnificent, to the reader or listener. Plato even banned poets from his ideal Republic because of this potential power. However, Lerner argues, poems never live up to poetry's promise. Every poem, to him, is a failed poem because it fails to deliver whatever revelation occurred in the poet's head into the reader or listener's head. Even the best poem is nothing but an attempt to capture the original poem that <Popup content='This is why I, too, dislike it' on='click' pinned trigger={<span> was in the poet's mind</span>} />. Interestingly, you can see this idea expressed in this silly song by Jack Black. </p>
@@ -92,4 +92,4 @@ And sure enough, it was and it did.
   )
 }
 
-export default poetry
+export default poetry 
