@@ -1,6 +1,6 @@
 import React from "react"
 import { rhythm, scale } from "../utils/typography"
-import { Grid, Menu, Container } from 'semantic-ui-react'
+import { Menu } from 'semantic-ui-react'
 
 const Navbar = () => {
   // const rootPath = `${__PATH_PREFIX__}/`

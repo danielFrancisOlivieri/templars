@@ -5,10 +5,6 @@ import 'semantic-ui-css/semantic.min.css'
 import "tooltip-sequence/dist/index.css";
 import './style/hunt.css';
 import Lab from '../components/Lab.js';
-import * as d3 from "d3";
-import { render } from "react-dom";
-
-
 
 const hunt = ({data, location}) => {
 
