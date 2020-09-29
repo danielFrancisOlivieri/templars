@@ -1,5 +1,6 @@
 import React from "react"
 import { rhythm, scale } from "../utils/typography"
+import { Grid, Menu, Container } from 'semantic-ui-react'
 
 const Navbar = () => {
   // const rootPath = `${__PATH_PREFIX__}/`
@@ -11,10 +12,22 @@ style={{
     marginTop: 0,
   }}
 >
-<p> <a href='../hunt/' > Hunt </a> </p>
-<p> <a href='../poetry/' > Poetry </a> </p>
-<p> <a href='../FullMap/' > Map </a>  </p>
-<p> <a href='../TableOfContents/' > Table of Contents </a> </p>
+
+<Menu secondary>
+  <Menu.Item>
+  <p> <a href='../hunt/' > Hunt </a> </p>
+  </Menu.Item>
+  <Menu.Item>
+  <p> <a href='../poetry/' > Poetry </a> </p>
+  </Menu.Item>
+  <Menu.Item>
+  <p> <a href='../FullMap/' > Map </a>  </p>
+  </Menu.Item>
+  <Menu.Item>
+  <p> <a href='../TableOfContents/' > Table of Contents </a> </p>
+  </Menu.Item>
+</Menu>
+
 
 </div>
 )

@@ -60,10 +60,13 @@ const Layout = ({ location, title, children }) => {
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >
-      <header>{header}</header>
-      
+
+<header>{header}</header>
+
+<br></br>
+
       <Navbar></Navbar>
-      
+
       <main>{children}</main>
 
     </div>
