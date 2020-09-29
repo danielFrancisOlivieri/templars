@@ -34,7 +34,7 @@ const poetry = ({data, location}) => {
 }
               {matches.medium && <iframe width="500px" height="400px" src="https://www.youtube.com/embed/_lK4cX5xGiQ?start=59" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 }
-              {matches.large && <iframe width="100%" height="700" src="https://www.youtube.com/embed/_lK4cX5xGiQ?start=59" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              {matches.large && <iframe width="100%" height="700px" src="https://www.youtube.com/embed/_lK4cX5xGiQ?start=59" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 }
             </Fragment>
           )}
@@ -137,6 +137,7 @@ As intriguing as the moments when a poem's structure fits its content are the mo
             </Fragment>
           )}
         </Media>
+
         <p>
 The poem's call to and celebration of individuality feels undermined by its position in an advertisement whose real call is for you to buy the Apple iPad Air. Likewise, <a href='https://www.youtube.com/watch?v=oXevJJE0YXQ'>this scene</a> from the tv show Fargo has the gangster Mike Milligan 
 recite Lewis Carroll's "<a href='https://www.poetryfoundation.org/poems/42916/jabberwocky'>The Jabberwocky</a>" as he goes off to murder a rival for power. 
