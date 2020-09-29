@@ -21,7 +21,7 @@ const poetry = ({data, location}) => {
    Caedmon awakes as a poet, and eventually becomes a monk. But the poem he sings upon waking is not, according to Bede, as good as the poem he sang in his dream, “for songs, be they never so well made, cannot be turned of one tongue into another, word for word, without loss to their grace and worthiness.”
 </blockquote>
 <p>
-    We see almost this exact story retold in a song by Jack Black's band, Tenacious D:
+    We see almost this exact story retold in a <Popup content="Ben Stiller makes a very brief cameo in the video. See if you can catch it." on='click' trigger={<span>music video</span>}></Popup> by Jack Black's band, Tenacious D:
    </p>
    <Media queries={{
           small: "(max-width: 599px)",
