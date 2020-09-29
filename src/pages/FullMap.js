@@ -1,6 +1,4 @@
 import React from "react"
-import ReactMapboxGl, { GeoJSONLayer, Marker, Layer, Feature, ZoomControl, RotationControl  } from "react-mapbox-gl";
-
 
 const FullMap = ({ data, location }) => {
 

@@ -2,7 +2,7 @@ import React from "react"
 import { rhythm, scale } from "../utils/typography"
 
 const Navbar = () => {
-  const rootPath = `${__PATH_PREFIX__}/`
+  // const rootPath = `${__PATH_PREFIX__}/`
 return (
 <div
 style={{
