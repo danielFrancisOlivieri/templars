@@ -26,6 +26,9 @@ style={{
   <Menu.Item>
   <p> <a href='../TableOfContents/' > Table of Contents </a> </p>
   </Menu.Item>
+  <Menu.Item>
+  <p> <a href='../aphorisms/' > Aphorisms </a> </p>
+  </Menu.Item>
 </Menu>
 
 
