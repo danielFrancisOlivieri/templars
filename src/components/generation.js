@@ -69,7 +69,7 @@ export default class Generation extends React.Component {
         <br></br>
 <br></br>
 <h1>Ecclesiastes 1:4</h1>
-        <svg width='100%' height='700px' className='generationCanvas' >
+        <svg style={{'backgroundColor': '#e5e5e5'}} width='100%' height='700px' className='generationCanvas' >
       <p className='terwilliger' ></p>
             <text x='40' y='50' fontSize='27px' className='passeth' > One generation passeth away</text>, 
             <text x='40' y='-90' fontSize='27px' className='cometh' >and another generation cometh. </text>

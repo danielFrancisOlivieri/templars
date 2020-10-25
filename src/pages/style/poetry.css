@@ -5,14 +5,26 @@ span {
 
 p {
     font-size: 24px;
-    font-family: 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .subheading {
     font-size: 12px;
-    font-family: 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 pre {
     font-size: 29px;
+}
+
+.poetryTitle {
+    font-size: 70px;
+    text-align: center;
+    color: #233044;
+}
+
+.lernerPoem {
+    font-size: 25px;
+    line-height: 1.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

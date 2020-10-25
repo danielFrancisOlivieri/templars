@@ -3,7 +3,6 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-//import Navbar from "../components/navbar"
 import { Swipeable } from 'react-swipeable'
 
 function incorrectAnswer() {

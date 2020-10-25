@@ -1,6 +1,7 @@
 import React from "react"
 import { rhythm, scale } from "../utils/typography"
 import { Menu } from 'semantic-ui-react'
+import './style/navbar.css'
 
 const Navbar = () => {
   // const rootPath = `${__PATH_PREFIX__}/`
@@ -15,19 +16,19 @@ style={{
 
 <Menu secondary>
   <Menu.Item>
-  <p> <a href='../hunt/' > Hunt </a> </p>
+  <p> <a className='navbarItem' href='../hunt/' > Hunt </a> </p>
   </Menu.Item>
   <Menu.Item>
-  <p> <a href='../poetry/' > Poetry </a> </p>
+  <p> <a className='navbarItem' href='../poetry/' > Poetry </a> </p>
   </Menu.Item>
   <Menu.Item>
-  <p> <a href='../FullMap/' > Map </a>  </p>
+  <p> <a className='navbarItem' href='../FullMap/' > Map </a>  </p>
   </Menu.Item>
   <Menu.Item>
-  <p> <a href='../TableOfContents/' > Table of Contents </a> </p>
+  <p> <a className='navbarItem' href='../TableOfContents/' > Table of Contents </a> </p>
   </Menu.Item>
   <Menu.Item>
-  <p> <a href='../aphorisms/' > Aphorisms </a> </p>
+  <p> <a className='navbarItem' href='../aphorisms/' > Aphorisms </a> </p>
   </Menu.Item>
 </Menu>
 

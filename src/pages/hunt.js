@@ -20,10 +20,6 @@ const hunt = ({data, location}) => {
   </p>
 
   <Lab></Lab>
-
-
-
-
     </Layout>
   )
 }
