@@ -33,8 +33,10 @@ to find the tension between the two.
 I call Ben Lerner from the`} <Popup content="I once saw Lerner at the 92Y and Lerner once saw Ashbery in the 92Y." trigger={<span>92Y</span>} /> {` to ask him, 
 Who is your favorite Persian king of kings?`} <Popup content="Ben Lerner's best friend and favorite poet is Cyrus Console. Cyrus is also the name of a few Persian monarchs." trigger={<span>"Cyrus,"</span>} /> {`Lerner answers. 
 Then I ask,`} <Popup content="Lerner has a poem in which someone asks a speaker at an event if they have Hitler's upper teeth. I switched it to Lerner's literary hero, John Ashbery." trigger={<span>"Do you have John Ashbery's upper teeth?"</span>} />  
-He responds, <Popup content="In the Topeka School, Lerner's mom deals with hateful phone calls by just saying that it's a bad connection and that she can't hear what they're saying." trigger={<span>"This is a bad connection, can you speak a little louder?"</span>} />
-{`Imitating Ben's poetry isn't hard,
+{`
+He responds, `}<Popup content="In the Topeka School, Lerner's mom deals with hateful phone calls by just saying that it's a bad connection and that she can't hear what they're saying." trigger={<span>"This is a bad connection, can you speak a little louder?"</span>} />
+{`
+Imitating Ben's poetry isn't hard,
 it's`} <Popup content="A phrase Lerner often repeats in 'The Hatred of Poetry' is that 'poetry isn't hard, poetry is impossible.'" trigger={<span>quite possible, </span>} />
 {`given that I've always been a quick Lerner. 
 You don't need me to tell you`} <Popup content="Lerner's second novel was titled '10:04.'" trigger={<span>what time it was when I finished this poem.</span>} />   
