@@ -13,31 +13,21 @@ description: The bombastic paper by Derrida
 
 
 
-Perhaps something has occurred in the history of the concept of structure that could be called an
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Perhaps something has occurred in the history of the concept of structure that could be called an
 “event,” if this loaded word did not entail a meaning which it is precisely the function of
 structural—or structurality—thought to reduce or to suspect. But let me use the term “event”
 anyway, employing it with caution and as if in quotation marks. In this sense, this event will
 have the exterior form of a rupture and a redoubling.
-It would be easy enough to show that the concept of structure and even the word
-“structure” itself are as old as the epistémé—that is to say, as old as western science and western
-philosophy—and that their roots thrust deep into the soil of ordinary language, into whose
-deepest recesses the epistémé plunges to gather them together once more, making them part of
-itself in a metaphorical displacement. Nevertheless, up until the event which I wish to mark out
-and define, structure-or rather the structurality of structure—although it has always been
-involved, has always been neutralized or reduced, and this by a process of giving it a center or
-referring it to a point of presence, a fixed origin. The function of this center was not only to
-orient; balance, and organize the structure—one cannot in fact conceive of an unorganized
-structure—but above all to make sure that the organizing principle of the structure would limit
-what we might call the freeplay of the structure. No doubt that by orienting and organizing the
-coherence of the system, the center of a structure permits the freeplay of its elements inside the
-total form. And even today the notion of a structure lacking any center represents the unthinkable
-itself.
-Nevertheless, the center also closes off the freeplay it opens up and makes possible. Qua
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It would be easy enough to show that the concept of structure and even the word
+“structure” itself are as old as the epistémé—that is to say, as old as western science and western philosophy—and that their roots thrust deep into the soil of ordinary language, into whose deepest recesses the epistémé plunges to gather them together once more, making them part of itself in a metaphorical displacement. Nevertheless, up until the event which I wish to mark out and define, structure-or rather the structurality of structure—although it has always been involved, has always been neutralized or reduced, and this by a process of giving it a center or referring it to a point of presence, a fixed origin. The function of this center was not only to orient; balance, and organize the structure—one cannot in fact conceive of an unorganized structure—but above all to make sure that the organizing principle of the structure would limit
+what we might call the freeplay of the structure. No doubt that by orienting and organizing the coherence of the system, the center of a structure permits the freeplay of its elements inside the total form. And even today the notion of a structure lacking any center represents the unthinkable itself.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nevertheless, the center also closes off the freeplay it opens up and makes possible. Qua
 center, it is the point at which the substitution of contents, elements, or terms is no longer
 possible. At the center, the permutation or the transformation of elements (which may of course
 be structures enclosed within a structure) is forbidden. At least this permutation has always
-remained interdicted2
- (I use this word deliberately). Thus it has always been thought that the
+remained interdicted (I use this word deliberately). Thus it has always been thought that the
 center, which is by definition unique, constituted that very thing within a structure which governs
 the structure, while escaping structurality. This is why classical thought concerning structure
 could say that the center is, paradoxically, within the structure and outside it. The center is at the
@@ -50,17 +40,15 @@ freeplay based on a fundamental ground, a freeplay which is constituted upon a f
 immobility and a reassuring certitude, which is itself beyond the reach of the freeplay. With this
 certitude anxiety can be mastered, for anxiety is invariably the result of a certain mode of being
 implicated in the game, of being caught by the game, of being as it were from the very beginning
-at stake in the game.3
- From the basis of what we therefore call the center (and which, because it
+at stake in the game.
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From the basis of what we therefore call the center (and which, because it
 can be either inside or outside, is as readily called the origin as the end, as readily arché as telos),
 the repetitions, the substitutions, the transformations, and the permutations are always taken from
 a history of meaning [sens]—that is, a history, period—whose origin may always be revealed or
 whose end may always be anticipated in the form of presence. This is why one could perhaps say
-that the movement of any archeology, like that of any eschatology, is an accomplice of this 
+that the movement of any archeology, like that of any eschatology, is an accomplice of this reduction of the structurality of structure and always attempts to conceive of structure from the basis of a full presence which is out of play.
 
-reduction of the structurality of structure and always attempts to conceive of structure from the
-basis of a full presence which is out of play.
-If this is so, the whole history of the concept of structure, before the rupture I spoke of,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If this is so, the whole history of the concept of structure, before the rupture I spoke of,
 must be thought of as a series of substitutions of center for center, as a linked chain of
 determinations of the center. Successively, and in a regulated fashion, the center receives
 different forms or names. The history of metaphysics, like the history of the West, is the history
@@ -77,8 +65,7 @@ the senses of this word. From then on it became necessary to think the law which
 were, the desire for the center in the constitution of structure and the process of signification
 prescribing its displacements and its substitutions for this law of the central presence—but a
 central presence which was never itself, which has always already been transported outside itself
-in its surrogate. The surrogate does not substitute itself for anything which has somehow preexisted it. From then on it was probably necessary to begin to think that there was no center, that
-the center would not be thought in the form of a being-present, that the center had no natural
+in its surrogate. The surrogate does not substitute itself for anything which has somehow preexisted it. From then on it was probably necessary to begin to think that there was no center, that the center would not be thought in the form of a being-present, that the center had no natural
 locus, that it was not a fixed locus but a function, a sort of non-locus in which an infinite number
 of sign-substitutions came into play. This moment was that in which language invaded the
 universal problematic; that in which, in the absence of a center or origin, everything became
@@ -86,7 +73,8 @@ discourse-provided we can agree on this word—that is to say, when everything b
 where the central signified, the original or transcendental signified, is never absolutely present
 outside a system of differences. The absence of the transcendental signified extends the domain
 and the interplay of signification ad infinitum.
-Where and how does this decentering, this notion of the structurality of structure, occur?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Where and how does this decentering, this notion of the structurality of structure, occur?
 It would be somewhat naive to refer to an event, a doctrine, or an author in order to designate
 this occurrence. It is no doubt part of the totality of an era, our own, but still it has already begun
 to proclaim itself and begun to work. Nevertheless, if I wished to give some sort of indication by
@@ -102,21 +90,14 @@ It describes the form of the relationship between the history of metaphysics and
 of the history of metaphysics. There is no sense in doing without the concepts of metaphysics in
 order to attack metaphysics. We have no language—no syntax and no lexicon—which is alien to
 this history; we cannot utter a single destructive proposition which has not already slipped into
-the form, the logic, and the implicit postulations of precisely what it seeks to contest. To pick out 
-
-one example from many: the metaphysics of presence is attacked with the help of the concept of
-the sign. But from the moment anyone wishes this to show, as I suggested a moment ago, that
+the form, the logic, and the implicit postulations of precisely what it seeks to contest. To pick out  one example from many: the metaphysics of presence is attacked with the help of the concept of the sign. But from the moment anyone wishes this to show, as I suggested a moment ago, that
 there is no transcendental or privileged signified and that the domain or the interplay of
 signification has, henceforth, no limit, he ought to extend his refusal to the concept and to the
 word sign itself-which is precisely what cannot be done. For the signification “sign” has always
 been comprehended and determined, in its sense, as sign-of, signifier referring to a signified,
 signifier different from its signified. If one erases the radical difference between signifier and
 signified, it is the word signifier itself which ought to be abandoned as a metaphysical concept.
-When Lévi-Strauss says in the preface to “The Raw and the Cooked”
-
- that he has “sought to
-transcend the opposition between the sensible and the intelligible by placing [himself] from the
-very beginning at the level of signs,” the necessity, the force, and the legitimacy of his act cannot
+When Lévi-Strauss says in the preface to “The Raw and the Cooked” that he has “sought to transcend the opposition between the sensible and the intelligible by placing [himself] from the very beginning at the level of signs,” the necessity, the force, and the legitimacy of his act cannot
 make us forget that the concept of the sign cannot in itself surpass or bypass this opposition
 between the sensible and the intelligible. The concept of the sign is determined by this
 opposition: through and throughout the totality of its history and by its system. But we cannot do
