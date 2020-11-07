@@ -7,6 +7,7 @@ import './../components/style/layout.css'
 import { rhythm } from "../utils/typography"
 import Generation from '../components/generation.js';
 import Animation from '../components/aphorisms/twoWays';
+import AnimationTemplate from '../components/templates/animation';
 
 const aphorisms = ({data, location}) => {
 
@@ -27,6 +28,7 @@ const aphorisms = ({data, location}) => {
   <br/> <br/>
 <Generation></Generation>
 <Animation></Animation>
+<AnimationTemplate></AnimationTemplate>
     </div>
   )
 }

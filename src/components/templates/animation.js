@@ -10,7 +10,7 @@ export default class Animation extends React.Component {
   }
 
   componentDidMount() {
-   var svg = d3.select("text")
+   var svg = d3.select("test")
 .append("svg")
 .attr("width", 960)
 .attr("height", 500);
