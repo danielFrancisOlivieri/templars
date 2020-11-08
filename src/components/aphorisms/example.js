@@ -1,6 +1,8 @@
 import React from "react"
 import 'semantic-ui-css/semantic.min.css'
 import "tooltip-sequence/dist/index.css";
+import './example.css';
+import { Segment } from 'semantic-ui-react'
 import * as d3 from "d3";
 
 export default class Animation extends React.Component {
@@ -10,45 +12,43 @@ export default class Animation extends React.Component {
   }
 
   componentDidMount() {
-   var svg = d3.select("test") // grabs where to put it 
+   var svg = d3.select(".exampleArea") // grabs where to put it 
 .append("svg")
 .attr("width", 960)
 .attr("height", 500);
 
-var willBeText = svg.append("text")
-.text('terwillger bunts one')
-.attr('y', 150)
-.attr('x', 150)
+// var willBeText = svg.append("text")
+// .text('terwillger bunts one')
+// .style('font-family', 'Times')
+
+// willBeText.attr('x', 50).attr('y', 450)
+// .style("text-anchor", "middle")
+// .transition()
+// .attr("transform", "rotate(-65)")
+// .duration(5000)
+// .transition()
+// .attr("transform", "rotate(0)")
+// .duration(5000)
+// .on('end', repeat)
+
+var rotated = svg.append('text')
+.text('on tilt')
 .style('font-family', 'Times')
 
-willBeText.attr('x', 440).attr('y', 250)
 
-// function circleTransition() { 
-
-// var timeCircle = svg.append('p').text('when I was a child, I yeeted as a child.');
-// repeat();
-
-// function repeat() {
-// timeCircle
-// .attr('cx', 40)      // position the circle at 40 on the x axis
-// .attr('cy', 250)     // position the circle at 250 on the y axis
-// .transition()        // apply a transition
-// .duration(2000)      // apply it over 2000 milliseconds
-// .attr('cx', 920)     // move the circle to 920 on the x axis
-// .transition()        // apply a transition
-// .duration(2000)      // apply it over 2000 milliseconds
-// .attr('cx', 40)      // return the circle to 40 on the x axis
-// .on("end", repeat);  // when the transition finishes start again
-// };
-
-// };
-
-// circleTransition();
+rotated.attr('x', '25%').attr('y', '50%')
+.style('background-color', '#DAD7CD' )
+.attr('class', 'rotation')
+.transition()
+.duration(2500)
+.attr('transform', 'rotate(-18, 100, 110)')
+.transition()
+.duration(2500)
+.attr('transform', 'rotate(0, 60, 140)' )
+.transition()
+.duration(2500)
 
   }
-
-  componentWillUnmount() {
-  }  
 
   render() {
     return (
@@ -62,6 +62,13 @@ style={{'backgroundColor': "#DAD7CD",
 "outlineStyle": 'solid'
 }}
 ></test>
+
+<Segment
+className="exampleArea"
+width="700px"
+height="500px"
+>
+</Segment>
 
 
       </div>
