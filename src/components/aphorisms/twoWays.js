@@ -30,7 +30,7 @@ function circleTransition() {
     horizontal.attr('x', 440).attr('y', 250)
 
     var vertical = svg.append("text")
-    .text('And I went another')
+    .text('.. and I went another')
     .attr('y', '15%')
     .attr('x', '15%')
     .style('font-family', 'Times')
