@@ -8,9 +8,8 @@ import { rhythm } from "../utils/typography"
 import Generation from '../components/generation.js';
 import Animation from '../components/aphorisms/twoWays';
 import FourCorners from '../components/aphorisms/fourCorners';
-import Macbeth from '../components/aphorisms/Macbeth';
 import Slant from '../components/aphorisms/slant';
-import Example from '../components/aphorisms/example';
+import Samsara from '../components/aphorisms/samsara/samsara';
 
 const aphorisms = ({data, location}) => {
 
@@ -34,6 +33,7 @@ const aphorisms = ({data, location}) => {
 <Animation></Animation>
 <FourCorners></FourCorners> 
 <Slant></Slant>
+<Samsara></Samsara>
 
 
     </div>

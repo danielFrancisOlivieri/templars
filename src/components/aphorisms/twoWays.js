@@ -1,7 +1,6 @@
 import React from "react"
 import 'semantic-ui-css/semantic.min.css'
 import "tooltip-sequence/dist/index.css";
-import Media from 'react-media';
 import { Segment } from 'semantic-ui-react'
 import * as d3 from "d3";
 
@@ -30,7 +29,7 @@ function circleTransition() {
     horizontal.attr('x', 440).attr('y', 250)
 
     var vertical = svg.append("text")
-    .text('.. and I went another')
+    .text('... and I went another')
     .attr('y', '15%')
     .attr('x', '15%')
     .style('font-family', 'Times')
