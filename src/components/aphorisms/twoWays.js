@@ -71,15 +71,6 @@ circleTransition();
     return (
       <div>
    
-<test
-id='animationBox'
-width="400px"
-height="500px"
-style={{'backgroundColor': "#DAD7CD",
-"outlineColor": 'black', 
-"outlineStyle": 'solid'
-}}
-></test>
 
 
 <Segment
