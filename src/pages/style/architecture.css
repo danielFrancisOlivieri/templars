@@ -1,3 +1,8 @@
 .architectureParagraph {
     text-indent: 70px;
+    line-height: 175%;
+  }
+
+  .architectureLexiconTitle {
+      text-align: center;
   }
