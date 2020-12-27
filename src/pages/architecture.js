@@ -2,7 +2,6 @@ import React from 'react';
 import { Image } from 'semantic-ui-react'
 import Layout from "../components/layout"
 import Dormer from "./images/dormerWindows.jpeg"
-import TriangularSpiral from "./images/TriangularSpiral.jpg"
 import './style/architecture.css'
 
 
@@ -24,7 +23,7 @@ In addition wonder, my reaction to most great architectural works is, "Wow, that
 <h2> Staircases </h2>
 <h3> Spiral Staircases </h3>
 <p> The part in the center is called "the well". This one has a triangular well. </p>
-<Image src={TriangularSpiral} rounded />
+<Image src={'https://images.pexels.com/photos/1044302/pexels-photo-1044302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'} rounded />
 
 </Layout>
 
