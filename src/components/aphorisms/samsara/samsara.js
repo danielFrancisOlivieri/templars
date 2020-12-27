@@ -48,8 +48,6 @@ export default class Animation extends React.Component {
 
     var letters = word.split('');
 
-    console.log(letters);
-
     for (let i = 0; i < word.length; i++ ) {
         const previousValue = i;
         listOfLetterObjects[i] = svg.append('text')
@@ -59,6 +57,7 @@ export default class Animation extends React.Component {
         .attr('x', xValue).attr('y', yValue)
         listOfLetterObjects[i].xValue = xValue;
         listOfLetterObjects[i].yValue = yValue;
+        listOfLetterObjects[i].character = letters[i];
         xValue += determineXValue(letters[previousValue]);
     }
  }
@@ -90,10 +89,42 @@ export default class Animation extends React.Component {
       .duration(2000)
         .attr('x', randomXString)
         .attr('y', randomYString)
+
+      createAndTransition(samsara, listOfLetterObjects[i].character, randomXString, randomYString, arrayOfD3Objects.xValue, arrayOfD3Objects.yValue);
     }
+    // reformWord(arrayOfD3Objects);
  }
 
+ function reformWord(arrayWithValuePairs) {
 
+    for (let i = 0; i < arrayWithValuePairs.length; i++ ) {
+        arrayWithValuePairs[i]
+        .transition()
+        .attr('color', 'blue')
+        .delay(5000)
+        .duration(5000)
+        .attr('x', arrayWithValuePairs[i].xValue)
+        .attr('y', arrayWithValuePairs[i].yValue)
+    }
+
+ }
+
+ function createAndTransition(svg, string, firstXValue, firstYValue, secondXValue, secondYValue) {
+    svg.append('text')
+    .text(string)
+    .attr('x', firstXValue)
+    .attr('y', firstYValue)
+    .style('font-family', 'Times')
+        .style('font-size', '2em')
+    .transition()
+    .delay(4000)
+    .attr('x', secondXValue)
+    .attr('y', secondYValue)
+    .transition()
+    .delay(4000)
+    .attr('x', 320)
+    .attr('y', 310)
+ }
 
 function animationCycle() { 
 
@@ -105,43 +136,9 @@ function animationCycle() {
 
     console.log(listOfLetterObjects);
 
-    explodeUniverse(listOfLetterObjects);
+    explodeUniverse(listOfLetterObjects);    
 
-    /*
-    var theUniverse = samsara.append('text')
-        .text('The universe')
-        .style('font-family', 'Times')
-        .style('font-size', '2em')
-
-        theUniverse.attr('x', '35%').attr('y', '25%')
-
-
-
-    var isACycle = samsara.append('text')
-        .text('is a cycle')
-        .style('font-family', 'Times')
-        .style('font-size', '2em')
-
-        isACycle.attr('x', '35%').attr('y', '35%')
-    
-        var ofCreation = samsara.append('text')
-        .text('of creation')
-        .style('font-family', 'Times')
-        .style('font-size', '2em')
-
-        ofCreation.attr('x', '35%').attr('y', '45%')
-
-        var andDestruction = samsara.append('text')
-        .text('and destruction')
-        .style('font-family', 'Times')
-        .style('font-size', '2em')
-
-        andDestruction.attr('x', '35%').attr('y', '55%')
-*/
-
-    // transition
-
-    
+    createAndTransition(samsara, 'terwilliger', 55, 180, 80, 70);
 
 };
 
