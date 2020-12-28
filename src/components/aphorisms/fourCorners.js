@@ -27,8 +27,8 @@ repeat();
 
 function repeat() {
   horizontal
-.attr('x', '5%')      // position the circle at 40 on the x axis
-.attr('y', '10%')     // position the circle at 250 on the y axis
+.attr('x', '0%')      // position the circle at 40 on the x axis
+.attr('y', '5%')     // position the circle at 250 on the y axis
 .transition()        // apply a transition
 .duration(2000)      // apply it over 2000 milliseconds
 // .attr("text-anchor", "middle")
@@ -38,22 +38,22 @@ function repeat() {
 .transition()        // apply a transition
 .duration(2000)      // apply it over 2000 milliseconds
 
-.attr('y', '80%')     // move the circle to 920 on the x axis
+.attr('y', '95%')     // move the circle to 920 on the x axis
 .transition()        // apply a transition
 .duration(2000)      // apply it over 2000 milliseconds
 
 
 
-.attr('y', '80%')     // move the circle to 920 on the x axis
+// .attr('y', '95%')     // move the circle to 920 on the x axis
+// .transition()        // apply a transition
+// .duration(2000)      // apply it over 2000 milliseconds
+
+.attr('x', '0%')     // move the circle to 920 on the x axis
 .transition()        // apply a transition
 .duration(2000)      // apply it over 2000 milliseconds
 
-.attr('x', '5%')     // move the circle to 920 on the x axis
-.transition()        // apply a transition
-.duration(2000)      // apply it over 2000 milliseconds
-
-.attr('x', '5%')      // return the circle to 40 on the x axis
-.attr('y', '10%')
+.attr('x', '0%')      // return the circle to 40 on the x axis
+.attr('y', '5%')
 .on("end", repeat);  // when the transition finishes start again
 
 };
