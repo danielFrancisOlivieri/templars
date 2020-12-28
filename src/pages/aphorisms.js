@@ -29,14 +29,14 @@ const aphorisms = ({ data, location }) => {
       </center>
       <br /> <br />
 
-      <Samsara></Samsara>
+      {/* <Samsara></Samsara>
       <br /> <br />
       <Generation></Generation>
       <br /> <br />
       <Animation></Animation>
       <br /> <br />
       <FourCorners></FourCorners>
-      <br /> <br />
+      <br /> <br /> */}
       <MindKiller></MindKiller>
 <br /> <br />
 

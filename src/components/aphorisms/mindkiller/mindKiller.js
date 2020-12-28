@@ -22,7 +22,12 @@ export default class Animation extends React.Component {
 
         // creating elements
         let mindkiller = dune.append('text')
-       .text('I must not fear. Fear is the mind-killer.')
+       .text('  must not fear. Fear is the mind-killer.')
+       .attr('x', 157)
+       .attr('y', 100);
+
+       let firstI = dune.append('text')
+       .text('I')
        .attr('x', 150)
        .attr('y', 100);
 
@@ -32,28 +37,58 @@ export default class Animation extends React.Component {
        .attr('y', 150)
 
        let face = dune.append('text')
-       .text('I will face my fear.')
-       .attr('x', 150)
+       .text('  will face my fear.')
+       .attr('x', 157)
        .attr('y', 200)
 
-       let permit = dune.append('text')
-       .text('I will permit it to pass over me and through me.')
+       let secondI = dune.append('text')
+       .text('I')
        .attr('x', 150)
+       .attr('y', 200);
+
+       let permit = dune.append('text')
+       .text('  will permit it to pass over me and through me.')
+       .attr('x', 157)
        .attr('y', 250)
 
+       let thirdI = dune.append('text')
+       .text('I')
+       .attr('x', 150)
+       .attr('y', 250);
+
        let past = dune.append('text')
-       .text('And when it has gone past I will turn the inner eye to see its path.')
+       .text('And when it has gone past' )
        .attr('x', 150)
        .attr('y', 300)
 
+       let path = dune.append('text')
+       .text('will turn the inner eye to see its path.')
+       .attr('x', 309)
+       .attr('y', 300)
+      
+       let fourthI = dune.append('text')
+       .text('I')
+       .attr('x', 302)
+       .attr('y', 300);
+
        let prayer = dune.append('text')
-       .text('Where the fear has gone there will be nothing. Only I will remain.')
+       .text('Where the fear has gone there will be nothing.')
        .attr('x', 150)
        .attr('y', 350)
 
-       let remain = dune.append('text')
-       .text('Only I will remain.')
+       let only = dune.append('text')
+       .text('Only')
        .attr('x', 150)
+       .attr('y', 400)
+
+       let fifthI = dune.append('text')
+       .text('I')
+       .attr('x', 182)
+       .attr('y', 400);
+
+       let remain = dune.append('text')
+       .text('will remain.')
+       .attr('x', 190)
        .attr('y', 400)
 
        // transitions
@@ -93,6 +128,13 @@ export default class Animation extends React.Component {
       .duration(2000)
       .style("opacity", 0);
 
+      path
+      .style("opacity", 1)
+      .transition()
+      .delay(10000)
+      .duration(2000)
+      .style("opacity", 0);
+
       prayer
        .style("opacity", 1)
       .transition()
@@ -101,8 +143,25 @@ export default class Animation extends React.Component {
       .style("opacity", 0)
       .transition()
       .delay(3000)
-      .on('end', animation);
 
+      only
+      .style("opacity", 1)
+      .transition()
+      .delay(14000)
+      .duration(2000)
+      .style("opacity", 0)
+      .transition()
+      .delay(3000)
+
+      remain
+      .style("opacity", 1)
+      .transition()
+      .delay(14000)
+      .duration(2000)
+      .style("opacity", 0)
+      .transition()
+      .delay(3000)
+      .on('end', animation);
 
        }
        
