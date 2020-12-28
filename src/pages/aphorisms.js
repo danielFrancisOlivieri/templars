@@ -10,7 +10,7 @@ import Animation from '../components/aphorisms/twoWays';
 import FourCorners from '../components/aphorisms/fourCorners';
 import Samsara from '../components/aphorisms/samsara/samsara';
 
-const aphorisms = ({data, location}) => {
+const aphorisms = ({ data, location }) => {
 
 
   return (
@@ -24,18 +24,18 @@ const aphorisms = ({data, location}) => {
       }}
     >
       <center>
-   <h1> Illustrated Aphorisms </h1>    
-  </center>
-  <br/> <br/>
-  
-{/* <Generation></Generation>
-<br/> <br/>
-<Animation></Animation>
-<br/> <br/>
-<FourCorners></FourCorners>  */}
-<br/> <br/>
-<Samsara></Samsara>
+        <h1> Illustrated Aphorisms </h1>
+      </center>
+      <br /> <br />
 
+      <Samsara></Samsara>
+      <br /> <br />
+      <Generation></Generation>
+      <br /> <br />
+      <Animation></Animation>
+      <br /> <br />
+      <FourCorners></FourCorners>
+      <br /> <br />
 
     </div>
   )

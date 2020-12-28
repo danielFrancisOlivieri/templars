@@ -31,7 +31,6 @@ export default class Animation extends React.Component {
      const shortCharacters = ['s', 't', 'r'];
      const extraShortCharacters = ['l', 'j', 'i', 'f'];
     if (longCharacters.indexOf(previousCharacter) !== -1) {
-        console.log(previousCharacter);
         return 20;
     } else if (shortCharacters.indexOf(previousCharacter) !== -1) {
         return 10;
@@ -55,9 +54,6 @@ export default class Animation extends React.Component {
         .style('font-family', 'Times')
         .style('font-size', '2em')
         .attr('x', xValue).attr('y', yValue)
-        console.log('character: ' + letters[i]);
-        console.log('xValue: ' + xValue);
-        console.log('yValue: ' + yValue);
         listOfLetterObjects[i].xValue = xValue;
         listOfLetterObjects[i].yValue = yValue;
         listOfLetterObjects[i].character = letters[i];
@@ -86,7 +82,6 @@ export default class Animation extends React.Component {
         const randomXString = String(randomX) + '%';
         let randomY = Math.floor(Math.random() * 98);
         const randomYString = String(randomY) + '%';
-        console.log(arrayOfD3Objects[i]);
         arrayOfD3Objects[i].attr('x', 0).attr('y', 0)
         arrayOfD3Objects[i]
         .transition()
@@ -101,7 +96,6 @@ export default class Animation extends React.Component {
  }
 
  function moveCharacter(character, delay, newX, newY) {
-  console.log(character);
   character.transition()
   .delay(delay)
 .duration(2000)
@@ -111,7 +105,6 @@ export default class Animation extends React.Component {
  }
 
  function moveAndReturnCharacter(character, delay, newX, newY) {
-  console.log(character);
   character.transition()
   .delay(delay)
 .duration(2000)
@@ -122,7 +115,18 @@ export default class Animation extends React.Component {
 .duration(2000)
   .attr('x', character.xValue)
   .attr('y', character.yValue)
+ }
 
+ function blastApartAndReform(characters, delay) {
+
+  for (let i = 0; i < characters.length; i++) {
+    let randomX = Math.floor(Math.random() * 98);
+        const randomXString = String(randomX) + '%';
+        let randomY = Math.floor(Math.random() * 98);
+        const randomYString = String(randomY) + '%';
+
+    moveAndReturnCharacter(characters[i], delay, randomXString, randomYString);
+  }
  }
 
  function reformWord(arrayWithValuePairs) {
@@ -156,6 +160,10 @@ export default class Animation extends React.Component {
     .attr('y', 310)
  }
 
+ function generateInteger10To510() {
+return Math.floor(Math.random() * 500) + 10;
+ }
+
 function animationCycle() { 
 
     // original setting
@@ -164,13 +172,31 @@ function animationCycle() {
 
     createWordOfLetters(samsara, theUniverse, 50, 250);
 
-    moveAndReturnCharacter(listOfLetterObjects[7], 3000, 200, 400);
+    const firstRandomX = Math.floor(Math.random() * 500) + 10;
 
-    console.log(listOfLetterObjects);
+    moveAndReturnCharacter(listOfLetterObjects[4], 3000, generateInteger10To510(), generateInteger10To510());
 
-    // explodeUniverse(listOfLetterObjects);    
+    moveAndReturnCharacter(listOfLetterObjects[5], 3000, generateInteger10To510(), generateInteger10To510());
 
-    // createAndTransition(samsara, 'terwilliger', 55, 180, 80, 70);
+    moveAndReturnCharacter(listOfLetterObjects[6], 3000, generateInteger10To510(), generateInteger10To510());
+
+    moveAndReturnCharacter(listOfLetterObjects[7], 3000, generateInteger10To510(), generateInteger10To510());
+
+    moveAndReturnCharacter(listOfLetterObjects[8], 3000, generateInteger10To510(), generateInteger10To510());
+
+    moveAndReturnCharacter(listOfLetterObjects[9], 3000, generateInteger10To510(), generateInteger10To510());
+
+    moveAndReturnCharacter(listOfLetterObjects[10], 3000, generateInteger10To510(), generateInteger10To510());
+
+    moveAndReturnCharacter(listOfLetterObjects[11], 3000, generateInteger10To510(), generateInteger10To510());
+
+    for (let i = 0; i < 50; i++) {
+      
+      console.log(generateInteger10To510);
+    }
+
+    // blastApartAndReform(listOfLetterObjects.slice(4, 9), 3000);
+
 
 };
 
