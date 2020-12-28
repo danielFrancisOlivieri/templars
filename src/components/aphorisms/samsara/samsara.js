@@ -8,11 +8,6 @@ export default class Animation extends React.Component {
   constructor(props) {
     super(props);
     this.state = {counter: 1};
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick() {
-    console.log('Click happened');
   }
 
   componentDidMount() {
@@ -90,9 +85,8 @@ export default class Animation extends React.Component {
         .attr('x', randomXString)
         .attr('y', randomYString)
 
-     // createAndTransition(samsara, listOfLetterObjects[i].character, randomXString, randomYString, arrayOfD3Objects.xValue, arrayOfD3Objects.yValue);
     }
-    // reformWord(arrayOfD3Objects);
+
  }
 
  function moveCharacter(character, delay, newX, newY) {
@@ -208,7 +202,6 @@ animationCycle();
 <Segment
 className="samsaraArea"
 style={{ minHeight: 500 }}
-onClick={this.handleClick}
 >
 </Segment>
 

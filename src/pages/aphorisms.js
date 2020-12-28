@@ -9,6 +9,7 @@ import Generation from '../components/generation.js';
 import Animation from '../components/aphorisms/twoWays';
 import FourCorners from '../components/aphorisms/fourCorners';
 import Samsara from '../components/aphorisms/samsara/samsara';
+import MindKiller from '../components/aphorisms/mindkiller/mindKiller';
 
 const aphorisms = ({ data, location }) => {
 
@@ -36,6 +37,8 @@ const aphorisms = ({ data, location }) => {
       <br /> <br />
       <FourCorners></FourCorners>
       <br /> <br />
+      <MindKiller></MindKiller>
+<br /> <br />
 
     </div>
   )
