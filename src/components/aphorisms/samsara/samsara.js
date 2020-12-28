@@ -164,39 +164,36 @@ export default class Animation extends React.Component {
 return Math.floor(Math.random() * 500) + 10;
  }
 
+ function blastUniverse(delay) {
+  moveAndReturnCharacter(listOfLetterObjects[4], delay, generateInteger10To510(), generateInteger10To510());
+
+  moveAndReturnCharacter(listOfLetterObjects[5], delay, generateInteger10To510(), generateInteger10To510());
+
+  moveAndReturnCharacter(listOfLetterObjects[6], delay, generateInteger10To510(), generateInteger10To510());
+
+  moveAndReturnCharacter(listOfLetterObjects[7], delay, generateInteger10To510(), generateInteger10To510());
+
+  moveAndReturnCharacter(listOfLetterObjects[8], delay, generateInteger10To510(), generateInteger10To510());
+
+  moveAndReturnCharacter(listOfLetterObjects[9], delay, generateInteger10To510(), generateInteger10To510());
+
+  moveAndReturnCharacter(listOfLetterObjects[10], delay, generateInteger10To510(), generateInteger10To510());
+
+  moveAndReturnCharacter(listOfLetterObjects[11], delay, generateInteger10To510(), generateInteger10To510());
+
+ }
+
 function animationCycle() { 
 
     // original setting
 
-    const theUniverse = `The universe is created and destroyed`;
+    const theUniverse = `The universe is destroyed and created again.`;
 
     createWordOfLetters(samsara, theUniverse, 50, 250);
 
-    const firstRandomX = Math.floor(Math.random() * 500) + 10;
+      blastUniverse(3000);
 
-    moveAndReturnCharacter(listOfLetterObjects[4], 3000, generateInteger10To510(), generateInteger10To510());
-
-    moveAndReturnCharacter(listOfLetterObjects[5], 3000, generateInteger10To510(), generateInteger10To510());
-
-    moveAndReturnCharacter(listOfLetterObjects[6], 3000, generateInteger10To510(), generateInteger10To510());
-
-    moveAndReturnCharacter(listOfLetterObjects[7], 3000, generateInteger10To510(), generateInteger10To510());
-
-    moveAndReturnCharacter(listOfLetterObjects[8], 3000, generateInteger10To510(), generateInteger10To510());
-
-    moveAndReturnCharacter(listOfLetterObjects[9], 3000, generateInteger10To510(), generateInteger10To510());
-
-    moveAndReturnCharacter(listOfLetterObjects[10], 3000, generateInteger10To510(), generateInteger10To510());
-
-    moveAndReturnCharacter(listOfLetterObjects[11], 3000, generateInteger10To510(), generateInteger10To510());
-
-    for (let i = 0; i < 50; i++) {
-      
-      console.log(generateInteger10To510);
-    }
-
-    // blastApartAndReform(listOfLetterObjects.slice(4, 9), 3000);
-
+      blastUniverse(12000);
 
 };
 
@@ -208,8 +205,6 @@ animationCycle();
     return (
       <div>
    
-
-
 <Segment
 className="samsaraArea"
 style={{ minHeight: 500 }}
