@@ -55,6 +55,9 @@ export default class Animation extends React.Component {
         .style('font-family', 'Times')
         .style('font-size', '2em')
         .attr('x', xValue).attr('y', yValue)
+        console.log('character: ' + letters[i]);
+        console.log('xValue: ' + xValue);
+        console.log('yValue: ' + yValue);
         listOfLetterObjects[i].xValue = xValue;
         listOfLetterObjects[i].yValue = yValue;
         listOfLetterObjects[i].character = letters[i];
@@ -83,6 +86,8 @@ export default class Animation extends React.Component {
         const randomXString = String(randomX) + '%';
         let randomY = Math.floor(Math.random() * 98);
         const randomYString = String(randomY) + '%';
+        console.log(arrayOfD3Objects[i]);
+        arrayOfD3Objects[i].attr('x', 0).attr('y', 0)
         arrayOfD3Objects[i]
         .transition()
         .delay(3000)
@@ -90,9 +95,34 @@ export default class Animation extends React.Component {
         .attr('x', randomXString)
         .attr('y', randomYString)
 
-      createAndTransition(samsara, listOfLetterObjects[i].character, randomXString, randomYString, arrayOfD3Objects.xValue, arrayOfD3Objects.yValue);
+     // createAndTransition(samsara, listOfLetterObjects[i].character, randomXString, randomYString, arrayOfD3Objects.xValue, arrayOfD3Objects.yValue);
     }
     // reformWord(arrayOfD3Objects);
+ }
+
+ function moveCharacter(character, delay, newX, newY) {
+  console.log(character);
+  character.transition()
+  .delay(delay)
+.duration(2000)
+  .attr('x', newX)
+  .attr('y', newY)
+
+ }
+
+ function moveAndReturnCharacter(character, delay, newX, newY) {
+  console.log(character);
+  character.transition()
+  .delay(delay)
+.duration(2000)
+  .attr('x', newX)
+  .attr('y', newY)
+  .transition()
+  .delay(delay)
+.duration(2000)
+  .attr('x', character.xValue)
+  .attr('y', character.yValue)
+
  }
 
  function reformWord(arrayWithValuePairs) {
@@ -132,13 +162,15 @@ function animationCycle() {
 
     const theUniverse = `The universe is created and destroyed`;
 
-    createWordOfLetters(samsara, theUniverse, 50, 250 );
+    createWordOfLetters(samsara, theUniverse, 50, 250);
+
+    moveAndReturnCharacter(listOfLetterObjects[7], 3000, 200, 400);
 
     console.log(listOfLetterObjects);
 
-    explodeUniverse(listOfLetterObjects);    
+    // explodeUniverse(listOfLetterObjects);    
 
-    createAndTransition(samsara, 'terwilliger', 55, 180, 80, 70);
+    // createAndTransition(samsara, 'terwilliger', 55, 180, 80, 70);
 
 };
 
