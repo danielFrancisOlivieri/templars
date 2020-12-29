@@ -6,6 +6,10 @@ import Rectangular from "./images/rectangular.jpg"
 import Oriel from "./images/oriel.jpg"
 import Column from "./images/column.jpg"
 import Ribbed from "./images/ribbedVaults.jpg"
+import Arch from "./images/arch.jpg"
+import Arch2 from "./images/invertedColors.jpg"
+import woodenDoor from "./images/woodenDoor.jpg"
+import ReactCompareImage from 'react-compare-image';
 import LibraryCongress from "./images/libraryCongress.jpg"
 import './style/architecture.css'
 
@@ -17,8 +21,12 @@ const architecture = ({data, location}) => {
 <h1 className='architectureLexiconTitle' > Architectural Lexicon </h1>  
 
 <p className='architectureParagraph' >
-In addition wonder, my reaction to most great architectural works is, "Wow, that seems like so much work. Why would anyone bother doing that?" Building is exhausting. It seems impossible that anyone could do this. The most rundown, beaten up high rise is a human achievement. It's hard to escape architecture. I enjoy finding language to fix onto the things that I used to barely notice. Once I know the name of this type of column or that sort of window, I notice them in a new way. What had once been the monotonous or even interesting backdrop gets pulled forward—the language does the pulling—to become objects of my attention. I can read buildings like someone who's just learned braille. What was an unintelligible bunch of symbols now becomes legible. You recognize them like friends in a crowded room. There's a whole new dimension to that same walk that you've taken so many times before. It asks you to give attention to the background to realize that we live among these things, dream among them, enjoy among them, and now can see them with a new face. It lets you sweep over that same old world with your new mind. To pull new experiences out of that same old reality. 
-</p>
+The buildings that I passed by everyday had always had their tympanum pediments, always had their abutments and pilasters and piers, their patera and skirting. But now armed with these words these features formed together out of what had been mere unintelligble backdrop into vivid scenes, into a new dimension to pay attention to. I now recognized these features like a friend in a crowded room. 
+ What was an unintelligible bunch of symbols now becomes legible. You recognize them like friends in a crowded room. There's a whole new dimension to that same walk that you've taken so many times before. It asks you to give attention to the background to realize that we live among these things, dream among them, enjoy among them, and now can see them with a new face. It lets you sweep over that same old world with your new mind. To pull new experiences out of that same old reality.  
+      Architecture will be a part of our lives whether we notice it or not. For our entire lives we will be walking among gabled roofs and skirting and patera and broken tympanum pediments and under console ancons. We cannot help but live between these things, within them. We have this particular spot of world to walk, these buildings that will form our surrounds whether we notice it or not. I think our lives are richer, a little fuller, a little less blind, if we do notice. It's one more dimension for us to see the magnitude of the world, the magnitude that's right there under our noses. Every street a gallery, every walk an exploration, every day another chance to discover something new out of the world's old facades.  
+           That architecture book handed me a mouthwatering lexicon and that lexicon handed me an entire city, an entire world, of meaning I was suddenly attuned to, like an extra eye finally opening after having been closed since birth. If growth means anything, it means this.
+           
+           </p>
 <br></br>
 
 <h2> Windows </h2>
@@ -65,6 +73,10 @@ In addition wonder, my reaction to most great architectural works is, "Wow, that
 <Image src={Ribbed} rounded />
 <br></br>
 <br></br>
+
+<ReactCompareImage leftImage={Arch} rightImage={Arch2} />;
+
+<ReactCompareImage leftImage={woodenDoor} rightImage={Arch} />;
 
 <h2> Bibliography </h2>
 
