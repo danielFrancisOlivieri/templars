@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Segment } from 'semantic-ui-react'
+import { Image } from 'semantic-ui-react'
 import Layout from "../components/layout"
 import Dormer from "./images/dormerWindows.jpeg"
 import Rectangular from "./images/rectangular.jpg"
@@ -18,6 +18,12 @@ import './style/architecture.css'
 const architecture = ({data, location}) => {
 
     return (
+        <div>
+
+<ReactCompareImage leftImage={LibraryCongress} rightImage={labelledLibraryCongress}
+sliderPositionPercentage=".5"
+/>;
+        
 <Layout location={location} title={'Literature+Code'}>
 <h1 className='architectureLexiconTitle' > Architectural Lexicon </h1>  
 
@@ -91,7 +97,7 @@ Pictures supplied by Pixabay, Life of Pix, Guduru Ajay bhargav, Snapwire and fou
 </p>
 
 </Layout>
-
+</div>
     )
 
 
