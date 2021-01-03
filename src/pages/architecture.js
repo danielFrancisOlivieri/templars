@@ -10,7 +10,8 @@ import Arch from "./images/arch.jpg"
 import Arch2 from "./images/invertedColors.jpg"
 import woodenDoor from "./images/woodenDoor.jpg"
 import ReactCompareImage from 'react-compare-image';
-import LibraryCongress from "./images/libraryCongress.jpg"
+import LibraryCongress from "./images/croppedLibraryCongress.jpg"
+import labelledLibraryCongress from "./images/labelledLibraryCongress.jpg";
 import './style/architecture.css'
 
 
@@ -56,7 +57,9 @@ The buildings that I passed by everyday had always had their tympanum pediments,
 
 <h3> Library of Congress </h3>
 <p> overwhelming </p>
-<Image src={LibraryCongress} rounded />
+<ReactCompareImage leftImage={LibraryCongress} rightImage={labelledLibraryCongress}
+sliderPositionPercentage=".5"
+/>;
 <br></br>
 <br></br>
 
@@ -74,9 +77,9 @@ The buildings that I passed by everyday had always had their tympanum pediments,
 <br></br>
 <br></br>
 
-<ReactCompareImage leftImage={Arch} rightImage={Arch2} />;
-
-<ReactCompareImage leftImage={woodenDoor} rightImage={Arch} />;
+<ReactCompareImage leftImage={woodenDoor} rightImage={Arch}
+sliderPositionPercentage=".95"
+/>;
 
 <h2> Bibliography </h2>
 
@@ -84,7 +87,7 @@ The buildings that I passed by everyday had always had their tympanum pediments,
 Information comes from <i>Reading Architecture: a Visual Lexicon</i> by Owen Hopkins. 
 </p>
 <p> 
-Pictures supplied by Pixabay, Life of Pix, Guduru Ajay bhargav, Snapwire and found through<a src="https://www.pexels.com/" >Pexels</a>. 
+Pictures supplied by Pixabay, Life of Pix, Guduru Ajay bhargav, Snapwire and found through<a href="https://www.pexels.com/" >Pexels</a>. 
 </p>
 
 </Layout>
