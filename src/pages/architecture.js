@@ -6,6 +6,9 @@ import Rectangular from "./images/rectangular.jpg"
 import Oriel from "./images/oriel.jpg"
 import Column from "./images/column.jpg"
 import Ribbed from "./images/ribbedVaults.jpg"
+import LabelledRibbedVault from "./images/labelledRibbedVault.png"
+import BookStairs from "./images/bookStairs.jpg"
+import LabelledBookStairs from "./images/labelledBookStairs.jpg"
 import Arch from "./images/arch.jpg"
 import Arch2 from "./images/invertedColors.jpg"
 import woodenDoor from "./images/woodenDoor.jpg"
@@ -23,7 +26,19 @@ const architecture = ({data, location}) => {
 <ReactCompareImage leftImage={LibraryCongress} rightImage={labelledLibraryCongress}
 sliderPositionPercentage=".5"
 />;
-        
+<h2> Library of Congress </h2>
+
+<ReactCompareImage leftImage={BookStairs} rightImage={LabelledBookStairs}
+sliderPositionPercentage=".5"
+/>;
+<h2> Stairs </h2>
+
+<ReactCompareImage leftImage={Ribbed} rightImage={LabelledRibbedVault}
+sliderPositionPercentage=".5"
+/>;
+<h2> Ribbed Vault </h2>
+
+
 <Layout location={location} title={'Literature+Code'}>
 <h1 className='architectureLexiconTitle' > Architectural Lexicon </h1>  
 
