@@ -35,10 +35,9 @@ const aphorisms = ({ data, location }) => {
       <br /> <br />
       <Animation></Animation>
       <br /> <br />
-      <FourCorners></FourCorners>
-      <br /> <br />
       <MindKiller></MindKiller>
-<br /> <br />
+      <br /> <br />
+      <FourCorners></FourCorners>
 
     </div>
   )

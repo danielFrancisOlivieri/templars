@@ -38,6 +38,13 @@ sliderPositionPercentage=".5"
 />;
 <h2> Ribbed Vault </h2>
 
+<Image src={Dormer} rounded useMap='#dormerMap' />
+<h2> Dormer Windows </h2>
+
+<map name="dormerMap">
+    <area target="_blank" alt="Rooflet" title="Rooflet" href="https://www.image-map.net/" coords="683,442,341,715,344,750,409,769,899,769,1186,436,1205,436" shape="poly" />
+    <area target="_blank" alt="Glass" title="Glass" href="https://www.wikiwand.com/en/Dune:_House_Atreides" coords="883,1166,413,771" shape="rect" />
+</map>
 
 <Layout location={location} title={'Literature+Code'}>
 <h1 className='architectureLexiconTitle' > Architectural Lexicon </h1>  
