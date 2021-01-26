@@ -25,26 +25,22 @@ const architecture = ({data, location}) => {
 
 <ReactCompareImage leftImage={LibraryCongress} rightImage={labelledLibraryCongress}
 sliderPositionPercentage=".5"
-/>;
-<h2> Library of Congress </h2>
+/>
 
 <ReactCompareImage leftImage={BookStairs} rightImage={LabelledBookStairs}
 sliderPositionPercentage=".5"
-/>;
-<h2> Stairs </h2>
-
+/>
 <ReactCompareImage leftImage={Ribbed} rightImage={LabelledRibbedVault}
 sliderPositionPercentage=".5"
-/>;
-<h2> Ribbed Vault </h2>
+/>
 
+{/*
 <Image src={Dormer} rounded useMap='#dormerMap' />
 <h2> Dormer Windows </h2>
-
-<map name="dormerMap">
+ <map name="dormerMap">
     <area target="_blank" alt="Rooflet" title="Rooflet" href="https://www.image-map.net/" coords="683,442,341,715,344,750,409,769,899,769,1186,436,1205,436" shape="poly" />
     <area target="_blank" alt="Glass" title="Glass" href="https://www.wikiwand.com/en/Dune:_House_Atreides" coords="883,1166,413,771" shape="rect" />
-</map>
+</map> */}
 
 <Layout location={location} title={'Literature+Code'}>
 <h1 className='architectureLexiconTitle' > Architectural Lexicon </h1>  
@@ -66,7 +62,7 @@ The buildings that I passed by everyday had always had their tympanum pediments,
 <br></br>
 
 <h3> Oriel Windows </h3>
-<p> neato </p>
+<p> An oriel window is a form of bay window which protrudes from the main wall of a building but does not reach to the ground. </p>
 <Image src={Oriel} rounded />
 <br></br>
 <br></br>
@@ -78,7 +74,7 @@ The buildings that I passed by everyday had always had their tympanum pediments,
 <br></br>
 
 <h3> Column </h3>
-<p> not a row but a column </p>
+<p> A vertical element, usually a rounded shaft with a capital and a base, which in most cases serves as a support.</p>
 <Image src={Column} rounded />
 <br></br>
 <br></br>
@@ -100,14 +96,14 @@ sliderPositionPercentage=".5"
 
 <h2> Vault </h2>
 <h3> Ribbed Vaults </h3>
-<p> Really neat stuff </p>
+<p> A rib vault or ribbed vault is an architectural feature for covering a wide space, such as a church nave, composed of a framework of crossed or diagonal arched ribs.</p>
 <Image src={Ribbed} rounded />
 <br></br>
 <br></br>
 
-<ReactCompareImage leftImage={woodenDoor} rightImage={Arch}
+{/* <ReactCompareImage leftImage={woodenDoor} rightImage={Arch}
 sliderPositionPercentage=".95"
-/>;
+/>; */}
 
 <h2> Bibliography </h2>
 
