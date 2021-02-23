@@ -11,6 +11,7 @@ const Layout = ({ location, title, children }) => {
   
   if (location.pathname === rootPath) {
     header = (
+      <center>
       <h1
         style={{
           ...scale(1.5),
@@ -28,9 +29,11 @@ const Layout = ({ location, title, children }) => {
           {title}
         </Link>
       </h1>
+      </center>
     )
   } else {
     header = (
+      <center>
       <h1
         style={{
           fontFamily: `Montserrat, sans-serif`,
@@ -47,6 +50,7 @@ const Layout = ({ location, title, children }) => {
           {title}
         </Link>
       </h1>
+      </center>
     )
   }
   

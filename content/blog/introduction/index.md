@@ -4,10 +4,6 @@ date: "2020-05-01T22:12:03.284Z"
 description: Landing Page
 ---
 
-> "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment."
-> <br/>
->         - Ralph Waldo Emerson
-
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I don't think in paragraphs. Paragraphs seem to be thought gussied up in its Sunday best and standing still at attention. They have clear beginnings, clear lines of argument, a logical movement. Thought in action rarely behaves so well. Each thought truncates the one before it. My inner monologue is forever interrupting itself. 
 

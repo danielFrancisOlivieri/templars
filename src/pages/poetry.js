@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import { Popup } from 'semantic-ui-react'
 import './style/poetry.css'
 import Media from 'react-media';
+import Navbar from "../components/navbar"
 import 'semantic-ui-css/semantic.min.css'
 import AuthorCard  from '../components/author'
 import ITooDislikeIt from '../components/poems/iTooDislikeIt.js'
@@ -10,7 +11,9 @@ import ITooDislikeIt from '../components/poems/iTooDislikeIt.js'
 const poetry = ({data, location}) => {
 
   return (
-    <Layout location={location} title={'Literature+Code'}>
+    <div>
+      <Navbar></Navbar>
+    <Layout location={location} title={''}>
    <h1 className='poetryTitle' > The Appreciation of Poetry </h1>    
   <p>
    The poet <Popup  on='click' trigger={<span className='poetryUnderlinedText'  > Ben Lerner</span>}> <AuthorCard meta={'Poet and Novelist'} description={'Guggenhiem Fellow, MacArthur Fellow, Finalist for the National Book Award'} image={'https://images.squarespace-cdn.com/content/v1/5495fc96e4b0d669a5b4ba80/1468682922746-UM4ZZNE4UQMBNYK5QSIN/ke17ZwdGBToddI8pDm48kIkGgJEtk9eTMNWBgWK8yYR7gQa3H78H3Y0txjaiv_0faShnVfr-ySw9qgw5FxrvMzL5XwEKbTsZ74nkctAu9id75n5hQOsnYPWZCBGHRzfSeoqS5JAWrnb1436X_b_yVZrfa1Z6IeUrCPboCAmmHZnmK5I6TQGQLFZ5GyEwoB33wfIIdgHU0fybch_j5WC5ag/Ben_Lerner+smaller.jpg'} name='Lerner' > </AuthorCard>
@@ -177,6 +180,7 @@ And sure enough, it was and it did.
 </pre>
 
     </Layout>
+    </div>
   )
 }
 
