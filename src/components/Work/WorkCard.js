@@ -1,7 +1,7 @@
 import React from 'react'
-import { Card, Icon, Image } from 'semantic-ui-react'
+import { Card, Icon } from 'semantic-ui-react'
 import WorkType from "./WorkType"
-import './style/cardStyle.css'
+import './style/cardstyle.css'
 
 const WorkCard = (props) => (
   <Card className="cardStyle" fluid  href={props.link} >
