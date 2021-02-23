@@ -13,3 +13,7 @@
     font-weight: bolder;
     float: right;
 }
+
+.navItem:hover {
+    color: #ff7247;
+}

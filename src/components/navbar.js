@@ -23,20 +23,14 @@ style={{
 
 
   <Menu.Menu position="right">
-  <Menu.Item href='../hunt/' >
-  <p className="navItem" > Hunt </p>
-  </Menu.Item>
-  <Menu.Item href='../poetry/'>
-  <p className="navItem" > Poetry </p>
-  </Menu.Item>
-  <Menu.Item href='../FullMap/'>
-  <p className="navItem" > Map </p>
+  <Menu.Item href='../Work/' >
+  <p className="navItem" > Projects </p>
   </Menu.Item>
   <Menu.Item href='../TableOfContents/'>
-  <p className="navItem" > Table of Contents </p>
+  <p className="navItem" > Posts </p>
   </Menu.Item>
-  <Menu.Item className="navItem" href='../aphorisms/'>
-  <p className="navItem" > Aphorisms </p>
+  <Menu.Item href=''>
+  <p className="navItem" > Contact </p>
   </Menu.Item>
   </Menu.Menu>
 

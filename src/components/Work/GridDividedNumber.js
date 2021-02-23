@@ -93,6 +93,14 @@ link = {"https://sonnets-74afc.web.app/"}
         />
       </Grid.Column>
       <Grid.Column width={4} >
+      <WorkCard 
+title = {"Illustrated Aphorisms"}
+image = {"https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/generations.PNG"}
+type = {"Passion Poject"}
+description = {"The words shift to match their meanings"}
+link = {"/aphorisms"}
+        />
+
       </Grid.Column>
     </Grid.Row>
 
