@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import Navbar from "./navbar"
 import { rhythm, scale } from "../utils/typography"
 import './style/layout.css'
 
@@ -62,11 +61,11 @@ const Layout = ({ location, title, children }) => {
       }}
     >
 
+<br></br>
+
 <header>{header}</header>
 
 <br></br>
-
-      <Navbar></Navbar>
 
       <main>{children}</main>
 

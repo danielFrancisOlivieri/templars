@@ -1,4 +1,12 @@
-a {
+.fullNavbar {
+    align-content: right;
+}
+
+.navItem {
     margin: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    align-content: right;
+    color: #71779a;
+    font-weight: bolder;
+    float: right;
 }

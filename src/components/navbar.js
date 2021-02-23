@@ -1,10 +1,11 @@
 import React from "react"
 import { rhythm, scale } from "../utils/typography"
-import { Menu } from 'semantic-ui-react'
+import { Menu, Input } from 'semantic-ui-react'
 import './style/navbar.css'
 
 const Navbar = () => {
   // const rootPath = `${__PATH_PREFIX__}/`
+
 return (
 <div
 style={{
@@ -14,24 +15,32 @@ style={{
   }}
 >
 
-<Menu secondary>
-  <Menu.Item>
-  <p> <a className='navbarItem' href='../hunt/' > Hunt </a> </p>
-  </Menu.Item>
-  <Menu.Item>
-  <p> <a className='navbarItem' href='../poetry/' > Poetry </a> </p>
-  </Menu.Item>
-  <Menu.Item>
-  <p> <a className='navbarItem' href='../FullMap/' > Map </a>  </p>
-  </Menu.Item>
-  <Menu.Item>
-  <p> <a className='navbarItem' href='../TableOfContents/' > Table of Contents </a> </p>
-  </Menu.Item>
-  <Menu.Item>
-  <p> <a className='navbarItem' href='../aphorisms/' > Aphorisms </a> </p>
-  </Menu.Item>
-</Menu>
+<Menu secondary position='right' className="fullNavbar" >
 
+<Menu.Item href='/' >
+  <p className="navItem" > Home </p>
+  </Menu.Item>
+
+
+  <Menu.Menu position="right">
+  <Menu.Item href='../hunt/' >
+  <p className="navItem" > Hunt </p>
+  </Menu.Item>
+  <Menu.Item href='../poetry/'>
+  <p className="navItem" > Poetry </p>
+  </Menu.Item>
+  <Menu.Item href='../FullMap/'>
+  <p className="navItem" > Map </p>
+  </Menu.Item>
+  <Menu.Item href='../TableOfContents/'>
+  <p className="navItem" > Table of Contents </p>
+  </Menu.Item>
+  <Menu.Item className="navItem" href='../aphorisms/'>
+  <p className="navItem" > Aphorisms </p>
+  </Menu.Item>
+  </Menu.Menu>
+
+</Menu>
 
 </div>
 )
