@@ -4,6 +4,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import Navbar from "../components/navbar"
 
 
 const TableOfContents = ({ data, location }) => {
@@ -11,10 +12,10 @@ const TableOfContents = ({ data, location }) => {
   const posts = data.allMarkdownRemark.edges
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <div>
+      <Navbar></Navbar>
+    <Layout location={location} title={'Blog Posts'}>
       <SEO title="All posts" />
-
-      <Bio />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -41,7 +42,10 @@ const TableOfContents = ({ data, location }) => {
           </article>
         )
       })}
+<br /> <br /> <br /> <br /> <br /> <br />
+<Bio />
     </Layout>
+    </div>
   )
 }
 

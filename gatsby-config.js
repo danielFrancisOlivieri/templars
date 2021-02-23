@@ -3,12 +3,12 @@ module.exports = {
     title: `The Templars`,
     author: {
       name: `Daniel Olivieri`,
-      summary: `who lives and works in Philadelphia building not useful things.`,
+      summary: `who lives in Philadelphia and works for Vanguard.`,
     },
-    description: `A simple website based on Dan Jones' book.`,
+    description: `A place for code to meet literature.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `simplyTooLitBot`,
     },
   },
   plugins: [

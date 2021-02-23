@@ -4,6 +4,7 @@ import 'semantic-ui-css/semantic.min.css'
 import "tooltip-sequence/dist/index.css";
 import './style/hunt.css';
 import './../components/style/layout.css'
+import Navbar from "../components/navbar"
 import { rhythm } from "../utils/typography"
 import Generation from '../components/generation.js';
 import Animation from '../components/aphorisms/twoWays';
@@ -15,6 +16,8 @@ const aphorisms = ({ data, location }) => {
 
 
   return (
+    <div>
+      <Navbar></Navbar>
     <div
       style={{
         marginLeft: `auto`,
@@ -39,6 +42,7 @@ const aphorisms = ({ data, location }) => {
       <br /> <br />
       <FourCorners></FourCorners>
 
+    </div>
     </div>
   )
 }

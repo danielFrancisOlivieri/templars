@@ -13,7 +13,9 @@ const BlogIndex = ({ data, location }) => {
 
     <div>
     <Navbar></Navbar>
-    <Layout location={location} title={'Literature+Code'} >
+    <Layout location={location} title={''} >
+      <h1 className="indexTitle" > Literature+Code </h1>
+      <br></br>
       <SEO title="Essay" />
          <section 
          style={{

@@ -1,6 +1,6 @@
 import React from "react"
 import { rhythm, scale } from "../utils/typography"
-import { Menu, Input } from 'semantic-ui-react'
+import { Menu } from 'semantic-ui-react'
 import './style/navbar.css'
 
 const Navbar = () => {
