@@ -69,8 +69,6 @@ const Layout = ({ location, title, children }) => {
 
 <header>{header}</header>
 
-<br></br>
-
       <main>{children}</main>
 
     </div>
