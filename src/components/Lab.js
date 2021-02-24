@@ -1,9 +1,10 @@
 import React from "react"
+import { useState } from "react";
+import { Button } from 'semantic-ui-react'
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import * as d3 from "d3";
 import 'semantic-ui-css/semantic.min.css'
 import "tooltip-sequence/dist/index.css";
-import { Button } from 'semantic-ui-react'
-import * as d3 from "d3";
-
 
 function grow() {
   
@@ -19,10 +20,13 @@ function grow() {
 export default class Lab extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {date: new Date()};
+    this.state = {
+      isShown: false,
+      date: new Date()};
   }
 
   componentDidMount() {
+
     var data = [210, 36, 322, 59, 123, 350, 290];
 
 var width = 400, height = 300;
@@ -44,10 +48,11 @@ bars.attr("x", 10)
     .attr("height", 30);
   }
 
-  componentWillUnmount() {
-  }
 
   render() {
+
+    const [show, setShow] = useState(false);
+
     return (
       <div>
         <h1>Ciao, mondo!</h1>
@@ -65,6 +70,17 @@ bars.attr("x", 10)
 <svg className='graphCanvas' height={700} width={700} style={{backgroundColor: '#4D7EA8'}} >
  
 </svg> 
+
+<RoughNotationGroup show={show} onClick={console.log('testing')} >
+  <RoughNotation type="box">Hello,</RoughNotation>
+  <RoughNotation type="underline">This is</RoughNotation>
+  <RoughNotation type="underline">a Tes t</RoughNotation>
+</RoughNotationGroup>
+
+
+<button className="button" type="button" onClick={() => setShow(!show)}>
+          Annotate
+        </button>
 
       </div>
     );

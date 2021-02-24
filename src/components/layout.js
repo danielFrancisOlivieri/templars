@@ -4,34 +4,34 @@ import { rhythm, scale } from "../utils/typography"
 import './style/layout.css'
 
 
-const Layout = ({ location, title, children }) => {
+const Layout = ({ title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
 
   let header;
   
-  if (location.pathname === rootPath) {
-    header = (
-      <center>
-      <h1
-        style={{
-          ...scale(1.5),
-          marginBottom: rhythm(.5),
-          marginTop: 0,
-        }}
-      >
-        <Link
-          style={{
-            boxShadow: `none`,
-            color: `inherit`,
-          }}
-          to={`/`}
-        >
-          {title}
-        </Link>
-      </h1>
-      </center>
-    )
-  } else {
+  // if (location.pathname === rootPath) {
+  //   header = (
+  //     <center>
+  //     <h1
+  //       style={{
+  //         ...scale(1.5),
+  //         marginBottom: rhythm(.5),
+  //         marginTop: 0,
+  //       }}
+  //     >
+  //       <Link
+  //         style={{
+  //           boxShadow: `none`,
+  //           color: `inherit`,
+  //         }}
+  //         to={`/`}
+  //       >
+  //         {title}
+  //       </Link>
+  //     </h1>
+  //     </center>
+  //   )
+  // } else {
     header = (
       <center>
       <h1
@@ -52,7 +52,7 @@ const Layout = ({ location, title, children }) => {
       </h1>
       </center>
     )
-  }
+  
   
   return (
     <div

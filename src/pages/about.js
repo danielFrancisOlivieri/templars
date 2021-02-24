@@ -14,6 +14,11 @@ const about = ({ data, location }) => {
         fontFamily: `Montserrat, sans-serif`
     }
 
+    const bioStyle = {
+      position: 'absolute',
+      bottom: '0',
+    }
+
   return (
     <div>
         <Stripe />
@@ -38,7 +43,7 @@ const about = ({ data, location }) => {
       I also just like to share my writing with people. 
       </p>
       <br /> <br />
-      <Bio />
+      <Bio style={bioStyle} />
   
 
     </div>

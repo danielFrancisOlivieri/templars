@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { useState } from "react";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Swipeable } from 'react-swipeable'
@@ -7,14 +8,18 @@ import Mailchimp from 'react-mailchimp-form'
 import Navbar from "../components/navbar"
 import { Image } from 'semantic-ui-react'
 import Stripe from '../components/stripe'
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import DonutGraph from '../components/graphs/donutGraph'
 import ListItem from "../components/listicle/listItem";
 import ScatterGraph from '../components/graphs/scatterGraph';
 import Generation from '../components/generation';
+import { TestRNG } from '../components/roughNotationGroup'
 import './style/pageHeader.css';
 
 const BlogIndex = ({ data, location }) => {
+
+  const [show, setShow] = useState(false);
+
+  const isShown = false;
 
   const componentList = [
     {
@@ -27,7 +32,6 @@ const BlogIndex = ({ data, location }) => {
     },
   ]
 
-  console.log(componentList[0].number);
 
   return (
     <Swipeable onSwiped={(event) => console.log(event)}  >
@@ -64,11 +68,9 @@ content={<DonutGraph /> } />
 number={3}
 content={<ScatterGraph /> } />
 
-<br />
-
-<RoughNotation type="box" show={true} color={'yellow'} >
-  Hello RoughNotation
-</RoughNotation>
+<ListItem
+number={4}
+content={<TestRNG /> } />
 
 <br /> <br /> <br />
 

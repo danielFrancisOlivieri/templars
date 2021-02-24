@@ -5,15 +5,23 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import Navbar from "../components/navbar"
+import './style/pageHeader.css';
 
 
 const TableOfContents = ({ data, location }) => {
   const posts = data.allMarkdownRemark.edges
 
+  const linkStyle = {
+    boxShadow: `none`,
+    fontSize: `2em`
+  }
+
   return (
     <div>
       <Navbar></Navbar>
-    <Layout location={location} title={'Blog Posts'}>
+    <Layout location={location} title={''}>
+      <h1 className='pageHeader'>My Writing</h1>
+      <br /> <br /> <br />
       <SEO title="All posts" />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
@@ -25,7 +33,7 @@ const TableOfContents = ({ data, location }) => {
                   marginBottom: rhythm(1 / 4),
                 }}
               >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                <Link style={linkStyle} to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
@@ -38,7 +46,9 @@ const TableOfContents = ({ data, location }) => {
                 }}
               />
             </section>
+            <br />
           </article>
+          
         )
       })}
 <br /> <br /> <br /> <br /> <br /> <br />
