@@ -26,11 +26,6 @@ export default class Animation extends React.Component {
        .attr('x', 157)
        .attr('y', 100);
 
-       let firstI = dune.append('text')
-       .text('I')
-       .attr('x', 150)
-       .attr('y', 100);
-
        let fear = dune.append('text')
        .text('Fear is the little-death that brings total obliteration.')
        .attr('x', 150)
@@ -41,20 +36,10 @@ export default class Animation extends React.Component {
        .attr('x', 157)
        .attr('y', 200)
 
-       let secondI = dune.append('text')
-       .text('I')
-       .attr('x', 150)
-       .attr('y', 200);
-
        let permit = dune.append('text')
        .text('  will permit it to pass over me and through me.')
        .attr('x', 157)
        .attr('y', 250)
-
-       let thirdI = dune.append('text')
-       .text('I')
-       .attr('x', 150)
-       .attr('y', 250);
 
        let past = dune.append('text')
        .text('And when it has gone past' )
@@ -65,11 +50,6 @@ export default class Animation extends React.Component {
        .text('will turn the inner eye to see its path.')
        .attr('x', 309)
        .attr('y', 300)
-      
-       let fourthI = dune.append('text')
-       .text('I')
-       .attr('x', 302)
-       .attr('y', 300);
 
        let prayer = dune.append('text')
        .text('Where the fear has gone there will be nothing.')
@@ -80,11 +60,6 @@ export default class Animation extends React.Component {
        .text('Only')
        .attr('x', 150)
        .attr('y', 400)
-
-       let fifthI = dune.append('text')
-       .text('I')
-       .attr('x', 182)
-       .attr('y', 400);
 
        let remain = dune.append('text')
        .text('will remain.')

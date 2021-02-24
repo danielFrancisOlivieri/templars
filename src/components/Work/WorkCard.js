@@ -5,7 +5,7 @@ import './style/cardstyle.css'
 
 const WorkCard = (props) => (
   <Card className="cardStyle" fluid  href={props.link} >
-   <img src={props.image} /> 
+   <img src={props.image} alt={'of the webpage the card describes'} /> 
     <Card.Content>
       <Card.Header>{props.title}</Card.Header>
       <Card.Meta><WorkType isProfessional = {props.isProfessional} /> </Card.Meta>

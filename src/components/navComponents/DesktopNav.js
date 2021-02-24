@@ -32,10 +32,10 @@ style={{
   <p className="navItem" > Projects </p>
   </Menu.Item>
   <Menu.Item href='../TableOfContents/'>
-  <p className="navItem" > Posts </p>
+  <p className="navItem" > Writing </p>
   </Menu.Item>
-  <Menu.Item href=''>
-  <p className="navItem" > Contact </p>
+  <Menu.Item href='../about'>
+  <p className="navItem" > About </p>
   </Menu.Item>
   </Menu.Menu>
 

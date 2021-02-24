@@ -8,7 +8,6 @@ import Navbar from "../components/navbar"
 
 
 const TableOfContents = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
 
   return (

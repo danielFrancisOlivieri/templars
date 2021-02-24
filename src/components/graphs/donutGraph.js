@@ -1,6 +1,5 @@
 import React from "react"
-import { LineChart, XAxis, Tooltip, CartesianGrid, Line } from 'recharts';
-import {Doughnut, Scatter } from 'react-chartjs-2';
+import {Doughnut } from 'react-chartjs-2';
 import 'semantic-ui-css/semantic.min.css'
 
 const DonutGraph = () => {

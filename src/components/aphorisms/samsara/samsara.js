@@ -56,48 +56,6 @@ export default class Animation extends React.Component {
     }
  }
 
- function explodeWord(arrayOfD3Objects) {
-    for (let i = 0; i < arrayOfD3Objects.length; i++ ) {
-        let randomX = Math.floor(Math.random() * 98);
-        const randomXString = String(randomX) + '%';
-        let randomY = Math.floor(Math.random() * 98);
-        const randomYString = String(randomY) + '%';
-        arrayOfD3Objects[i].d3Object
-        .transition()
-        .delay(3000)
-      .duration(2000)
-        .attr('x', randomXString)
-        .attr('y', randomYString)
-    }
- }
-
- function explodeUniverse(arrayOfD3Objects) {
-    for (let i = 4; i < 12; i++ ) {
-        let randomX = Math.floor(Math.random() * 98);
-        const randomXString = String(randomX) + '%';
-        let randomY = Math.floor(Math.random() * 98);
-        const randomYString = String(randomY) + '%';
-        arrayOfD3Objects[i].attr('x', 0).attr('y', 0)
-        arrayOfD3Objects[i]
-        .transition()
-        .delay(3000)
-      .duration(2000)
-        .attr('x', randomXString)
-        .attr('y', randomYString)
-
-    }
-
- }
-
- function moveCharacter(character, delay, newX, newY) {
-  character.transition()
-  .delay(delay)
-.duration(2000)
-  .attr('x', newX)
-  .attr('y', newY)
-
- }
-
  function moveAndReturnCharacter(character, delay, newX, newY) {
   character.transition()
   .delay(delay)
@@ -109,49 +67,6 @@ export default class Animation extends React.Component {
 .duration(2000)
   .attr('x', character.xValue)
   .attr('y', character.yValue)
- }
-
- function blastApartAndReform(characters, delay) {
-
-  for (let i = 0; i < characters.length; i++) {
-    let randomX = Math.floor(Math.random() * 98);
-        const randomXString = String(randomX) + '%';
-        let randomY = Math.floor(Math.random() * 98);
-        const randomYString = String(randomY) + '%';
-
-    moveAndReturnCharacter(characters[i], delay, randomXString, randomYString);
-  }
- }
-
- function reformWord(arrayWithValuePairs) {
-
-    for (let i = 0; i < arrayWithValuePairs.length; i++ ) {
-        arrayWithValuePairs[i]
-        .transition()
-        .attr('color', 'blue')
-        .delay(5000)
-        .duration(5000)
-        .attr('x', arrayWithValuePairs[i].xValue)
-        .attr('y', arrayWithValuePairs[i].yValue)
-    }
-
- }
-
- function createAndTransition(svg, string, firstXValue, firstYValue, secondXValue, secondYValue) {
-    svg.append('text')
-    .text(string)
-    .attr('x', firstXValue)
-    .attr('y', firstYValue)
-    .style('font-family', 'Times')
-        .style('font-size', '2em')
-    .transition()
-    .delay(4000)
-    .attr('x', secondXValue)
-    .attr('y', secondYValue)
-    .transition()
-    .delay(4000)
-    .attr('x', 320)
-    .attr('y', 310)
  }
 
  function generateInteger10To510() {

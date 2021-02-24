@@ -9,9 +9,6 @@ import Ribbed from "./images/ribbedVaults.jpg"
 import LabelledRibbedVault from "./images/labelledRibbedVault.png"
 import BookStairs from "./images/bookStairs.jpg"
 import LabelledBookStairs from "./images/labelledBookStairs.jpg"
-import Arch from "./images/arch.jpg"
-import Arch2 from "./images/invertedColors.jpg"
-import woodenDoor from "./images/woodenDoor.jpg"
 import ReactCompareImage from 'react-compare-image';
 import LibraryCongress from "./images/croppedLibraryCongress.jpg"
 import labelledLibraryCongress from "./images/labelledLibraryCongress.jpg";
@@ -33,14 +30,6 @@ sliderPositionPercentage=".5"
 <ReactCompareImage leftImage={Ribbed} rightImage={LabelledRibbedVault}
 sliderPositionPercentage=".5"
 />
-
-{/*
-<Image src={Dormer} rounded useMap='#dormerMap' />
-<h2> Dormer Windows </h2>
- <map name="dormerMap">
-    <area target="_blank" alt="Rooflet" title="Rooflet" href="https://www.image-map.net/" coords="683,442,341,715,344,750,409,769,899,769,1186,436,1205,436" shape="poly" />
-    <area target="_blank" alt="Glass" title="Glass" href="https://www.wikiwand.com/en/Dune:_House_Atreides" coords="883,1166,413,771" shape="rect" />
-</map> */}
 
 <Layout location={location} title={'Literature+Code'}>
 <h1 className='architectureLexiconTitle' > Architectural Lexicon </h1>  

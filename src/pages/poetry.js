@@ -34,11 +34,11 @@ const poetry = ({data, location}) => {
         }}>
           {matches => (
             <Fragment>
-              {matches.small && <iframe width="375px" height="250px" src="https://www.youtube.com/embed/_lK4cX5xGiQ?start=59" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              {matches.small && <iframe title="Funny Tencious D music video small sized" width="375px" height="250px" src="https://www.youtube.com/embed/_lK4cX5xGiQ?start=59" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 }
-              {matches.medium && <iframe width="500px" height="400px" src="https://www.youtube.com/embed/_lK4cX5xGiQ?start=59" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              {matches.medium && <iframe title="Funny Tencious D music video medium sized" width="500px" height="400px" src="https://www.youtube.com/embed/_lK4cX5xGiQ?start=59" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 }
-              {matches.large && <iframe width="100%" height="700px" src="https://www.youtube.com/embed/_lK4cX5xGiQ?start=59" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              {matches.large && <iframe title="Funny Tencious D music video large sized" width="100%" height="700px" src="https://www.youtube.com/embed/_lK4cX5xGiQ?start=59" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 }
             </Fragment>
           )}
@@ -92,7 +92,7 @@ Only one ship is seeking us, a black-
 Sailed unfamiliar, towing at her back
 `}
 <Popup  on='click' trigger={<span className='poetryUnderlinedText'>A huge and birdless silence</span>}>  <Popup.Header>More on Death From Larkin</Popup.Header>
-<p className='subheading' >An Excerpt from <a href='https://www.poetryfoundation.org/poems/48422/aubade-56d229a6e2f07' target="_blank" >Aubade</a></p>
+<p className='subheading' >An Excerpt from <a href='https://www.poetryfoundation.org/poems/48422/aubade-56d229a6e2f07' rel="noreferrer" target="_blank" >Aubade</a></p>
     <Popup.Content>
       <pre>
       {`This is a special way of being afraid
@@ -118,7 +118,7 @@ What initially annoyed me about this poem is exactly what I think makes it not j
 </p>
 
 <p>
-We find another example of words working overtime in the Anglo-Saxon poem "<a href='https://www.wikiwand.com/en/The_Ruin' target="_blank">The Ruin</a>," though in this case it's all the more interesting for being accidental. Anonymously written in the 8th or 9th century, "The Ruin" describes an ancient Roman ruin. However, over the past dozen or so centuries the poem has been subject to some decay and certain fragments are lost. This means that this poem about a ruin is <i>itself</i> a ruin. The structure of the poem is again contributing to its meaning. 
+We find another example of words working overtime in the Anglo-Saxon poem "<a rel="noreferrer" href='https://www.wikiwand.com/en/The_Ruin' target="_blank">The Ruin</a>," though in this case it's all the more interesting for being accidental. Anonymously written in the 8th or 9th century, "The Ruin" describes an ancient Roman ruin. However, over the past dozen or so centuries the poem has been subject to some decay and certain fragments are lost. This means that this poem about a ruin is <i>itself</i> a ruin. The structure of the poem is again contributing to its meaning. 
 </p>
 
 <p>
@@ -132,11 +132,11 @@ As intriguing as the moments when a poem's structure fits its content are the mo
         }}>
           {matches => (
             <Fragment>
-              {matches.small && <iframe width="375px" height="250px" src="https://www.youtube.com/embed/Ep2_0WHogRQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              {matches.small && <iframe title="Inspiring Apple Add with Robin Williams performing a Walt Whitman poem small size" width="375px" height="250px" src="https://www.youtube.com/embed/Ep2_0WHogRQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 }
-              {matches.medium && <iframe width="500px" height="400px" src="https://www.youtube.com/embed/Ep2_0WHogRQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              {matches.medium && <iframe title="Inspiring Apple Add with Robin Williams performing a Walt Whitman poem medium size" width="500px" height="400px" src="https://www.youtube.com/embed/Ep2_0WHogRQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 }
-              {matches.large && <iframe width="100%" height="700" src="https://www.youtube.com/embed/Ep2_0WHogRQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              {matches.large && <iframe  title="Inspiring Apple Add with Robin Williams performing a Walt Whitman poem large size" width="100%" height="700" src="https://www.youtube.com/embed/Ep2_0WHogRQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 }
             </Fragment>
           )}
@@ -154,17 +154,17 @@ recite Lewis Carroll's "<a href='https://www.poetryfoundation.org/poems/42916/ja
         }}>
           {matches => (
             <Fragment>
-              {matches.small && <iframe width="375px" height="250px" src="https://www.youtube.com/embed/oXevJJE0YXQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              {matches.small && <iframe title="Fargo season 2 clip of a character reciting the Jabberwocky poem small sized" width="375px" height="250px" src="https://www.youtube.com/embed/oXevJJE0YXQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 }
-              {matches.medium && <iframe width="500px" height="400px" src="https://www.youtube.com/embed/oXevJJE0YXQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              {matches.medium && <iframe title="Fargo season 2 clip of a character reciting the Jabberwocky poem medium sized" width="500px" height="400px" src="https://www.youtube.com/embed/oXevJJE0YXQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 }
-              {matches.large && <iframe width="100%" height="700" src="https://www.youtube.com/embed/oXevJJE0YXQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              {matches.large && <iframe title="Fargo season 2 clip of a character reciting the Jabberwocky poem large sized" width="100%" height="700" src="https://www.youtube.com/embed/oXevJJE0YXQ" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 }
             </Fragment>
           )}
         </Media>
 <p>
-The poem's playful rhyme scheme and goofy vocabulary contrast rather starkly with the situation they've been dropped into. However, this mismatched pairing of scene and verse allows for a rich new understanding of the poem. Whereas in the hands of Lewis Carroll it had seemed fluffy and upbeat, in the mouth of actor Bokeem Woodbine we hear it as dark and menacing; the death of the jabberwocky now feels visceral and ominous in a way it hadn't before. Compare that scene with, say, <a href='https://danielfrancisolivieri.github.io/Jabberwocky/' target="_blank" >my own</a> rather cute and bright illustration of it.
+The poem's playful rhyme scheme and goofy vocabulary contrast rather starkly with the situation they've been dropped into. However, this mismatched pairing of scene and verse allows for a rich new understanding of the poem. Whereas in the hands of Lewis Carroll it had seemed fluffy and upbeat, in the mouth of actor Bokeem Woodbine we hear it as dark and menacing; the death of the jabberwocky now feels visceral and ominous in a way it hadn't before. Compare that scene with, say, <a href='https://danielfrancisolivieri.github.io/Jabberwocky/' rel="noreferrer" target="_blank" >my own</a> rather cute and bright illustration of it.
 </p>
 
 <p>

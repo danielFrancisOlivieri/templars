@@ -11,11 +11,9 @@ import DonutGraph from '../components/graphs/donutGraph'
 import ListItem from "../components/listicle/listItem";
 import ScatterGraph from '../components/graphs/scatterGraph';
 import Generation from '../components/generation';
-import './style/landingpage.css' 
+import './style/pageHeader.css';
 
 const BlogIndex = ({ data, location }) => {
-
-  const simpleList = ['1', '2', '3', '4', 5];
 
   const componentList = [
     {
@@ -36,7 +34,7 @@ const BlogIndex = ({ data, location }) => {
     <div>
     <Navbar></Navbar>
     <Layout location={location} title={''} >
-      <h1 className="indexTitle" > Literature+Code </h1>
+      <h1 className="pageHeader" > Literature<sup>Code</sup> </h1>
       <br></br>
       <SEO title="Essay" />
          <section 
@@ -44,9 +42,10 @@ const BlogIndex = ({ data, location }) => {
           fontSize: '1.7em'
         }}
          dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
-      <br></br> <br></br>
+      
       <center>
-    
+      <br></br> <br></br>
+      <br></br> <br></br>
 
 <ListItem
 number={1}
@@ -65,7 +64,7 @@ content={<ScatterGraph /> } />
 
 <br />
 
-<RoughNotation type="highlight" show={true} color={'yellow'} >
+<RoughNotation type="box" show={true} color={'yellow'} >
   Hello RoughNotation
 </RoughNotation>
 
