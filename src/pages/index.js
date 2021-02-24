@@ -45,18 +45,7 @@ const BlogIndex = ({ data, location }) => {
          dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
       <br></br> <br></br>
       <center>
-      <Mailchimp
-        action='https://github.us15.list-manage.com/subscribe/post?u=8e1157b53358fc40f9ea3e222&amp;id=0d43dfd99c'
-        fields={[
-          {
-            name: 'EMAIL',
-            placeholder: 'Your email here',
-            type: 'email',
-            required: true
-          }
-        ]}
-        />
-<br /> <br /> <br />
+    
 
 <ListItem
 number={1}
@@ -72,6 +61,20 @@ content={<DonutGraph /> } />
 <ListItem
 number={3}
 content={<ScatterGraph /> } />
+
+<br /> <br /> <br />
+
+<Mailchimp
+        action='https://github.us15.list-manage.com/subscribe/post?u=8e1157b53358fc40f9ea3e222&amp;id=0d43dfd99c'
+        fields={[
+          {
+            name: 'EMAIL',
+            placeholder: 'Your email here',
+            type: 'email',
+            required: true
+          }
+        ]}
+        />
 
 </center>
     </Layout>

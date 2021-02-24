@@ -2,7 +2,7 @@ import React from "react"
 import { rhythm, scale } from "../utils/typography"
 import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 import MobileNav from './navComponents/MobileNav';
-import DesktopNav from './navComponents/desktopNav';
+import DesktopNav from './navComponents/DesktopNav';
 import './style/navbar.css'
 
 const Navbar = () => {
