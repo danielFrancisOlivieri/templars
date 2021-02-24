@@ -6,6 +6,7 @@ import { Swipeable } from 'react-swipeable'
 import Mailchimp from 'react-mailchimp-form'
 import Navbar from "../components/navbar"
 import { Image } from 'semantic-ui-react'
+import Stripe from '../components/stripe'
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import DonutGraph from '../components/graphs/donutGraph'
 import ListItem from "../components/listicle/listItem";
@@ -32,6 +33,7 @@ const BlogIndex = ({ data, location }) => {
     <Swipeable onSwiped={(event) => console.log(event)}  >
 
     <div>
+    <Stripe />
     <Navbar></Navbar>
     <Layout location={location} title={''} >
       <h1 className="pageHeader" > Literature<sup>Code</sup> </h1>
