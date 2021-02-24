@@ -5,9 +5,30 @@ import SEO from "../components/seo"
 import { Swipeable } from 'react-swipeable'
 import Mailchimp from 'react-mailchimp-form'
 import Navbar from "../components/navbar"
+import { Image } from 'semantic-ui-react'
+import DonutGraph from '../components/graphs/donutGraph'
+import ListItem from "../components/listicle/listItem";
+import ScatterGraph from '../components/graphs/scatterGraph';
+import Generation from '../components/generation';
 import './style/landingpage.css' 
 
 const BlogIndex = ({ data, location }) => {
+
+  const simpleList = ['1', '2', '3', '4', 5];
+
+  const componentList = [
+    {
+      component: Generation,
+      number: 7
+    },
+    {
+      component: Generation,
+      number: 45
+    },
+  ]
+
+  console.log(componentList[0].number);
+
   return (
     <Swipeable onSwiped={(event) => console.log(event)}  >
 
@@ -35,8 +56,26 @@ const BlogIndex = ({ data, location }) => {
           }
         ]}
         />
+<br /> <br /> <br />
+
+<ListItem
+number={1}
+content={<Image 
+  src='https://deadline.com/wp-content/uploads/2019/10/stephen-colbert-1.jpg'
+  size='large'
+  />} />
+
+<ListItem
+number={2}
+content={<DonutGraph /> } />
+
+<ListItem
+number={3}
+content={<ScatterGraph /> } />
+
 </center>
     </Layout>
+
     </div>
     </Swipeable>
 
