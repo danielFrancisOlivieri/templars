@@ -49,6 +49,7 @@
     "react-mailchimp-form": "^1.0.2",
     "react-mapbox-gl": "^4.8.6",
     "react-media": "^1.10.0",
+    "react-rough-notation": "^1.0.1",
     "react-swipeable": "^5.5.1",
     "react-typography": "^0.16.19",
     "recharts": "^2.0.8",

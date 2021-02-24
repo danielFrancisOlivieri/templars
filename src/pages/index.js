@@ -6,6 +6,7 @@ import { Swipeable } from 'react-swipeable'
 import Mailchimp from 'react-mailchimp-form'
 import Navbar from "../components/navbar"
 import { Image } from 'semantic-ui-react'
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import DonutGraph from '../components/graphs/donutGraph'
 import ListItem from "../components/listicle/listItem";
 import ScatterGraph from '../components/graphs/scatterGraph';
@@ -61,6 +62,12 @@ content={<DonutGraph /> } />
 <ListItem
 number={3}
 content={<ScatterGraph /> } />
+
+<br />
+
+<RoughNotation type="highlight" show={true} color={'yellow'} >
+  Hello RoughNotation
+</RoughNotation>
 
 <br /> <br /> <br />
 
