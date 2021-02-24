@@ -46,8 +46,11 @@ const BlogIndex = ({ data, location }) => {
          <section 
          style={{
           fontSize: '1.7em'
-        }}
-         dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+        }}>
+
+          Here's a listicle to say what this website's about. 
+        </section>
+          
       
       <center>
       <br></br> <br></br>

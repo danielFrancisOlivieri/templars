@@ -6,12 +6,13 @@ const DonutGraph = () => {
 
     const data = {
         labels: [
-            'Red',
-            'Green',
-            'Yellow'
+            'Insights',
+            'Niche References',
+            'Graphs',
+            'Pure Evil'
         ],
         datasets: [{
-            data: [300, 50, 100],
+            data: [300, 50, 100, 0],
             backgroundColor: [
             '#FF6384',
             '#36A2EB',
@@ -28,7 +29,7 @@ const DonutGraph = () => {
     return (
 
      <div>
-    <h2>Doughnut Example</h2>
+    <h2>What This Site is Made of </h2>
     <Doughnut data={data} />
 
      </div>

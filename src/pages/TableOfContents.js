@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import Navbar from "../components/navbar"
+import Stripe from "../components/stripe"
 import './style/pageHeader.css';
 
 
@@ -18,9 +19,10 @@ const TableOfContents = ({ data, location }) => {
 
   return (
     <div>
+      <Stripe></Stripe>
       <Navbar></Navbar>
     <Layout location={location} title={''}>
-      <h1 className='pageHeader'>My Writing</h1>
+      <h1 className='pageHeader'>Some Writing</h1>
       <br /> <br /> <br />
       <SEO title="All posts" />
       {posts.map(({ node }) => {

@@ -42,7 +42,7 @@ export function TestRNG({ reverseOrder = false }) {
             </i>{" "}
             is called on the group, the annotations are animated in
             <RoughNotation
-                type="strike-through"
+                type="bracket"
                 color="#bf360c"
                 order={reverseOrder ? 1 : false}
               >  order </RoughNotation>.

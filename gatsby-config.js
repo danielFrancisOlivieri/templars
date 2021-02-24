@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `The Templars`,
+    title: `Code+Literature`,
     author: {
       name: `Daniel Olivieri`,
       summary: `who lives in Philadelphia and works for Vanguard.`,
