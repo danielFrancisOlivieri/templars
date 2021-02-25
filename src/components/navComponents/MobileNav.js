@@ -14,7 +14,7 @@ return (
   <Grid.Row href='../Work/' >
   <p className="navItem" > Projects </p>
   </Grid.Row>
-  <Grid.Row href='../TableOfContents/' >
+  <Grid.Row href='../Writing/' >
   <p className="navItem" > Writing </p>
 </Grid.Row>
 <Grid.Row href='../about' >

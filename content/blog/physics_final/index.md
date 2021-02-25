@@ -2,6 +2,7 @@
 title: How to Take a Physics Final
 date: "2020-05-01T22:12:03.284Z"
 description: A Flash Fiction Short Story
+link: https://flashfictionmagazine.com/blog/2016/07/30/take-physics-final/#comments
 ---
 
 

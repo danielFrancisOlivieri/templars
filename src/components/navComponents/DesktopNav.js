@@ -31,7 +31,7 @@ style={{
   <Menu.Item href='../Work/' >
   <p className="navItem" > Projects </p>
   </Menu.Item>
-  <Menu.Item href='../TableOfContents/'>
+  <Menu.Item href='../Writing/'>
   <p className="navItem" > Writing </p>
   </Menu.Item>
   <Menu.Item href='../about'>
