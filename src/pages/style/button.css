@@ -72,14 +72,14 @@ button {
         Focus
   ---------------*/
   
-  .ui.button:focus {
+  button:focus {
     background-color: #CACBCD;
     color: rgba(0, 0, 0, 0.8);
     background-image: '' !important;
     -webkit-box-shadow: '' !important;
             box-shadow: '' !important;
   }
-  .ui.button:focus .icon {
+  button:focus .icon {
     opacity: 0.85;
   }
   
@@ -87,8 +87,8 @@ button {
         Down
   ---------------*/
   
-  .ui.button:active,
-  .ui.active.button:active {
+  button:active,
+  .active.button:active {
     background-color: #BABBBC;
     background-image: '';
     color: rgba(0, 0, 0, 0.9);
