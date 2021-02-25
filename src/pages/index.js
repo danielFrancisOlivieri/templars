@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { useState } from "react";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Swipeable } from 'react-swipeable'
@@ -10,28 +9,12 @@ import { Image } from 'semantic-ui-react'
 import Stripe from '../components/stripe'
 import DonutGraph from '../components/graphs/donutGraph'
 import ListItem from "../components/listicle/listItem";
-import ScatterGraph from '../components/graphs/scatterGraph';
+import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
 import Generation from '../components/generation';
 import { TestRNG } from '../components/roughNotationGroup'
 import './style/pageHeader.css';
 
 const BlogIndex = ({ data, location }) => {
-
-  const [show, setShow] = useState(false);
-
-  const isShown = false;
-
-  const componentList = [
-    {
-      component: Generation,
-      number: 7
-    },
-    {
-      component: Generation,
-      number: 45
-    },
-  ]
-
 
   return (
     <Swipeable onSwiped={(event) => console.log(event)}  >
@@ -99,6 +82,10 @@ title="What I'm Going For"
 content={<TestRNG /> } />
 
 <br /> <br /> <br />
+
+{ ReactHtmlParser(testHTML) }
+
+<br /> <br />
 
 <Mailchimp
         action='https://github.us15.list-manage.com/subscribe/post?u=8e1157b53358fc40f9ea3e222&amp;id=0d43dfd99c'

@@ -51,8 +51,6 @@ bars.attr("x", 10)
 
   render() {
 
-    const [show, setShow] = useState(false);
-
     return (
       <div>
         <h1>Ciao, mondo!</h1>
@@ -70,17 +68,6 @@ bars.attr("x", 10)
 <svg className='graphCanvas' height={700} width={700} style={{backgroundColor: '#4D7EA8'}} >
  
 </svg> 
-
-<RoughNotationGroup show={show} onClick={console.log('testing')} >
-  <RoughNotation type="box">Hello,</RoughNotation>
-  <RoughNotation type="underline">This is</RoughNotation>
-  <RoughNotation type="underline">a Tes t</RoughNotation>
-</RoughNotationGroup>
-
-
-<button className="button" type="button" onClick={() => setShow(!show)}>
-          Annotate
-        </button>
 
       </div>
     );
