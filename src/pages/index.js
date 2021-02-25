@@ -12,7 +12,7 @@ import ListItem from "../components/listicle/listItem";
 import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
 import Generation from '../components/generation';
 import { TestRNG } from '../components/roughNotationGroup'
-import './style/index.css'
+import './style/button.css'
 import './style/pageHeader.css';
 
 const BlogIndex = ({ data, location }) => {
