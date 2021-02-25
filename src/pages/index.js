@@ -10,6 +10,7 @@ import Stripe from '../components/stripe'
 import DonutGraph from '../components/graphs/donutGraph'
 import ListItem from "../components/listicle/listItem";
 import { TestRNG } from '../components/roughNotationGroup'
+import './style/input.css'
 import './style/button.css'
 import './style/pageHeader.css';
 
