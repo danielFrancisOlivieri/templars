@@ -29,7 +29,6 @@ const DonutGraph = () => {
     return (
 
      <div>
-    <h2>What This Site is Made of </h2>
     <Doughnut data={data} />
 
      </div>

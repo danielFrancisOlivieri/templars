@@ -59,6 +59,8 @@ const BlogIndex = ({ data, location }) => {
 
 <ListItem
 number={1}
+title='Mapping Hannibal'
+link='http://mappingancienttexts.net/wp-content/uploads/2018/06/v7spw.html'
 content={<Image 
   src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/MappingHannibalForSite.PNG'
   size='large'
@@ -67,6 +69,8 @@ content={<Image
 
 <ListItem
 number={2}
+title='Change in Shakespeare'
+link='https://danielfrancisolivieri.github.io/WhatWeMayBecome/#home'
 content={<Image 
   src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/whatWeMayBecome.PNG'
   size='large'
@@ -75,11 +79,14 @@ content={<Image
 
 <ListItem
 number={3}
+title='What This Site Consists of'
 content={<DonutGraph /> } />
 
 
 <ListItem
 number={4}
+title='Venn Diagram Essay'
+link='https://www.picciolettabarca.com/competition-issue-2020#aub'
 content={<Image 
   src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/vennDiagramFeb25.PNG'
   size='large'
@@ -88,6 +95,7 @@ content={<Image
 
 <ListItem
 number={5}
+title="What I'm Going For"
 content={<TestRNG /> } />
 
 <br /> <br /> <br />

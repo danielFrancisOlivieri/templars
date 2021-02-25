@@ -13,6 +13,8 @@ const ListItem = (props) => {
             <Grid.Column width={2} >
             <h1 className='itemNumber' > {props.number}. </h1>
             </Grid.Column>
+            {props.link ? 
+            <div> <a rel="noreferrer" target="_blank" href={props.link} >  <h1>  {props.title}  </h1> </a> <br />  </div> : <h1> {props.title} </h1> }
                 {props.content}
             </Grid.Row>
             

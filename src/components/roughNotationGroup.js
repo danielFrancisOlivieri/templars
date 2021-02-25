@@ -15,11 +15,11 @@ export function TestRNG({ reverseOrder = false }) {
     >
       <div className="content">
         <RoughNotationGroup show={show}>
-          <h3>
+          {/* <h3>
             <RoughNotation type="box" color="#bf360c" strokeWidth={5}>
               Annotation Group {reverseOrder && "(Reverse Order)"}
             </RoughNotation>
-          </h3>
+          </h3> */}
           <p style={roughAnnotationStyle} >
             Rough Notation provides a way to order the animation of annotations
             by creating an{" "}
@@ -45,7 +45,7 @@ export function TestRNG({ reverseOrder = false }) {
                 type="bracket"
                 color="#bf360c"
                 order={reverseOrder ? 1 : false}
-              >  order </RoughNotation>.
+              >  order</RoughNotation>.
           </p>
         </RoughNotationGroup>
         <button className="ui button" type="button" onClick={() => setShow(!show)}>
