@@ -47,8 +47,9 @@ const BlogIndex = ({ data, location }) => {
          style={{
           fontSize: '1.7em'
         }}>
-
-          Here's a listicle to say what this website's about. 
+<center>
+          Big Ideas in a Website's Packaging
+</center>
         </section>
           
       
@@ -59,20 +60,34 @@ const BlogIndex = ({ data, location }) => {
 <ListItem
 number={1}
 content={<Image 
-  src='https://deadline.com/wp-content/uploads/2019/10/stephen-colbert-1.jpg'
+  src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/MappingHannibalForSite.PNG'
   size='large'
   />} />
 
+
 <ListItem
 number={2}
-content={<DonutGraph /> } />
+content={<Image 
+  src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/whatWeMayBecome.PNG'
+  size='large'
+  />} />
+
 
 <ListItem
 number={3}
-content={<ScatterGraph /> } />
+content={<DonutGraph /> } />
+
 
 <ListItem
 number={4}
+content={<Image 
+  src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/vennDiagramFeb25.PNG'
+  size='large'
+  />} />
+
+
+<ListItem
+number={5}
 content={<TestRNG /> } />
 
 <br /> <br /> <br />

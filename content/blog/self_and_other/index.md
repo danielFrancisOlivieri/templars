@@ -1,7 +1,7 @@
 ---
 title: The Thread
 date: "2020-05-01T22:12:03.284Z"
-description: An Essay for La Piccioletta Barca's Antimatter Competition
+description: A Series of Essays for La Piccioletta Barca
 ---
 
 

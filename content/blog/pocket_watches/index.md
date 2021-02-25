@@ -1,7 +1,7 @@
 ---
 title: Why I Envy Pocket Watches
 date: "2020-05-01T22:12:03.284Z"
-description: An Essay for La Piccioletta Barca's Antimatter Competition
+description: An Essay on Pocket Watches
 ---
 
 
