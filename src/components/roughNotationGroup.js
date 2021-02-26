@@ -16,31 +16,40 @@ export function TestRNG({ reverseOrder = false }) {
       <div className="content">
         <RoughNotationGroup show={show}>
           <p style={roughAnnotationStyle} >
-            Rough Notation provides a way to order the animation of annotations
-            by creating an{" "}
-            <RoughNotation
-              type="highlight"
-              color="yellow"
+
+    It's the forms{" "}
+    <RoughNotation
+              type="strike-through"
+              color="#bf360c"
               order={reverseOrder ? 2 : false}
-            >
-              annotation-group
-            </RoughNotation>
-            . Pass the list of annotations to create a group. When{" "}
-            <i>
-              <RoughNotation
+            > that rarely talk
+            
+             to each other that have the most to say to each other when they finally meet. 
+    This is the place for those
+    </RoughNotation>
+    <RoughNotation
                 type="underline"
                 color="#bf360c"
                 order={reverseOrder ? 1 : false}
-              >
-                show
-              </RoughNotation>
-            </i>{" "}
-            is called on the group, the annotations are animated in
-            <RoughNotation
-                type="bracket"
-                color="#bf360c"
+              > conversations </RoughNotation> to happen. 
+              <RoughNotation
+                type="highlight"
+                color="#f8ed62"
                 order={reverseOrder ? 1 : false}
-              >  order</RoughNotation>.
+              > Graphs</RoughNotation> about 
+              <RoughNotation
+                type="highlight"
+                color="#f8ed62"
+                order={reverseOrder ? 1 : false}
+              > philosophy</RoughNotation>, venn diagrams about relationships, code about literature. 
+              <RoughNotation
+              type="bracket"
+              color="#bf360c"
+              order={reverseOrder ? 2 : false}
+            >
+    If you want to see poetry written in code and code written like poetry, you're in the right place. 
+    </RoughNotation>
+            
           </p>
         </RoughNotationGroup>
         <button className="ui button" type="button" onClick={() => setShow(!show)}>

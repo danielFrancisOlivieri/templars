@@ -6,10 +6,9 @@ const DonutGraph = () => {
 
     const data = {
         labels: [
-            'Insights',
-            'Niche References',
-            'Graphs',
-            'Pure Evil'
+            'History',
+            'Stories',
+            'Essays',
         ],
         datasets: [{
             data: [300, 50, 100, 0],

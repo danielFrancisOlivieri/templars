@@ -38,9 +38,8 @@ const about = ({ data, location }) => {
       <br /> <br />
       <p>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      It's the disciplines and forms that rarely talk to each other that often have the most to say when they finally do meet. 
-      This is the place for those meetings to happen. I want to use the abilities afforded by the internet to pay close attention to the humanities. 
-      I also just like to share my writing with people. 
+      I want to use the abilities afforded by the internet to pay close attention to the humanities. 
+      If I'm being honest, I also just like to share my writing with people. 
       </p>
       <p>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some inspirations are <a rel="noreferrer" target="_blank" href="https://maggieappleton.com/" >Maggie Appleton's website</a>, <a rel="noreferrer" target="_blank" href="https://xkcd.com/" >xkcd.com</a>, and Shelley Jackson's tour de force <a rel="noreferrer" target="_blank" href="https://collection.eliterature.org/1/works/jackson__my_body_a_wunderkammer/index.html" >"My Body a Wunderkammer"</a>.
