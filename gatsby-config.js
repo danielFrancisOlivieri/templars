@@ -6,7 +6,7 @@ module.exports = {
       summary: `who lives in Philadelphia and works as a software developer. He enjoys late night conversations, the work of Maggie Nelson, and fried plantains.`,
     },
     description: `A place for code to meet literature.`,
-    siteUrl: `epigraphing.com`,
+    siteUrl: `https://wwww.epigraphing.com`,
     social: {
       twitter: `simplyTooLitBot`,
     },
