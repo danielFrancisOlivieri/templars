@@ -18,7 +18,7 @@ const GridDividedNumber = () => (
       <Grid.Column width={4}>
       <WorkCard
         title = {"Choose Your Own Adventure"}
-        image = {"https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/adventure.PNG"}
+        image = {"https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/cyoFeb26.PNG"}
         type = {"Passion Poject"}
         description = {"A choose your own adventure game that lets you contribute to it."}
         link = {"https://danielfrancisolivieri.com/cyo"}

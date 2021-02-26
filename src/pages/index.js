@@ -33,7 +33,7 @@ const BlogIndex = ({ data, location }) => {
           fontSize: '1.7em'
         }}>
 <center>
-          Epigraph - a short quotation or saying at the beginning of a book or chapter, intended to suggest its theme
+<TestRNG />
 </center>
         </section>
           
@@ -44,18 +44,21 @@ const BlogIndex = ({ data, location }) => {
 
       <ListItem
 number={1}
-title='Mapping Hannibal'
-link='http://mappingancienttexts.net/wp-content/uploads/2018/06/v7spw.html'
+title='Create Your Own Adventure'
+link='https://danielfrancisolivieri.com/cyo'
 content={<Image 
-  src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/MappingHannibalForSite.PNG'
+  src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/cyoFeb26.PNG'
   size='large'
   />} />
 
-      <ListItem
+<ListItem
 number={2}
-link='https://epigraphing.com/Work/'
-title='What This Site Consists of'
-content={<DonutGraph /> } />
+title='Change in Shakespeare'
+link='https://danielfrancisolivieri.github.io/WhatWeMayBecome/#home'
+content={<Image 
+  src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/whatWeMayBecome.PNG'
+  size='large'
+  />} />
 
 <ListItem
 number={3}
@@ -69,18 +72,20 @@ content={<Image
 
 <ListItem
 number={4}
-title='Change in Shakespeare'
-link='https://danielfrancisolivieri.github.io/WhatWeMayBecome/#home'
+title='Mapping Hannibal'
+link='http://mappingancienttexts.net/wp-content/uploads/2018/06/v7spw.html'
 content={<Image 
-  src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/whatWeMayBecome.PNG'
+  src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/MappingHannibalForSite.PNG'
   size='large'
   />} />
 
 
 <ListItem
 number={5}
-title="What I'm Going For"
-content={<TestRNG /> } />
+link='https://epigraphing.com/Work/'
+title='What This Site Consists of'
+content={<DonutGraph /> } />
+
 
 <br /> <br /> <br />
 
