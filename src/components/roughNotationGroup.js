@@ -31,7 +31,7 @@ export function TestRNG({ reverseOrder = false }) {
               order={reverseOrder ? 2 : false}
             > that rarely talk
             
-             to each other have the most to say to each other when they finally meet. 
+             to each other have the most to say to when they finally meet. 
     This is the place for those
     </RoughNotation>
     <RoughNotation
