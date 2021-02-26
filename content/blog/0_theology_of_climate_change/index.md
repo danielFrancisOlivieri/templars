@@ -1,7 +1,7 @@
 ---
 title: The Theology of Climate Change
 date: "2020-05-01T22:12:03.284Z"
-description: Essay for SXSW
+description: An Essay Chosen as a Finalist for SXSW's David Carr Prize
 link: https://www.sxsw.com/wp-content/uploads/2019/03/DanielOlivieri.pdf
 ---
 

@@ -1,37 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 import './style/layout.css'
 
 
 const Layout = ({ title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
 
   let header;
-  
-  // if (location.pathname === rootPath) {
-  //   header = (
-  //     <center>
-  //     <h1
-  //       style={{
-  //         ...scale(1.5),
-  //         marginBottom: rhythm(.5),
-  //         marginTop: 0,
-  //       }}
-  //     >
-  //       <Link
-  //         style={{
-  //           boxShadow: `none`,
-  //           color: `inherit`,
-  //         }}
-  //         to={`/`}
-  //       >
-  //         {title}
-  //       </Link>
-  //     </h1>
-  //     </center>
-  //   )
-  // } else {
+
     header = (
       <center>
       <h1

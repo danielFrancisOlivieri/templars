@@ -42,7 +42,7 @@ const BlogIndex = ({ data, location }) => {
       <br></br> <br></br>
       <br></br> <br></br>
 
-<ListItem
+      <ListItem
 number={1}
 title='Mapping Hannibal'
 link='http://mappingancienttexts.net/wp-content/uploads/2018/06/v7spw.html'
@@ -51,30 +51,28 @@ content={<Image
   size='large'
   />} />
 
+      <ListItem
+number={2}
+link='https://epigraphing.com/Work/'
+title='What This Site Consists of'
+content={<DonutGraph /> } />
 
 <ListItem
-number={2}
-title='Change in Shakespeare'
-link='https://danielfrancisolivieri.github.io/WhatWeMayBecome/#home'
+number={3}
+title='Venn Diagram Essay'
+link='https://www.picciolettabarca.com/competition-issue-2020#aub'
 content={<Image 
-  src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/whatWeMayBecome.PNG'
+  src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/vennDiagramFeb25.PNG'
   size='large'
   />} />
 
 
 <ListItem
-number={3}
-link='https://epigraphing.com/Work/'
-title='What This Site Consists of'
-content={<DonutGraph /> } />
-
-
-<ListItem
 number={4}
-title='Venn Diagram Essay'
-link='https://www.picciolettabarca.com/competition-issue-2020#aub'
+title='Change in Shakespeare'
+link='https://danielfrancisolivieri.github.io/WhatWeMayBecome/#home'
 content={<Image 
-  src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/vennDiagramFeb25.PNG'
+  src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/whatWeMayBecome.PNG'
   size='large'
   />} />
 

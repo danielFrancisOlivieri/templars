@@ -7,8 +7,15 @@ const roughAnnotationStyle = {
     textAlign: "left",
     marginLeft: '90px'
 }
+
 export function TestRNG({ reverseOrder = false }) {
   const [show, setShow] = useState(false);
+  const [isOriginal, setButtonText] = useState(true);
+  const handleOnClick = function() {
+    setShow(!show);
+    setButtonText(!isOriginal);
+  }
+
   return (
     <div
       className="box"
@@ -17,14 +24,14 @@ export function TestRNG({ reverseOrder = false }) {
         <RoughNotationGroup show={show}>
           <p style={roughAnnotationStyle} >
 
-    It's the forms{" "}
+    The forms{" "}
     <RoughNotation
               type="strike-through"
               color="#bf360c"
               order={reverseOrder ? 2 : false}
             > that rarely talk
             
-             to each other that have the most to say to each other when they finally meet. 
+             to each other have the most to say to each other when they finally meet. 
     This is the place for those
     </RoughNotation>
     <RoughNotation
@@ -52,8 +59,8 @@ export function TestRNG({ reverseOrder = false }) {
             
           </p>
         </RoughNotationGroup>
-        <button className="ui button" type="button" onClick={() => setShow(!show)}>
-          Annotate This Text
+        <button className="ui button" type="button" onClick={() => handleOnClick()}>
+          {isOriginal ? "Annotate This Text" : "Erase Annotations"}
         </button>
       </div>
     </div>

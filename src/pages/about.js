@@ -12,10 +12,6 @@ import './style/pageHeader.css';
 
 const about = ({ data, location }) => {
 
-    const aboutStyle = {
-        fontFamily: `Montserrat, sans-serif`
-    }
-
     const bioStyle = {
       position: 'absolute',
       bottom: '0',

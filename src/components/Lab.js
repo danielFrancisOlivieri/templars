@@ -1,7 +1,5 @@
 import React from "react"
-import { useState } from "react";
 import { Button } from 'semantic-ui-react'
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import * as d3 from "d3";
 import 'semantic-ui-css/semantic.min.css'
 import "tooltip-sequence/dist/index.css";

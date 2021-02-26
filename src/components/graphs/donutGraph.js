@@ -2,9 +2,9 @@ import React from "react"
 import {Doughnut } from 'react-chartjs-2';
 import 'semantic-ui-css/semantic.min.css'
 
-const DonutGraph = () => {
+class DonutGraph extends React.Component {
 
-    const data = {
+    data = {
         labels: [
             'History',
             'Stories',
@@ -25,15 +25,16 @@ const DonutGraph = () => {
         }]
     };
 
-    return (
+    render() {
+        return (
 
-     <div>
-    <Doughnut data={data} />
+            <div>
+           <Doughnut data={this.data} />
+       
+            </div>
+           )
 
-     </div>
-    )
-
-
+    }
 }
 
 export default DonutGraph
