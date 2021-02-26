@@ -3,10 +3,10 @@ module.exports = {
     title: `Code+Literature`,
     author: {
       name: `Daniel Olivieri`,
-      summary: `who lives in Philadelphia and works for Vanguard.`,
+      summary: `who lives in Philadelphia and works as a software developer. He enjoys late night conversations, the work of Maggie Nelson, and fried plantains.`,
     },
     description: `A place for code to meet literature.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `epigraphing.com`,
     social: {
       twitter: `simplyTooLitBot`,
     },

@@ -57,11 +57,12 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author.name}</strong> {author.summary}
+        This website is maintained by <strong>{author.name}</strong> {author.summary}
         {` `}
         <a rel="noreferrer" target="_blank" href={`https://twitter.com/${social.twitter}`}>
-          You can follow him on Twitter
+          You can follow him on Twitter, though he doesn't really post there. 
         </a>
+        <p> He'd be happy to get almost any email you care to send him at dfolvieri@gmail.com.</p>
       </p>
     </div>
   )
