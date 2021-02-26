@@ -25,13 +25,12 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={''} >
       <h1 className="pageHeader" > Literature<sup>Code</sup> </h1>
       <br></br>
-      <SEO title="Essay" />
          <section 
          style={{
           fontSize: '1.7em'
         }}>
 <center>
-          Big Ideas in a Website's Packaging
+          Epigraph - a short quotation or saying at the beginning of a book or chapter, intended to suggest its theme
 </center>
         </section>
           
@@ -62,6 +61,7 @@ content={<Image
 
 <ListItem
 number={3}
+link='https://epigraphing.com/Work/'
 title='What This Site Consists of'
 content={<DonutGraph /> } />
 

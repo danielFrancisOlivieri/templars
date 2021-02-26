@@ -15,7 +15,11 @@ const ListItem = (props) => {
             </Grid.Column>
             {props.link ? 
             <div> <a rel="noreferrer" target="_blank" href={props.link} >  <h1>  {props.title}  </h1> </a> <br />  </div> : <h1> {props.title} </h1> }
-                {props.content}
+
+
+        {props.link ? 
+            <div className='linkItemContent' > <a rel="noreferrer" target="_blank" href={props.link} >  <h1>  {props.content}  </h1> </a> <br />  </div> : props.content } 
+
             </Grid.Row>
             
         </div>

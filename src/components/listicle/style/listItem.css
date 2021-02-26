@@ -12,3 +12,8 @@ a {
     color: #233044;
     /* text-decoration: underline; */
 }
+
+.linkItemContent:hover {
+    position: relative; 
+    top: -5px;
+}
