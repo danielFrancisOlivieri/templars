@@ -1,18 +1,22 @@
 import React, { Fragment } from 'react';
 import Layout from "../components/layout"
 import { Popup } from 'semantic-ui-react'
-import './style/poetry.css'
+import SEO from "../components/seo"
 import Media from 'react-media';
 import Navbar from "../components/navbar"
-import 'semantic-ui-css/semantic.min.css'
 import AuthorCard  from '../components/author'
 import ITooDislikeIt from '../components/poems/iTooDislikeIt.js'
+import 'semantic-ui-css/semantic.min.css'
+import './style/poetry.css'
 
 const poetry = ({data, location}) => {
 
   return (
     <div>
       <Navbar></Navbar>
+      <SEO
+    title='Poetry'
+    ></SEO>
     <Layout location={location} title={''}>
    <h1 className='poetryTitle' > The Appreciation of Poetry </h1>    
    <br></br>

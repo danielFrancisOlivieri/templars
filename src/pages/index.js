@@ -22,6 +22,9 @@ const BlogIndex = ({ data, location }) => {
     <div >
     <Stripe />
     <Navbar></Navbar>
+    <SEO
+    title='Home'
+    ></SEO>
     <Layout location={location} title={''} >
       <h1 className="pageHeader" > Literature<sup>Code</sup> </h1>
       <br></br>

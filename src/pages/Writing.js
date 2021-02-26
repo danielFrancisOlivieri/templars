@@ -24,7 +24,7 @@ const TableOfContents = ({ data, location }) => {
     <Layout location={location} title={''}>
       <h1 className='pageHeader'>Some Writing</h1>
       <br /> <br /> <br />
-      <SEO title="All posts" />
+      <SEO title="Writing" />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (

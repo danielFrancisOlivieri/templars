@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from "../components/layout"
 import { Popup } from 'semantic-ui-react'
+import SEO from "../components/seo"
 import './style/poetry.css'
 import 'semantic-ui-css/semantic.min.css'
 
@@ -9,6 +10,9 @@ const lerner = ({data, location}) => {
 
   return (
     <Layout location={location} title={'Literature+Code'}>
+      <SEO
+    title='Lerner'
+    ></SEO>
    <h1 className='poetryTitle' > The Hatred of Ben Lerner </h1>    
   <br></br>
   

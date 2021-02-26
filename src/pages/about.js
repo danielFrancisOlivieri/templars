@@ -1,12 +1,14 @@
 import React from "react"
+
+import Navbar from "../components/navbar"
+import SEO from "../components/seo"
+import { rhythm } from "../utils/typography"
+import Bio from '../components/bio'
+import Stripe from '../components/stripe'
 import 'semantic-ui-css/semantic.min.css'
 import "tooltip-sequence/dist/index.css";
 import './../components/style/layout.css'
 import './style/pageHeader.css';
-import Navbar from "../components/navbar"
-import { rhythm } from "../utils/typography"
-import Bio from '../components/bio'
-import Stripe from '../components/stripe'
 
 const about = ({ data, location }) => {
 
@@ -23,6 +25,9 @@ const about = ({ data, location }) => {
     <div>
         <Stripe />
       <Navbar></Navbar>
+      <SEO
+      title='About'
+      ></SEO>
     <div
       style={{
         marginLeft: `auto`,
