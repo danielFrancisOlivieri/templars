@@ -19,7 +19,7 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Swipeable onSwiped={(event) => console.log(event)}  >
 
-    <div>
+    <div >
     <Stripe />
     <Navbar></Navbar>
     <Layout location={location} title={''} >
