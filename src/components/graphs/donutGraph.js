@@ -29,7 +29,27 @@ class DonutGraph extends React.Component {
         return (
 
             <div>
-           <Doughnut data={this.data} />
+           <Doughnut data={this.data} 
+           options={{
+               onClick: function(event, element) {
+                   const backgroundColor = element[0]._model.backgroundColor;
+
+               switch(backgroundColor) {
+                   case "#FF6384":
+                       console.log('History');
+                       break;
+                    case "#36A2EB":
+                        console.log('Stories');
+                        break;
+                    case "#FFCE56":
+                        console.log('Essays');
+                        break;
+               }
+
+               }
+           }}
+           
+           />
        
             </div>
            )
