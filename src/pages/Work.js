@@ -18,7 +18,7 @@ const Work = ({data, location}) => {
     title='Projects'
     ></SEO>
 <div className = "workContent" >
-<h1 className='workTitle' > Some of my Past Projects </h1>
+<h1 className='workTitle' > Some of my Projects </h1>
 <br />
 <center style={centerStyle}>
 <GridDividedNumber />

@@ -60,10 +60,19 @@ link= {"https://danielfrancisolivieri.github.io/WhatWeMayBecome/#section-1"}
         image = {"https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/MappingHannibalForSite.PNG"}
         isProfessional = {true}
         link = {"http://mappingancienttexts.net/wp-content/uploads/2018/06/v7spw.html"}
-        description = {"A digital storytelling of one of the greatest generals in history."}/>
+        description = {"A digital map that tells the story of one of the greatest generals in history."}/>
       </Grid.Column>
     </Grid.Row>
     <Grid.Row>
+      <Grid.Column width={4} >
+      <WorkCard 
+title = {"Digital Essay on Poetry"}
+image = {"https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/appreciationOfPoetry.PNG"}
+type = {"Passion Poject"}
+description = {"Three poems, a few hundred words, a few youtube videos, and a bunch of annotions on the subject of poetry."}
+link = {"https://epigraphing.com/poetry/"}
+        />
+      </Grid.Column>
       <Grid.Column width={4} >
       <WorkCard 
 title = {"Legible"}
@@ -71,15 +80,6 @@ image = {"https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUpload
 type = {"Passion Poject"}
 description = {"Reading app that gives you the next word every time you click"}
 link = {"https://brave-rosalind-d92e4d.netlify.app/"}
-        />
-      </Grid.Column>
-      <Grid.Column width={4} >
-      <WorkCard 
-title = {"Literary Twitterbot"}
-image = {"https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/janeGal.PNG"}
-type = {"Passion Poject"}
-description = {"A Twitterbot written in Python which uses the library Markovify to generate tweets based on famous literary figures."}
-link = {"https://twitter.com/simplyTooLitBot/status/1074492840062661642"}
         />
       </Grid.Column>
       <Grid.Column width={4} >
