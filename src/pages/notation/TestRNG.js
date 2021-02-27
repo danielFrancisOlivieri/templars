@@ -3,6 +3,11 @@ import { useState } from "react";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 export function TestRNG({ reverseOrder = false }) {
   const [show, setShow] = useState(false);
+  const [isOriginal, setButtonText] = useState(true);
+  const handleOnClick = function() {
+    setShow(!show);
+    setButtonText(!isOriginal);
+  }
   return (
     <div
       className="box"
@@ -82,8 +87,8 @@ export function TestRNG({ reverseOrder = false }) {
           </p>
         </RoughNotationGroup>
         <center>
-        <button className="button" type="button" onClick={() => setShow(!show)}>
-          Annotate
+        <button className="button" type="button" onClick={() => handleOnClick()}>
+        {isOriginal ? "Annotate" : "Erase"}
         </button>
 
         </center>
