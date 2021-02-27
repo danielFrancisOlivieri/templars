@@ -1,27 +1,27 @@
-import React from "react"
-import Layout from "../components/layout"
-import './style/poetry.css'
-import 'semantic-ui-css/semantic.min.css'
-import "tooltip-sequence/dist/index.css";
-import './style/hunt.css';
-import Lab from '../components/Lab.js';
+import React from "react";
+import { RoughNotation } from "react-rough-notation";
+import { TestRN } from "./notation/TestRN";
+import { TestRNG } from "./notation/TestRNG";
+import { types } from "./notation/types"
+import "./notation/styles.css"
 
-const notation = ({data, location}) => {
-
-
+export default function Notation() {
   return (
-    <Layout location={location} title={'Literature+Code'}>
-   <h1> The hunt </h1>    
-  <p >
-    This is the test. 
-  </p>
-  <p>
-    another line
-  </p>
+    <div className="NotationComponentDiv">
+      <div className="content">
+        <h1>
+          <RoughNotation type="highlight" show={true} color="#fff176">
+            ReactRoughNotation Playground
+          </RoughNotation>
+        </h1>
+      </div>
 
-  <Lab></Lab>
-    </Layout>
-  )
+      {types.map((type, index) => (
+        <TestRN key={index} type={type} />
+      ))}
+
+      <TestRNG />
+      <TestRNG reverseOrder={true} />
+    </div>
+  );
 }
-
-export default notation
