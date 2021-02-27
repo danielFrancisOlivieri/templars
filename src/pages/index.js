@@ -10,6 +10,7 @@ import Stripe from '../components/stripe'
 import DonutGraph from '../components/graphs/donutGraph'
 import ListItem from "../components/listicle/listItem";
 import { TestRNG } from '../components/roughNotationGroup'
+import DonutGraphListItem from '../components/graphs/donutGraphListItem'
 import './style/input.css'
 import './style/button.css'
 import './style/pageHeader.css';
@@ -26,7 +27,7 @@ const BlogIndex = ({ data, location }) => {
     title='Home'
     ></SEO>
     <Layout location={location} title={''} >
-      <h1 className="pageHeader" > Literature<sup>Code</sup> </h1>
+      <h1 className="pageHeader" > X<sup>Y</sup> </h1>
       <br></br>
          <section 
          style={{
@@ -62,7 +63,7 @@ content={<Image
 
 <ListItem
 number={3}
-title='Venn Diagram Essay'
+title='AUB Essay'
 link='https://www.picciolettabarca.com/competition-issue-2020#aub'
 content={<Image 
   src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/vennDiagramFeb25.PNG'
@@ -79,24 +80,20 @@ content={<Image
   size='large'
   />} />
 
-
-<ListItem
+<DonutGraphListItem
 number={5}
 link='https://epigraphing.com/Work/'
 title='What This Site Consists of'
-content={<DonutGraph /> } />
+/>
 
-
-<br /> <br /> <br />
-
-<br /> <br />
+<br /> 
 
 <Mailchimp
         action='https://github.us15.list-manage.com/subscribe/post?u=8e1157b53358fc40f9ea3e222&amp;id=0d43dfd99c'
         fields={[
           {
             name: 'EMAIL',
-            placeholder: 'Your email here',
+            placeholder: 'example@gmail.com',
             type: 'email',
             required: true
           }

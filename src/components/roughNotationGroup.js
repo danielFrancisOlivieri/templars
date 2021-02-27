@@ -5,7 +5,8 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 const roughAnnotationStyle = {
     fontFamily: "Times",
     textAlign: "left",
-    marginLeft: '90px'
+    marginLeft: '90px',
+    textIndent: '70px'
 }
 
 export function TestRNG({ reverseOrder = false }) {
@@ -24,14 +25,14 @@ export function TestRNG({ reverseOrder = false }) {
         <RoughNotationGroup show={show}>
           <p style={roughAnnotationStyle} >
 
-    The forms{" "}
+         The forms and disciplines{" "}
     <RoughNotation
               type="strike-through"
               color="#bf360c"
               order={reverseOrder ? 2 : false}
-            > that rarely talk
+            > that rarely talk 
             
-             to each other have the most to say to when they finally meet. 
+             often have the most to say to each other when they finally meet. 
     This is the place for those
     </RoughNotation>
     <RoughNotation
@@ -53,7 +54,7 @@ export function TestRNG({ reverseOrder = false }) {
               type="bracket"
               color="#bf360c"
               order={reverseOrder ? 2 : false}
-            >
+            > {` `}
     If you want to see poetry written in code and code written like poetry, you're in the right place. 
     </RoughNotation>
             
