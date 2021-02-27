@@ -7,10 +7,11 @@ import Mailchimp from 'react-mailchimp-form'
 import Navbar from "../components/navbar"
 import { Image } from 'semantic-ui-react'
 import Stripe from '../components/stripe'
-import DonutGraph from '../components/graphs/donutGraph'
 import ListItem from "../components/listicle/listItem";
-import { TestRNG } from '../components/roughNotationGroup'
+import { TestRNG } from './notation/TestRNG';
 import DonutGraphListItem from '../components/graphs/donutGraphListItem'
+import HtmlRoughNotation from '../components/roughNotation/htmlRoughNotation'
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import './style/input.css'
 import './style/button.css'
 import './style/pageHeader.css';
@@ -33,11 +34,12 @@ const BlogIndex = ({ data, location }) => {
          style={{
           fontSize: '1.7em'
         }}>
-<center>
+
 <TestRNG />
-</center>
+
+
+<HtmlRoughNotation />
         </section>
-          
       
       <center>
       <br></br> <br></br>
