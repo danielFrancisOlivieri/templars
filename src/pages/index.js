@@ -8,10 +8,8 @@ import Navbar from "../components/navbar"
 import { Image } from 'semantic-ui-react'
 import Stripe from '../components/stripe'
 import ListItem from "../components/listicle/listItem";
-import { TestRNG } from './notation/TestRNG';
+import { TestRNG } from '../components/notation/TestRNG'
 import DonutGraphListItem from '../components/graphs/donutGraphListItem'
-import HtmlRoughNotation from '../components/roughNotation/htmlRoughNotation'
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import './style/input.css'
 import './style/button.css'
 import './style/pageHeader.css';
@@ -37,8 +35,6 @@ const BlogIndex = ({ data, location }) => {
 
 <TestRNG />
 
-
-<HtmlRoughNotation />
         </section>
       
       <center>
