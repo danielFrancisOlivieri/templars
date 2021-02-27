@@ -5,7 +5,7 @@ import { TestRNG } from "./notation/TestRNG";
 import { types } from "./notation/types"
 import "./notation/styles.css"
 
-export default function Notation() {
+const notation = () => {
   return (
     <div className="NotationComponentDiv">
       <div className="content">
@@ -25,3 +25,5 @@ export default function Notation() {
     </div>
   );
 }
+
+export default notation
