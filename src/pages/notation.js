@@ -10,18 +10,23 @@ const notation = () => {
     <div className="NotationComponentDiv">
       <div className="content">
         <h1>
-          <RoughNotation type="highlight" show={true} color="#fff176">
+          {/* <RoughNotation type="highlight" show={true} color="#fff176">
             ReactRoughNotation Playground
-          </RoughNotation>
+          </RoughNotation> */}
+          Notation Page
         </h1>
       </div>
 
-      {types.map((type, index) => (
+      <p>
+        Notes on Notation
+      </p>
+
+      {/* {types.map((type, index) => (
         <TestRN key={index} type={type} />
       ))}
 
       <TestRNG />
-      <TestRNG reverseOrder={true} />
+      <TestRNG reverseOrder={true} /> */}
     </div>
   );
 }
