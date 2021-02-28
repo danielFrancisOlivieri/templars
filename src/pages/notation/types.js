@@ -1,124 +1,96 @@
 import React from "react";
-import { RoughNotation } from "react-rough-notation";
+import { useState } from "react";
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+export function Types({ reverseOrder = false }) {
+  const [show, setShow] = useState(false);
+  const [isOriginal, setButtonText] = useState(true);
+  const handleOnClick = function() {
+    setShow(!show);
+    setButtonText(!isOriginal);
+  }
+  return (
+    <div
+      className="box"
+      style={{ backgroundColor: "#E0E2E1", marginTop: "5px" }}
+    >
+      <div className="content">
+        <RoughNotationGroup show={show}>
+          <h3>
+            <RoughNotation type="box" strokeWidth={5}>
+              Intro {reverseOrder && "(Reverse Order)"}
+            </RoughNotation>
+          </h3>
+          <p>
+          The forms and {` `}
+          <RoughNotation
+              type="crossed-off"
+              color="blue"
+              order={reverseOrder ? 2 : false}
+            >disciplines</RoughNotation>
+           {` `}
+          
+          that rarely talk often have the most to say to each other when they finally 
+          {` `}
+          <RoughNotation
+              type="highlight"
+              color="yellow"
+              order={reverseOrder ? 2 : false}
+            >meet</RoughNotation>
+          . 
+          This is the place for those conversations to happen. 
+          {` `}
+          <RoughNotation
+              type="circle"
+              color="blue"
+              order={reverseOrder ? 2 : false}
+            >Graphs</RoughNotation> about <RoughNotation
+            type="highlight"
+            color="yellow"
+            order={reverseOrder ? 2 : false}
+          >philosophy</RoughNotation>, venn diagrams about relationships, maps about 
+            
+            literature. 
+          If you want to see {` `}
+          
+          <RoughNotation
+              type="highlight"
+              color="yellow"
+              order={reverseOrder ? 2 : false}
+            >poetry</RoughNotation> {` `} written in {` `}
+            <RoughNotation
+              type="underline"
+              color="#bf360c"
+              order={reverseOrder ? 2 : false}
+            >code</RoughNotation> {` `}
+             and <RoughNotation
+              type="underline"
+              color="#bf360c"
+              order={reverseOrder ? 2 : false}
+            >code</RoughNotation> {` `} written like {` `}
+            <RoughNotation
+            type="highlight"
+            color="yellow"
+            order={reverseOrder ? 2 : false}
+          >poetry</RoughNotation>, you're in the 
+          <RoughNotation
+            type="bracket"
+            color="#bf360c"
+            order={reverseOrder ? 2 : false}
+          > {` `}
+          right place.
+          </RoughNotation>           
+          </p>
+        </RoughNotationGroup>
+        <center>
+        <button className="button" type="button" onClick={() => handleOnClick()}>
+        {isOriginal ? "Annotate" : "Erase"}
+        </button>
 
-export const types = [
-  {
-    backgroundColor: "#ffebee",
-    color: "#b71c1c",
-    value: "underline",
-    copy: (props) => (
-      <p>
-        create a sketchy <RoughNotation {...props}>underline</RoughNotation>{" "}
-        below an element.
-      </p>
-    ),
-  },
-  {
-    backgroundColor: "#f3e5f5",
-    color: "#4a148c",
-    value: "box",
-    copy: (props) => (
-      <p>
-        This style draws a <RoughNotation {...props}>box</RoughNotation> around
-        the element.
-      </p>
-    ),
-  },
-  {
-    backgroundColor: "#e3f2fd",
-    color: "#0d47a1",
-    value: "circle",
-    copy: (props) => (
-      <p>
-        Draw a <RoughNotation {...props}>circle</RoughNotation> around the
-        element.
-      </p>
-    ),
-  },
-  {
-    backgroundColor: "#f5f5f5",
-    color: "#ffd54f",
-    value: "highlight",
-    copy: (props) => (
-      <p>
-        Creates a <RoughNotation {...props}>highlight</RoughNotation> effect as
-        if marked by a highlighter.
-      </p>
-    ),
-  },
-  {
-    backgroundColor: "#e8f5e9",
-    color: "#1b5e20",
-    value: "strike-through",
-    copy: (props) => (
-      <p>
-        Draw a hand-drawn line through an element creating a{" "}
-        <RoughNotation {...props}>stroke-through</RoughNotation> effect.
-      </p>
-    ),
-  },
-  {
-    backgroundColor: "#e0f2f1",
-    color: "#f57f17",
-    value: "crossed-off",
-    copy: (props) => (
-      <p>
-        To symbolize rejection, use a{" "}
-        <RoughNotation {...props}>crossed-off</RoughNotation> effect on an
-        element.
-      </p>
-    ),
-  },
-  {
-    backgroundColor: "#fffde7",
-    color: "#ff0000",
-    value: "bracket",
-    brackets: ["left", "right"],
-    copy: (props) => (
-      <>
-        <p>
-          Create a hand-drawn bracket around a block (like a paragraph of text)
-          on one or multiple sides of the block.
-        </p>
-        <RoughNotation {...props}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan
-          nisi hendrerit augue molestie tempus. Phasellus purus quam, aliquet
-          nec commodo quis, pharetra ut orci. Donec laoreet ligula nisl,
-          placerat molestie mauris luctus id. Fusce dapibus non libero nec
-          lobortis. Nullam iaculis nisl ac eros consequat, sit amet placerat
-          massa vulputate.
-        </RoughNotation>
-      </>
-    ),
-  },
-  {
-    animationDuration: 1500,
-    backgroundColor: "#fff8f1",
-    brackets: ["left", "right"],
-    color: "#f57f17",
-    multiline: true,
-    title: "Multiple lines",
-    value: "highlight",
-    copy: (props) => (
-      <>
-        <p>Ability to annotate inline content that can span multiple lines</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan
-          nisi hendrerit augue molestie tempus. Phasellus purus quam, aliquet
-          nec commodo quis, pharetra ut orci.{" "}
-          <RoughNotation {...props}>
-            Donec laoreet ligula nisl, placerat molestie mauris luctus id. Fusce
-            dapibus non libero nec lobortis. Nullam iaculis nisl ac eros
-            consequat, sit amet placerat massa vulputate. Maecenas euismod
-            volutpat ultrices. Pellentesque felis ex, ullamcorper in felis
-            finibus, feugiat dignissim augue.
-          </RoughNotation>{" "}
-          Integer malesuada non eros consectetur interdum. Mauris mollis non
-          urna in porta.
-        </p>
-      </>
-    ),
-  },
-];
+        </center>
+        
+      </div>
+    </div>
+  );
+}
 
-export default types
+export default Types
