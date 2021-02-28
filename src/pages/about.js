@@ -39,14 +39,14 @@ const about = () => {
       <br /> <br />
       <p>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      I want to use the abilities afforded by the internet to pay close attention to the humanities. 
-      If I'm being honest, I also just like to share my writing with people. 
+      Hey, this is Daniel Olivieri. This site is my hobby/obsession/way of reminding the world how much I like it. I'm a software developer living in Philadelphia, but I was an English major in college (don't tell my boss) and this site is an attempt to combine those two.
       </p>
       <p>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some inspirations are <a rel="noreferrer" target="_blank" href="https://maggieappleton.com/" >Maggie Appleton's website</a>, <a rel="noreferrer" target="_blank" href="https://xkcd.com/" >xkcd.com</a>, and Shelley Jackson's tour de force <a rel="noreferrer" target="_blank" href="https://collection.eliterature.org/1/works/jackson__my_body_a_wunderkammer/index.html" >"My Body a Wunderkammer"</a>.
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some inspirations for this site are <a rel="noreferrer" target="_blank" href="https://maggieappleton.com/" >Maggie Appleton's website</a>, <a rel="noreferrer" target="_blank" href="https://xkcd.com/" >xkcd.com</a>, and Shelley Jackson's tour de force <a rel="noreferrer" target="_blank" href="https://collection.eliterature.org/1/works/jackson__my_body_a_wunderkammer/index.html" >"My Body a Wunderkammer"</a>.
       </p>
-      <br /> <br />
-      <Bio style={bioStyle} />
+      <p>I'd be happy to get almost any email you'd care to send me, so don't hesistate to send one to me at dfolivieri@gmail.com.</p>
+      <br /> 
+      {/* <Bio style={bioStyle} /> */}
   
 
     </div>
