@@ -1,131 +1,93 @@
 import React from "react";
 import { useState } from "react";
-import { RoughNotation } from "react-rough-notation";
-export function TestRN({ type }) {
-  const {
-    animationDuration: animationDurationProp = 800,
-    backgroundColor,
-    color: defaultColor,
-    copy,
-    title,
-    value,
-    ...rest
-  } = type;
-  const [animate, setAnimate] = useState(true);
-  const [animationDelay, setAnimationDelay] = useState(0);
-  const [animationDuration, setAnimationDuration] = useState(
-    animationDurationProp
-  );
-  const [color, setColor] = useState(defaultColor);
-  const [padding, setPadding] = useState(5);
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+export function TestRN({ reverseOrder = false }) {
   const [show, setShow] = useState(false);
-  const [strokeWidth, setStrokeWidth] = useState(1);
-
-  const props = {
-    animate,
-    animationDelay,
-    animationDuration,
-    color,
-    padding,
-    show,
-    strokeWidth,
-    type: value,
-    ...rest,
-  };
-
+  const [isOriginal, setButtonText] = useState(true);
+  const handleOnClick = function() {
+    setShow(!show);
+    setButtonText(!isOriginal);
+  }
   return (
-    <div className="box" style={{ backgroundColor }}>
+    <div
+      className="box"
+      style={{ backgroundColor: "#E0E2E1", marginTop: "5px" }}
+    >
       <div className="content">
-        <h3>
-          <RoughNotation {...props}>{title || value}</RoughNotation>
-        </h3>
-        {copy && copy(props)}
-        <button className="button" type="button" onClick={() => setShow(!show)}>
-          Annotate
+        <RoughNotationGroup show={show}>
+          <h3>
+            <RoughNotation type="box" strokeWidth={5}>
+              Intro {reverseOrder && "(Reverse Order)"}
+            </RoughNotation>
+          </h3>
+          <p>
+          The forms and {` `}
+          <RoughNotation
+              type="crossed-off"
+              color="blue"
+              order={reverseOrder ? 2 : false}
+            >disciplines</RoughNotation>
+           {` `}
+          
+          that rarely talk often have the most to say to each other when they finally 
+          {` `}
+          <RoughNotation
+              type="highlight"
+              color="yellow"
+              order={reverseOrder ? 2 : false}
+            >meet</RoughNotation>
+          . 
+          This is the place for those conversations to happen. 
+          {` `}
+          <RoughNotation
+              type="circle"
+              color="blue"
+              order={reverseOrder ? 2 : false}
+            >Graphs</RoughNotation> about <RoughNotation
+            type="highlight"
+            color="yellow"
+            order={reverseOrder ? 2 : false}
+          >philosophy</RoughNotation>, venn diagrams about relationships, maps about 
+            
+            literature. 
+          If you want to see {` `}
+          
+          <RoughNotation
+              type="highlight"
+              color="yellow"
+              order={reverseOrder ? 2 : false}
+            >poetry</RoughNotation> {` `} written in {` `}
+            <RoughNotation
+              type="underline"
+              color="#bf360c"
+              order={reverseOrder ? 2 : false}
+            >code</RoughNotation> {` `}
+             and <RoughNotation
+              type="underline"
+              color="#bf360c"
+              order={reverseOrder ? 2 : false}
+            >code</RoughNotation> {` `} written like {` `}
+            <RoughNotation
+            type="highlight"
+            color="yellow"
+            order={reverseOrder ? 2 : false}
+          >poetry</RoughNotation>, you're in the 
+          <RoughNotation
+            type="bracket"
+            color="#bf360c"
+            order={reverseOrder ? 2 : false}
+          > {` `}
+          right place.
+          </RoughNotation>           
+          </p>
+        </RoughNotationGroup>
+        <center>
+        <button className="button" type="button" onClick={() => handleOnClick()}>
+        {isOriginal ? "Annotate" : "Erase"}
         </button>
 
-        <div className="properties">
-          <label>
-            Animate:
-            <input
-              type="checkbox"
-              checked={animate}
-              onChange={({ target }) => {
-                setAnimate(target.checked);
-              }}
-            />
-          </label>
-
-          <label>
-            Animation Delay:
-            <input
-              type="range"
-              min="0"
-              step="100"
-              max="5000"
-              value={animationDelay}
-              onChange={({ target }) => {
-                setAnimationDelay(target.value);
-              }}
-            />
-            ({`${animationDelay}ms`})
-          </label>
-
-          <label>
-            Animation Duration:
-            <input
-              type="range"
-              min="0"
-              step="100"
-              max="5000"
-              value={animationDuration}
-              onChange={({ target }) => {
-                setAnimationDuration(target.value);
-              }}
-            />
-            ({`${animationDuration}ms`})
-          </label>
-
-          <label>
-            Color:
-            <input
-              type="color"
-              value={color}
-              onChange={({ target }) => {
-                setColor(target.value);
-              }}
-            />
-            <span style={{ color }}>{color}</span>
-          </label>
-
-          <label>
-            Padding:
-            <input
-              type="range"
-              min="0"
-              max="100"
-              value={padding}
-              onChange={({ target }) => {
-                setPadding(parseInt(target.value, 10));
-              }}
-            />
-            ({`${padding}px`})
-          </label>
-
-          <label>
-            Stroke Width:
-            <input
-              min="0"
-              max="20"
-              type="range"
-              value={strokeWidth}
-              onChange={({ target }) => {
-                setStrokeWidth(parseInt(target.value, 10));
-              }}
-            />
-            ({`${strokeWidth}px`})
-          </label>
-        </div>
+        </center>
+        
       </div>
     </div>
   );
