@@ -10,7 +10,7 @@ import "tooltip-sequence/dist/index.css";
 import './../components/style/layout.css'
 import './style/pageHeader.css';
 
-const about = ({ data, location }) => {
+const about = () => {
 
     const bioStyle = {
       position: 'absolute',

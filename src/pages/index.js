@@ -28,7 +28,7 @@ const BlogIndex = ({ data, location }) => {
     title='Home'
     ></SEO>
     <Layout location={location} title={''} >
-      <h1 className="pageHeader" > X<sup>Y</sup> </h1>
+      <h1 className="pageHeader" > Literature<sup>Code</sup> </h1>
       <br></br>
          <section 
          style={{
@@ -37,8 +37,6 @@ const BlogIndex = ({ data, location }) => {
 
 <TestRNG />
 
-
-<HtmlRoughNotation />
         </section>
       
       <center>

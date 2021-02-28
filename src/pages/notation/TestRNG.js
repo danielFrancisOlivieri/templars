@@ -16,7 +16,7 @@ export function TestRNG({ reverseOrder = false }) {
       <div className="content">
         <RoughNotationGroup show={show}>
           <h3>
-            <RoughNotation type="box" color="#bf360c" strokeWidth={5}>
+            <RoughNotation type="box" strokeWidth={5}>
               Intro {reverseOrder && "(Reverse Order)"}
             </RoughNotation>
           </h3>
@@ -78,12 +78,7 @@ export function TestRNG({ reverseOrder = false }) {
             order={reverseOrder ? 2 : false}
           > {` `}
           right place.
-          </RoughNotation>
-
-
-          {/* HERE IS WHERE IT STOPS */}
-        
-           
+          </RoughNotation>           
           </p>
         </RoughNotationGroup>
         <center>
@@ -97,3 +92,5 @@ export function TestRNG({ reverseOrder = false }) {
     </div>
   );
 }
+
+export default TestRNG
