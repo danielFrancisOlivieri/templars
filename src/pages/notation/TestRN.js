@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { RoughNotation } from "react-rough-notation";
-export default function TestRN({ type }) {
+export function TestRN({ type }) {
   const {
     animationDuration: animationDurationProp = 800,
     backgroundColor,
@@ -130,3 +130,5 @@ export default function TestRN({ type }) {
     </div>
   );
 }
+
+export default TestRN
