@@ -10,6 +10,7 @@ import Stripe from '../components/stripe'
 import ListItem from "../components/listicle/listItem";
 import { TestRNG } from './notation/TestRNG';
 import DonutGraphListItem from '../components/graphs/donutGraphListItem'
+import { FaCode, FaPlus, FaBook }  from 'react-icons/fa';
 import HtmlRoughNotation from '../components/roughNotation/htmlRoughNotation'
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import './style/input.css'
@@ -28,7 +29,7 @@ const BlogIndex = ({ data, location }) => {
     title='Home'
     ></SEO>
     <Layout location={location} title={''} >
-      <h1 className="pageHeader" > Literature<sup>Code</sup> </h1>
+      <h1 className="pageHeader" > Epigraphing<sup> <FaBook /> <FaPlus /> <FaCode /></sup> </h1>
       <br></br>
          <section 
          style={{

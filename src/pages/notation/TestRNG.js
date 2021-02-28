@@ -8,19 +8,24 @@ export function TestRNG({ reverseOrder = false }) {
     setShow(!show);
     setButtonText(!isOriginal);
   }
+
+  const paragraphStyle = {
+    textIndent: '50px'
+  }
   return (
     <div
       className="box"
-      style={{ backgroundColor: "#E0E2E1", marginTop: "5px" }}
+      style={{ marginTop: "5px" }}
     >
       <div className="content">
         <RoughNotationGroup show={show}>
-          <h3>
+          <h2>
             <RoughNotation type="box" strokeWidth={5}>
-              Intro {reverseOrder && "(Reverse Order)"}
+              What is this site? {reverseOrder && "(Reverse Order)"}
             </RoughNotation>
-          </h3>
-          <p>
+          </h2>
+          <p style={paragraphStyle}
+          >
           The forms and {` `}
           <RoughNotation
               type="crossed-off"
