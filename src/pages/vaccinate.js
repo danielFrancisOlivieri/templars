@@ -19,7 +19,7 @@ const vaccinate = ({data, location}) => {
   <img src='https://raw.githubusercontent.com/danielFrancisOlivieri/justFileUploads/master/covid.jpg'></img>
   
   <p>
-      Do not, I repeat, do NOT not get vaccinated!
+      Do not, I repeat, do NOT not get vaccinated! (especially if your name is Diane)
   </p>
 
   <p>
