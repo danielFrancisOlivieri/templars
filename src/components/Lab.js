@@ -3,6 +3,7 @@ import { Button } from 'semantic-ui-react'
 import * as d3 from "d3";
 import 'semantic-ui-css/semantic.min.css'
 import "tooltip-sequence/dist/index.css";
+import "./style/lab.css";
 
 function grow() {
   
@@ -51,21 +52,16 @@ bars.attr("x", 10)
 
     return (
       <div>
+
+
         <h1>Ciao, mondo!</h1>
         <h2>Sono le {this.state.date.toLocaleTimeString()}.</h2>
         <Button className='startButton' onClick={grow} >Click Here</Button>
         <h2>Here's the graph</h2>
 
-        <svg className='myCanvas' height={700} width={700} style={{backgroundColor: '#6C91C2'}} >
-<rect
-        className="my_rect" x="10" y="200"
-        width="200" height="30" stroke="black"
-        fill="#69b3a2" strokeWidth="1"/>
-</svg> 
+        <div className='pixelart-to-css'>
 
-<svg className='graphCanvas' height={700} width={700} style={{backgroundColor: '#4D7EA8'}} >
- 
-</svg> 
+</div>
 
       </div>
     );
