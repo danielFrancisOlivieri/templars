@@ -1,6 +1,6 @@
 import React from "react"
-import { graphql } from "gatsby"
-
+import { Image } from 'semantic-ui-react'
+import FourOhFour from "./images/404.jpg"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -8,10 +8,10 @@ const NotFoundPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={''}>
       <SEO title="404: Not Found" />
-      <h1>Not Found</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <Image src={FourOhFour} style={{height: 700}} rounded />
+      <a href='https://www.freepik.com/vectors/business'>Business vector created by pikisuperstar - www.freepik.com</a>
     </Layout>
   )
 }

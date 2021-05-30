@@ -68,14 +68,6 @@ The buildings that I passed by everyday had always had their tympanum pediments,
 <br></br>
 <br></br>
 
-{/* <h3> Library of Congress </h3>
-<p> overwhelming </p>
-<ReactCompareImage leftImage={LibraryCongress} rightImage={labelledLibraryCongress}
-sliderPositionPercentage=".5"
-/>;
-<br></br>
-<br></br> */}
-
 <h2> Staircases </h2>
 <h3> Spiral Staircases </h3>
 <p> The part in the center is called the "well." This one has a triangular well. </p>
