@@ -5,7 +5,6 @@ export class PragmaToolTip extends React.Component {
       super(props);
     }
   
-  
     render() {
       return (
         <div>

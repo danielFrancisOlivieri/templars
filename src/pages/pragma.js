@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, ReferenceLine, Tooltip, Legend } from 'recharts';
 import { PragmaToolTip } from '../components/pragma/tooltip/tooltip';
+import { Definition } from '../components/definition/definition';
 import { Button, Input, Modal } from 'semantic-ui-react'
 import Layout from "../components/layout"
 
@@ -169,6 +170,8 @@ export default class Example extends PureComponent {
         <Scatter name="Enemies" data={strangers} fill="#CCDBDC" onMouseEnter={this.handleMouseEnter} />
       </ScatterChart>
       </center>
+
+      <Definition word='Pragma' partOfSpeech='n.' definition='Type of longstanding love' />
 
 
         <h2> Bibliography</h2>
