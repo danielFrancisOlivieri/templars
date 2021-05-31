@@ -31,7 +31,8 @@ export default class Example extends PureComponent {
         this.state = {
           newPoints: [],
           activeDotName: '',
-          modalOpen: false
+          modalOpen: false,
+          windowWidth: 1000
         };
       }
 
@@ -39,12 +40,20 @@ export default class Example extends PureComponent {
           console.log(o);          
           this.setState({ newPoints: [...this.state.newPoints, {name: 'New', x: o.xValue, y: o.yValue }] })
       }
-    //   handleDotClick = (o) => {
-    //     this.setState({modalOpen: true});
-    //   }
+
       handleMouseEnter = (o) => {
         console.log(o);
         this.setState({activeDotName: o.name});
+      }
+
+      setWindowWidth = () => {
+        const { innerWidth: width} = window;
+        console.log(width);
+        this.setState({windowWidth: width});
+      }
+
+      componentDidUpdate() {
+        this.setWindowWidth();
       }
 
   render() {
@@ -54,7 +63,7 @@ export default class Example extends PureComponent {
         <br />
         <center>
   <ScatterChart
-        width={500}
+        width={this.state.windowWidth > 550 ? 500 : 300 }
         height={500}
         margin={{
           top: 5,
@@ -101,7 +110,7 @@ export default class Example extends PureComponent {
             <Legend />
             <ReferenceLine y={50} stroke="red" />
             <ReferenceLine x={50} stroke="red" />
-        <Scatter name="Lovers" data={lovers} fill="#D33E43" />
+        <Scatter name="Lovers" data={lovers} fill="#D33E43" onMouseEnter={this.handleMouseEnter} />
       </ScatterChart>
       </center>
 
@@ -129,7 +138,7 @@ export default class Example extends PureComponent {
             <Legend />
             <ReferenceLine y={50} stroke="red" />
             <ReferenceLine x={50} stroke="red" />
-        <Scatter name="Enemies" data={enemies} fill="#2191FB" />
+        <Scatter name="Enemies" data={enemies} fill="#2191FB" onMouseEnter={this.handleMouseEnter} />
       </ScatterChart>
       </center>
 
@@ -157,7 +166,7 @@ export default class Example extends PureComponent {
             <Legend />
             <ReferenceLine y={50} stroke="red" />
             <ReferenceLine x={50} stroke="red" />
-        <Scatter name="Enemies" data={strangers} fill="#CCDBDC" />
+        <Scatter name="Enemies" data={strangers} fill="#CCDBDC" onMouseEnter={this.handleMouseEnter} />
       </ScatterChart>
       </center>
 
