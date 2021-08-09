@@ -102,7 +102,6 @@ export default class Example extends PureComponent {
           left: 20,
           bottom: 5
         }}
-        onClick={this.handleClick}
       >
         <CartesianGrid />
             <XAxis type="number" dataKey="x" name="affection" domain={[0, 100]} />
@@ -130,7 +129,6 @@ export default class Example extends PureComponent {
           left: 20,
           bottom: 5
         }}
-        onClick={this.handleClick}
       >
         <CartesianGrid />
             <XAxis type="number" dataKey="x" name="affection" domain={[0, 100]} />
@@ -158,7 +156,6 @@ export default class Example extends PureComponent {
           left: 20,
           bottom: 5
         }}
-        onClick={this.handleClick}
       >
         <CartesianGrid />
             <XAxis type="number" dataKey="x" name="affection" domain={[0, 100]} />
