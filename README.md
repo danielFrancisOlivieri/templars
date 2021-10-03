@@ -4,7 +4,7 @@
 </h1>
 
 <p>
-This is a website produced with the help of [Kyle Matthews](https://www.gatsbyjs.com/contributors/kyle-mathews)' Gatsby Starter. 
+This is a website produced with the help of [Kyle Matthews](https://www.gatsbyjs.com/contributors/kyle-mathews)' Gatsby Starter. Huge thanks to him. 
 </p>
 
 <p>
