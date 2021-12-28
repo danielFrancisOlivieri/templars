@@ -39,7 +39,7 @@ const about = () => {
       <br /> <br />
       <p>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      Hey, this is Daniel Olivieri. This site is my hobby/obsession/way of reminding the world how much I like it. I'm a software developer living in Philadelphia, but I was an English major in college (don't tell my boss) and this site is an attempt to combine those two.
+      Hello, I'm a software developer living in Philadelphia, but I was an English major in college (don't tell my boss). This site is an attempt to combine those two.
       </p>
       <p>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some inspirations for this site are <a rel="noreferrer" target="_blank" href="https://xkcd.com/" >xkcd.com</a>, <a rel="noreferrer" target="_blank" href="https://www.washingtonpost.com/people/shelly-tan/">the work of Shelly Tan,</a> and "<a rel="noreferrer" target="_blank" href="" >My Body a Wunderkammer</a>".

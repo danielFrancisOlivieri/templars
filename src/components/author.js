@@ -11,7 +11,6 @@ const extra = (
 export default class AuthorCard extends Component {
     constructor() {
         super();
-        this.state = {color: "red"};
       }
 
     render() { 
