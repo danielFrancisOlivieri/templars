@@ -42,9 +42,9 @@ const about = () => {
       Hello, I'm a software developer living in Philadelphia, but I was an English major in college (don't tell my boss). This site is an attempt to combine those two.
       </p>
       <p>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some inspirations for this site are <a rel="noreferrer" target="_blank" href="https://xkcd.com/" >xkcd.com</a>, <a rel="noreferrer" target="_blank" href="https://www.washingtonpost.com/people/shelly-tan/">the work of Shelly Tan,</a> and "<a rel="noreferrer" target="_blank" href="" >My Body a Wunderkammer</a>".
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Some inspirations for this site are <a rel="noreferrer" target="_blank" href="https://xkcd.com/" >xkcd.com</a>, <a rel="noreferrer" target="_blank" href="https://www.washingtonpost.com/people/shelly-tan/">the work of Shelly Tan,</a> and "<a rel="noreferrer" target="_blank" href="https://collection.eliterature.org/1/works/jackson__my_body_a_wunderkammer/body.html" >My Body a Wunderkammer</a>".
       </p>
-      <p>I'd be happy to get almost any email you'd care to send me, so don't hesistate to send one to me at dfolivieri@gmail.com.</p>
+      <p>I love to get emails, so don't hesistate to send one to me at dfolivieri@gmail.com.</p>
       <br /> 
       {/* <Bio style={bioStyle} /> */}
   

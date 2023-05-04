@@ -5,6 +5,8 @@ import geometry from './assets/epiphany/geometry.jpg'
 import graagBladen from './assets/epiphany/graagBladen.jpg'
 import nielsonIcarus from './assets/epiphany/nielsonIcarus.jpg'
 import waterfallStolk from './assets/epiphany/waterfallStolk.jpg'
+import mouthful from './assets/epiphany/mouthful.png'
+import sleeping from './assets/epiphany/sleeping_beauties_2.jpeg'
 
 
 const fifty = 50;
@@ -16,9 +18,9 @@ const center = {
     transform: `translate(${fifty}%, ${fifty}%)`
 }
 
-const backgrounds = [altarpiece, ciotat, geometry, graagBladen, nielsonIcarus, waterfallStolk];
+const backgrounds = [sleeping, mouthful, altarpiece, ciotat, geometry, graagBladen, nielsonIcarus, waterfallStolk];
 
-const texts = ['Epiphanies', 'Dillard', 'terwilliger', '', '', '']
+const texts = ['Epiphanies', 'Dillard', 'terwilliger', '', '', '', '']
 
 export default class epiphany extends Component {
 
@@ -57,11 +59,17 @@ render() {
         <div className="container"
         style={{
             width: '100vw',
+        height: '100vh',
+        backgroundImage: `url(${backgrounds[this.state.slideIndex]})`,
+    backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        width: '100vw',
         height: '100vh'
         }}
         >
 
-<img src={backgrounds[this.state.slideIndex] } 
+{/* <img src={backgrounds[this.state.slideIndex] } 
 
 style={{
     backgroundImage: `url(${backgrounds[this.state.slideIndex]})`,
@@ -71,7 +79,11 @@ style={{
         width: '100vw',
         height: '100vh'
 }}
-/>   
+/>    */}
+
+
+
+
 <h1 style={center} > { texts[this.state.slideIndex]} </h1>
 
 </div>
